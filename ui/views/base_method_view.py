@@ -54,16 +54,22 @@ class BaseMethodView(QWidget):
         subtitle.setWordWrap(True)
         main_layout.addWidget(subtitle)
 
-        # ── Scroll area para todo el contenido ──
-        scroll = QScrollArea()
-        scroll.setWidgetResizable(True)
-        scroll.setFrameShape(QFrame.Shape.NoFrame)
+        # ── Cuerpo principal: dos paneles horizontales ──
+        from PyQt6.QtWidgets import QSplitter
+        body_splitter = QSplitter(Qt.Orientation.Horizontal)
 
-        content_widget = QWidget()
-        content_layout = QVBoxLayout(content_widget)
-        content_layout.setSpacing(Spacing.LARGE)
+        # ═══════════ PANEL IZQUIERDO (≈25%) ═══════════
+        left_scroll = QScrollArea()
+        left_scroll.setWidgetResizable(True)
+        left_scroll.setFrameShape(QFrame.Shape.NoFrame)
+        left_scroll.setHorizontalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAlwaysOff)
 
-        # ── Tarjeta de formulario ──
+        left_widget = QWidget()
+        left_layout = QVBoxLayout(left_widget)
+        left_layout.setContentsMargins(0, 0, Spacing.SMALL, 0)
+        left_layout.setSpacing(Spacing.MEDIUM)
+
+        # Tarjeta de formulario
         form_card = QFrame()
         form_card.setObjectName("card")
         form_card_layout = QVBoxLayout(form_card)
@@ -78,80 +84,101 @@ class BaseMethodView(QWidget):
         form_widget = self._build_form()
         form_card_layout.addWidget(form_widget)
 
-        # ── Botones de acción ──
-        buttons_layout = QHBoxLayout()
-        buttons_layout.setSpacing(Spacing.MEDIUM)
-
+        # Botones de acción (apilados verticalmente para el panel estrecho)
         self._btn_calculate = QPushButton("▶  Calcular")
-        self._btn_calculate.setMinimumWidth(130)
+        self._btn_calculate.setMinimumHeight(36)
         self._btn_calculate.clicked.connect(self._on_calculate)
+        form_card_layout.addWidget(self._btn_calculate)
 
-        self._btn_example = QPushButton("📋  Cargar Ejemplo")
+        btn_row1 = QHBoxLayout()
+        btn_row1.setSpacing(Spacing.SMALL)
+        self._btn_example = QPushButton("📋 Ejemplo")
         self._btn_example.setObjectName("secondaryButton")
         self._btn_example.clicked.connect(self._on_load_example)
-
-        self._btn_clear = QPushButton("🗑  Limpiar")
+        self._btn_clear = QPushButton("🗑 Limpiar")
         self._btn_clear.setObjectName("secondaryButton")
         self._btn_clear.clicked.connect(self._on_clear)
+        btn_row1.addWidget(self._btn_example)
+        btn_row1.addWidget(self._btn_clear)
+        form_card_layout.addLayout(btn_row1)
 
-        self._btn_export = QPushButton("📄  Exportar PDF")
+        self._btn_export = QPushButton("📄 Exportar PDF")
         self._btn_export.setObjectName("accentButton")
         self._btn_export.clicked.connect(self._on_export_pdf)
         self._btn_export.setEnabled(False)
+        form_card_layout.addWidget(self._btn_export)
 
-        buttons_layout.addWidget(self._btn_calculate)
-        buttons_layout.addWidget(self._btn_example)
-        buttons_layout.addWidget(self._btn_clear)
-        buttons_layout.addStretch()
-        buttons_layout.addWidget(self._btn_export)
+        left_layout.addWidget(form_card)
 
-        form_card_layout.addLayout(buttons_layout)
-        content_layout.addWidget(form_card)
-
-        # ── Resultados (Tabs) ──
-        self._results_card = QFrame()
-        self._results_card.setObjectName("card")
-        self._results_card.setVisible(False)
-        results_layout = QVBoxLayout(self._results_card)
-        results_layout.setContentsMargins(
+        # Resumen de resultado (debajo de los botones, en el panel izquierdo)
+        self._results_summary_card = QFrame()
+        self._results_summary_card.setObjectName("card")
+        self._results_summary_card.setVisible(False)
+        summary_card_layout = QVBoxLayout(self._results_summary_card)
+        summary_card_layout.setContentsMargins(
             Spacing.LARGE, Spacing.LARGE, Spacing.LARGE, Spacing.LARGE
         )
-
-        results_title = QLabel("📊 Resultados")
-        results_title.setObjectName("sectionTitle")
-        results_layout.addWidget(results_title)
+        summary_title = QLabel("📊 Resultado")
+        summary_title.setObjectName("sectionTitle")
+        summary_card_layout.addWidget(summary_title)
 
         self._result_summary_label = QLabel()
         self._result_summary_label.setWordWrap(True)
         self._result_summary_label.setFont(QFont(Typography.FONT_FAMILY, Typography.SUBTITLE))
-        results_layout.addWidget(self._result_summary_label)
+        summary_card_layout.addWidget(self._result_summary_label)
+
+        left_layout.addWidget(self._results_summary_card)
+        left_layout.addStretch()
+
+        left_scroll.setWidget(left_widget)
+        body_splitter.addWidget(left_scroll)
+
+        # ═══════════ PANEL DERECHO (≈75%) ═══════════
+        right_widget = QWidget()
+        right_layout = QVBoxLayout(right_widget)
+        right_layout.setContentsMargins(Spacing.SMALL, 0, 0, 0)
+        right_layout.setSpacing(Spacing.MEDIUM)
+
+        # Gráfica (siempre visible)
+        self._plot_widget = PlotWidget()
+        self._plot_widget.setMinimumHeight(280)
+        right_layout.addWidget(self._plot_widget, 3)
+
+        # Tabs: Procedimiento + Tabla (debajo de la gráfica)
+        self._results_card = QFrame()
+        self._results_card.setObjectName("card")
+        self._results_card.setVisible(False)
+        results_inner = QVBoxLayout(self._results_card)
+        results_inner.setContentsMargins(
+            Spacing.MEDIUM, Spacing.MEDIUM, Spacing.MEDIUM, Spacing.MEDIUM
+        )
 
         self._tabs = QTabWidget()
 
         # Tab: Procedimiento
         self._procedure_text = QTextEdit()
         self._procedure_text.setReadOnly(True)
-        self._procedure_text.setMinimumHeight(200)
+        self._procedure_text.setMinimumHeight(120)
         self._tabs.addTab(self._procedure_text, "📖 Procedimiento")
 
         # Tab: Tabla
         self._result_table = QTableWidget()
         self._result_table.setAlternatingRowColors(True)
         self._result_table.setEditTriggers(QTableWidget.EditTrigger.NoEditTriggers)
-        self._result_table.setMinimumHeight(200)
+        self._result_table.setMinimumHeight(120)
         self._tabs.addTab(self._result_table, "📋 Tabla")
 
-        # Tab: Gráfica
-        self._plot_widget = PlotWidget()
-        self._plot_widget.setMinimumHeight(350)
-        self._tabs.addTab(self._plot_widget, "📈 Gráfica")
+        results_inner.addWidget(self._tabs)
+        right_layout.addWidget(self._results_card, 2)
 
-        results_layout.addWidget(self._tabs)
-        content_layout.addWidget(self._results_card)
+        body_splitter.addWidget(right_widget)
 
-        content_layout.addStretch()
-        scroll.setWidget(content_widget)
-        main_layout.addWidget(scroll)
+        # Proporciones iniciales para el splitter (25% / 75%)
+        body_splitter.setStretchFactor(0, 1)
+        body_splitter.setStretchFactor(1, 3)
+        body_splitter.setSizes([300, 900])
+
+        main_layout.addWidget(body_splitter, 1)
 
     # ── Slots ──────────────────────────────────────────────────────
 
@@ -185,6 +212,7 @@ class BaseMethodView(QWidget):
     def _on_clear(self):
         self._clear_form()
         self._results_card.setVisible(False)
+        self._results_summary_card.setVisible(False)
         self._last_result = None
         self._btn_export.setEnabled(False)
         self._plot_widget.clear()
@@ -228,6 +256,7 @@ class BaseMethodView(QWidget):
     def _display_result(self, result: dict):
         """Muestra los resultados en la UI."""
         self._results_card.setVisible(True)
+        self._results_summary_card.setVisible(True)
 
         # Resumen
         msg = result.get("message", "")

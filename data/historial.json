@@ -1,5 +1,99 @@
 [
   {
+    "timestamp": "2026-03-21 15:07:30",
+    "module": "Raíces",
+    "method": "Método de la Secante",
+    "parameters": {
+      "f(x)": "x**3 - x - 2",
+      "x0": "1",
+      "x1": "2",
+      "Tolerancia": "1e-6",
+      "Máx. iteraciones": "100"
+    },
+    "result_summary": "Raíz encontrada: x = 1.5213797068 con error 1.18e-09 en 7 iteraciones.",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-03-21 15:07:09",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1, 2, 4, 7",
+      "Puntos y": "1, 4, 16, 49",
+      "x a interpolar": "3"
+    },
+    "result_summary": "P(3.0) ≈ 9.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-03-21 15:07:01",
+    "module": "Raíces",
+    "method": "Método de Newton-Raphson",
+    "parameters": {
+      "f(x)": "x**3 - x - 2",
+      "f'(x)": "3*x**2 - 1",
+      "x0": "1.5",
+      "Tolerancia": "1e-6",
+      "Máx. iteraciones": "100"
+    },
+    "result_summary": "Raíz encontrada: x = 1.5213798060 con error 3.59e-04 en 2 iteraciones.",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-03-21 15:06:39",
+    "module": "Raíces",
+    "method": "Método de Bisección",
+    "parameters": {
+      "f(x)": "x**3 - x - 2",
+      "a": "1",
+      "b": "2",
+      "Tolerancia": "1e-6",
+      "Máx. iteraciones": "100"
+    },
+    "result_summary": "Raíz encontrada: x = 1.5213799477 con error 9.54e-07 en 21 iteraciones.",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-03-21 14:59:02",
+    "module": "Raíces",
+    "method": "Método de Bisección",
+    "parameters": {
+      "f(x)": "x**3 - x - 2",
+      "a": "1",
+      "b": "2",
+      "Tolerancia": "1e-6",
+      "Máx. iteraciones": "100"
+    },
+    "result_summary": "Raíz encontrada: x = 1.5213799477 con error 9.54e-07 en 21 iteraciones.",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-03-21 14:56:49",
+    "module": "Derivación e Integración",
+    "method": "Regla del Trapecio",
+    "parameters": {
+      "f(x)": "x**2",
+      "a": "0",
+      "b": "1",
+      "n": "10"
+    },
+    "result_summary": "Int [0.0,1.0] f(x)dx = 0.3350000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-03-21 14:56:30",
+    "module": "Derivación e Integración",
+    "method": "Regla del Punto Medio",
+    "parameters": {
+      "f(x)": "sin(x) + x**2",
+      "x": "1.0",
+      "h": "0.01",
+      "Tipo": "central"
+    },
+    "result_summary": "f'(1.0) = 2.5402933000 (valor exacto: 2.5403023059, error: 9.00e-06)",
+    "full_data": {}
+  },
+  {
     "timestamp": "2026-03-21 14:54:53",
     "module": "Interpolación",
     "method": "Interpolación de Lagrange",
