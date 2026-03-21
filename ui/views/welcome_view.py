@@ -12,16 +12,18 @@ class ModuleCard(QFrame):
     """Tarjeta interactiva para cada módulo en la pantalla de inicio."""
     clicked = pyqtSignal(str)
 
-    def __init__(self, icon: str, name: str, description: str, parent=None):
+    def __init__(self, icon: str, name: str, description: str, sidebar_key: str, parent=None):
         super().__init__(parent)
-        self.module_name = name
+        self.sidebar_key = sidebar_key
         self.setObjectName("moduleCard")
         self.setCursor(Qt.CursorShape.PointingHandCursor)
-        self.setFixedHeight(150)
+        from PyQt6.QtWidgets import QSizePolicy
+        self.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.MinimumExpanding)
+        self.setMinimumHeight(220)
 
         card_layout = QVBoxLayout(self)
         card_layout.setContentsMargins(Spacing.LARGE, Spacing.LARGE, Spacing.LARGE, Spacing.LARGE)
-        card_layout.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        card_layout.setAlignment(Qt.AlignmentFlag.AlignTop | Qt.AlignmentFlag.AlignHCenter)
 
         icon_label = QLabel(icon)
         icon_label.setStyleSheet(f"font-size: {Typography.DISPLAY}pt; background: transparent;")
@@ -37,12 +39,17 @@ class ModuleCard(QFrame):
         desc_label = QLabel(description)
         desc_label.setObjectName("subtitle")
         desc_label.setStyleSheet("background: transparent;")
-        desc_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        desc_label.setTextFormat(Qt.TextFormat.RichText)
+        desc_label.setAlignment(Qt.AlignmentFlag.AlignTop | Qt.AlignmentFlag.AlignHCenter)
+        desc_label.setWordWrap(True)
+        desc_label.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.MinimumExpanding)
         card_layout.addWidget(desc_label)
+        
+        card_layout.addStretch()
 
     def mousePressEvent(self, event):
         if event.button() == Qt.MouseButton.LeftButton:
-            self.clicked.emit(self.module_name)
+            self.clicked.emit(self.sidebar_key)
         super().mousePressEvent(event)
 
 
@@ -80,16 +87,38 @@ class WelcomeView(QWidget):
         grid.setSpacing(Spacing.LARGE)
 
         modules = [
-            ("🎯", "Cálculo de Raíces", "Bisección, Newton-Raphson,\nSecante"),
-            ("📐", "Interpolación", "Lagrange, Newton\n(diferencias divididas)"),
-            ("🔢", "Sistemas de Ecuaciones", "Gauss-Seidel,\nFactorización LU"),
-            ("∫", "Integración y Derivación", "Trapecio, Simpson,\nDiferencias Finitas"),
-            ("📈", "Ecuaciones Diferenciales", "Euler,\nRunge-Kutta (RK4)"),
-            ("📜", "Historial", "Consulta y reutiliza\ncálculos anteriores"),
+            ("🎯", "Cálculo de Raíces", 
+             "Encuentra los interceptos en x (raíces) de funciones algebraicas y trascendentes. "
+             "Verifica con tablas de iteración y gráficas que muestran el comportamiento del error.<br><br>"
+             "<b>Métodos:</b> Bisección, Newton-Raphson, Secante", "Raíces"),
+            
+            ("📐", "Interpolación", 
+             "Construye polinomios que pasan exactamente por un conjunto de puntos dados "
+             "y te permite estimar valores exactos dentro de un intervalo específico.<br><br>"
+             "<b>Métodos:</b> Lagrange, Newton (diferencias divididas)", "Interpolación"),
+            
+            ("🔢", "Sistemas de Ecuaciones", 
+             "Resuelve sistemas matriciales lineales del tipo Ax = b, detallando el proceso de reducción o iteración "
+             "para encontrar las incógnitas dependientes.<br><br>"
+             "<b>Métodos:</b> Gauss-Seidel, Factorización LU", "Sistemas"),
+            
+            ("∫", "Integración y Derivación", 
+             "Aproxima el área bajo la curva (integración) o la tasa de cambio (deriva) "
+             "mediante discretización y fórmulas exactas de subintervalos estandarizados.<br><br>"
+             "<b>Métodos:</b> Trapecio, Simpson, Punto Medio", "Integración"),
+            
+            ("📈", "Ecuaciones Diferenciales", 
+             "Aproxima soluciones de problemas de valor inicial (PVI) paso a paso, "
+             "estimando los valores continuos de la ecuación diferencial en el tiempo.<br><br>"
+             "<b>Métodos:</b> Euler, Runge-Kutta (RK4)", "EDOs"),
+            
+            ("📜", "Historial", 
+             "Consulta todos tus cálculos anteriores. Puedes cargar y reutilizar resultados pasados "
+             "sin tener que reescribir nuevamente todas las ecuaciones o matrices.", "Historial"),
         ]
 
-        for idx, (icon, name, desc) in enumerate(modules):
-            card = ModuleCard(icon, name, desc)
+        for idx, (icon, name, desc, key) in enumerate(modules):
+            card = ModuleCard(icon, name, desc, key)
             card.clicked.connect(self.module_selected.emit)
             row = idx // 3
             col = idx % 3

@@ -93,7 +93,7 @@ def biseccion(func_str: str, a: float, b: float,
         f"Intervalo inicial: [{a}, {b}]",
         f"Tolerancia: {tolerance}",
         f"f({a}) = {fa:.6f}, f({b}) = {fb:.6f}",
-        "Se verifica cambio de signo ✓",
+        "Se verifica cambio de signo [OK]",
         "",
     ]
 
@@ -119,7 +119,7 @@ def biseccion(func_str: str, a: float, b: float,
             return RootResult(
                 root=round(c, 10), iterations=i, error=round(error, 10),
                 converged=True, table=table, procedure_steps=steps,
-                message=f"Raíz encontrada: x ≈ {c:.10f} con error {error:.2e} en {i} iteraciones."
+                message=f"Raíz encontrada: x = {c:.10f} con error {error:.2e} en {i} iteraciones."
             )
 
         if fa_current * fc < 0:
@@ -133,7 +133,7 @@ def biseccion(func_str: str, a: float, b: float,
         root=round(c, 10), iterations=max_iterations,
         error=round(error, 10), converged=False, table=table,
         procedure_steps=steps,
-        message=f"No convergió en {max_iterations} iteraciones. Última aproximación: x ≈ {c:.10f}"
+        message=f"No convergió en {max_iterations} iteraciones. Última aproximación: x = {c:.10f}"
     )
 
 
@@ -152,7 +152,7 @@ def newton_raphson(func_str: str, deriv_str: str, x0: float,
     steps = [
         f"Función: f(x) = {expr}",
         f"Derivada: f'(x) = {deriv_expr}",
-        f"Valor inicial: x₀ = {x0}",
+        f"Valor inicial: x0 = {x0}",
         f"Tolerancia: {tolerance}",
         "",
     ]
@@ -187,7 +187,7 @@ def newton_raphson(func_str: str, deriv_str: str, x0: float,
             return RootResult(
                 root=round(xn1, 10), iterations=i, error=round(error, 10),
                 converged=True, table=table, procedure_steps=steps,
-                message=f"Raíz encontrada: x ≈ {xn1:.10f} con error {error:.2e} en {i} iteraciones."
+                message=f"Raíz encontrada: x = {xn1:.10f} con error {error:.2e} en {i} iteraciones."
             )
         xn = xn1
 
@@ -195,7 +195,7 @@ def newton_raphson(func_str: str, deriv_str: str, x0: float,
         root=round(xn, 10), iterations=max_iterations,
         error=round(abs(float(func(xn))), 10), converged=False,
         table=table, procedure_steps=steps,
-        message=f"No convergió en {max_iterations} iteraciones. Última aproximación: x ≈ {xn:.10f}"
+        message=f"No convergió en {max_iterations} iteraciones. Última aproximación: x = {xn:.10f}"
     )
 
 
@@ -212,7 +212,7 @@ def secante(func_str: str, x0: float, x1: float,
     table = []
     steps = [
         f"Función: f(x) = {expr}",
-        f"Valores iniciales: x₀ = {x0}, x₁ = {x1}",
+        f"Valores iniciales: x0 = {x0}, x1 = {x1}",
         f"Tolerancia: {tolerance}",
         "",
     ]
@@ -245,7 +245,7 @@ def secante(func_str: str, x0: float, x1: float,
             return RootResult(
                 root=round(x2, 10), iterations=i, error=round(error, 10),
                 converged=True, table=table, procedure_steps=steps,
-                message=f"Raíz encontrada: x ≈ {x2:.10f} con error {error:.2e} en {i} iteraciones."
+                message=f"Raíz encontrada: x = {x2:.10f} con error {error:.2e} en {i} iteraciones."
             )
         x0, x1 = x1, x2
 
@@ -253,5 +253,5 @@ def secante(func_str: str, x0: float, x1: float,
         root=round(x1, 10), iterations=max_iterations,
         error=round(abs(float(func(x1))), 10), converged=False,
         table=table, procedure_steps=steps,
-        message=f"No convergió en {max_iterations} iteraciones. Última aproximación: x ≈ {x1:.10f}"
+        message=f"No convergió en {max_iterations} iteraciones. Última aproximación: x = {x1:.10f}"
     )

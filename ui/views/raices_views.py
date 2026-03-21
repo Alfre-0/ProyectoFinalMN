@@ -88,7 +88,7 @@ class BiseccionView(BaseMethodView):
             "table_headers": headers, "table_rows": rows,
             "x_plot": x_plot, "y_plot": y_plot,
             "x_points": x_points_iter, "y_points": y_points_iter,
-            "highlight_x": result.root, "highlight_label": f"Raíz ≈ {result.root:.6f}",
+            "highlight_x": result.root, "highlight_label": f"Raíz = {result.root:.6f}",
             "xlabel": "x", "ylabel": "f(x)", "plot_label": "f(x)",
         }
 
@@ -155,7 +155,7 @@ class NewtonRaphsonView(BaseMethodView):
         return {
             "f(x)": self._input_func.text(),
             "f'(x)": self._input_deriv.text() or "(auto)",
-            "x₀": self._input_x0.text(),
+            "x0": self._input_x0.text(),
             "Tolerancia": self._input_tol.text(),
             "Máx. iteraciones": self._input_max_iter.text(),
         }
@@ -195,7 +195,7 @@ class NewtonRaphsonView(BaseMethodView):
             "table_headers": headers, "table_rows": rows,
             "x_plot": x_plot, "y_plot": y_plot,
             "x_points": x_points_iter, "y_points": y_points_iter,
-            "highlight_x": result.root, "highlight_label": f"Raíz ≈ {result.root:.6f}",
+            "highlight_x": result.root, "highlight_label": f"Raíz = {result.root:.6f}",
             "xlabel": "x", "ylabel": "f(x)", "plot_label": "f(x)",
         }
 
@@ -254,8 +254,8 @@ class SecanteView(BaseMethodView):
     def _get_parameters(self) -> dict:
         return {
             "f(x)": self._input_func.text(),
-            "x₀": self._input_x0.text(),
-            "x₁": self._input_x1.text(),
+            "x0": self._input_x0.text(),
+            "x1": self._input_x1.text(),
             "Tolerancia": self._input_tol.text(),
             "Máx. iteraciones": self._input_max_iter.text(),
         }
@@ -287,7 +287,7 @@ class SecanteView(BaseMethodView):
             "table_headers": headers, "table_rows": rows,
             "x_plot": x_plot, "y_plot": y_plot,
             "x_points": x_points_iter, "y_points": y_points_iter,
-            "highlight_x": result.root, "highlight_label": f"Raíz ≈ {result.root:.6f}",
+            "highlight_x": result.root, "highlight_label": f"Raíz = {result.root:.6f}",
             "xlabel": "x", "ylabel": "f(x)", "plot_label": "f(x)",
         }
 

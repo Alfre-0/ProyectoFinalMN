@@ -127,6 +127,17 @@ class ThemeManager:
             background-color: {c.ACCENT_HOVER};
         }}
 
+        /* ── ToolBar (Matplotlib) ────────────────── */
+        QToolButton {{
+            background-color: transparent;
+            color: {c.TEXT_PRIMARY};
+            border-radius: {Radius.SMALL}px;
+            padding: {Spacing.SMALL}px;
+        }}
+        QToolButton:hover {{
+            background-color: {c.SURFACE_ALT};
+        }}
+
         /* ── Tablas ──────────────────────────────── */
         QTableWidget {{
             background-color: {c.SURFACE};

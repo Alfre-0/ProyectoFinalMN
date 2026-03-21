@@ -61,7 +61,7 @@ SIDEBAR_MODULES = [
         "icon": "∫",
         "label": "Integración",
         "methods": [
-            {"label": "Dif. Finitas", "view_key": "dif_finitas"},
+            {"label": "Punto Medio", "view_key": "dif_finitas"},
             {"label": "Trapecio", "view_key": "trapecio"},
             {"label": "Simpson", "view_key": "simpson"},
         ],
@@ -89,7 +89,7 @@ class SidebarButton(QPushButton):
     def __init__(self, text: str, icon_text: str = "", parent=None):
         display = f"  {icon_text}  {text}" if icon_text else f"  {text}"
         super().__init__(display, parent)
-        self.setFixedHeight(40)
+        self.setMinimumHeight(45)
         self.setCursor(Qt.CursorShape.PointingHandCursor)
         self.setCheckable(True)
         self._is_submenu = not bool(icon_text)
@@ -98,16 +98,32 @@ class SidebarButton(QPushButton):
     def _update_style(self, active: bool):
         c = ThemeManager.colors()
         if active:
-            bg = c.SIDEBAR_ITEM_ACTIVE
-            fg = c.TEXT_SIDEBAR_ACTIVE
-            weight = "700"
+            if self._is_submenu:
+                bg = c.ACCENT
+                fg = "#FFFFFF"
+                border_color = c.ACCENT
+                weight = "700"
+                border_left = "4px"
+            else:
+                bg = c.SIDEBAR_ITEM_ACTIVE
+                fg = "#FFFFFF"
+                border_color = c.PRIMARY
+                weight = "800"
+                border_left = "3px"
         else:
-            bg = "transparent"
-            fg = c.TEXT_SIDEBAR
-            weight = "400"
+            if self._is_submenu:
+                bg = c.SIDEBAR_ITEM_HOVER
+                fg = c.TEXT_SIDEBAR
+                weight = "500"
+            else:
+                bg = "transparent"
+                fg = "#FFFFFF"
+                weight = "700"
+            border_left = "2px"
+            border_color = "transparent"
 
         padding_left = 40 if self._is_submenu else 8
-        font_size = Typography.CAPTION if self._is_submenu else Typography.BODY
+        font_size = Typography.BODY if self._is_submenu else Typography.SUBTITLE
 
         self.setStyleSheet(f"""
             QPushButton {{
@@ -123,7 +139,8 @@ class SidebarButton(QPushButton):
             }}
             QPushButton:hover {{
                 background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 {c.SIDEBAR_ITEM_HOVER}, stop:1 transparent);
-                border-left: 3px solid {c.PRIMARY if not active else "transparent"};
+                border-left: {border_left} solid {border_color if active else c.PRIMARY_LIGHT};
+                color: {c.TEXT_SIDEBAR_ACTIVE};
             }}
         """)
 

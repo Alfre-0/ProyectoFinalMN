@@ -12,14 +12,14 @@ from core.integracion_derivacion.integracion_derivacion import (
 class DiferenciasFinitasView(BaseMethodView):
 
     def _get_method_name(self) -> str:
-        return "Diferencias Finitas"
+        return "Regla del Punto Medio"
 
     def _get_module_name(self) -> str:
         return "Derivación e Integración"
 
     def _get_method_description(self) -> str:
-        return ("Aproxima la derivada de f(x) en un punto usando diferencias "
-                "hacia adelante, hacia atrás o centrales.")
+        return ("Aproxima el valor (como la regla del Punto Medio / Diferencia Central) "
+                "evaluando en un intervalo.")
 
     def _build_form(self) -> QWidget:
         widget = QWidget()
@@ -133,7 +133,7 @@ class TrapecioView(BaseMethodView):
             b=float(self._input_b.text()),
             n_intervals=int(self._input_n.text()),
         )
-        headers = ["No.", "Δx", "xi", "f(xi)", "Factor", "Δx/2·factor·f(xi)"]
+        headers = ["No.", "dx", "xi", "f(xi)", "Factor", "dx/2 * factor * f(xi)"]
         rows = [[r.index, r.dx, r.xi, r.fxi, r.factor, r.partial] for r in result.table]
 
         return {
@@ -208,7 +208,7 @@ class SimpsonView(BaseMethodView):
             b=float(self._input_b.text()),
             n_intervals=int(self._input_n.text()),
         )
-        headers = ["No.", "Δx", "xi", "f(xi)", "Factor", "(Δx/3)·factor·f(xi)"]
+        headers = ["No.", "dx", "xi", "f(xi)", "Factor", "(dx/3) * factor * f(xi)"]
         rows = [[r.index, r.dx, r.xi, r.fxi, r.factor, r.partial] for r in result.table]
 
         return {

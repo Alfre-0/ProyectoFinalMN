@@ -9,7 +9,7 @@ matplotlib.use("QtAgg")
 from matplotlib.backends.backend_qtagg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.backends.backend_qtagg import NavigationToolbar2QT as NavigationToolbar
 from matplotlib.figure import Figure
-from PyQt6.QtWidgets import QVBoxLayout, QFrame
+from PyQt6.QtWidgets import QVBoxLayout, QHBoxLayout, QFrame, QPushButton
 from ui.styles.tokens import Spacing, Radius
 from ui.styles.theme import ThemeManager
 
@@ -30,10 +30,45 @@ class PlotWidget(QFrame):
         layout.setContentsMargins(
             Spacing.SMALL, Spacing.SMALL, Spacing.SMALL, Spacing.SMALL
         )
-        layout.addWidget(self.toolbar)
+
+        zoom_layout = QHBoxLayout()
+        btn_zoom_in = QPushButton("🔍 +")
+        btn_zoom_in.setToolTip("Acercar gráfica")
+        btn_zoom_in.clicked.connect(lambda: self.zoom(1.5))
+        
+        btn_zoom_out = QPushButton("🔍 -")
+        btn_zoom_out.setToolTip("Alejar gráfica")
+        btn_zoom_out.clicked.connect(lambda: self.zoom(1/1.5))
+
+        # Opcional: estilizar los botones de zoom para que no sean tan invasivos
+        style = "QPushButton { padding: 4px; font-weight: bold; border-radius: 4px; max-width: 40px; }"
+        btn_zoom_in.setStyleSheet(style)
+        btn_zoom_out.setStyleSheet(style)
+
+        zoom_layout.addWidget(self.toolbar)
+        zoom_layout.addStretch()
+        zoom_layout.addWidget(btn_zoom_in)
+        zoom_layout.addWidget(btn_zoom_out)
+
+        layout.addLayout(zoom_layout)
         layout.addWidget(self.canvas)
 
         self._apply_theme()
+
+    def zoom(self, factor: float):
+        """Aplica un zoom (factor > 1 acerca, factor < 1 aleja)."""
+        xlim = self.axes.get_xlim()
+        ylim = self.axes.get_ylim()
+        
+        x_c = (xlim[0] + xlim[1]) / 2
+        y_c = (ylim[0] + ylim[1]) / 2
+        
+        x_r = (xlim[1] - xlim[0]) / factor
+        y_r = (ylim[1] - ylim[0]) / factor
+        
+        self.axes.set_xlim([x_c - x_r/2, x_c + x_r/2])
+        self.axes.set_ylim([y_c - y_r/2, y_c + y_r/2])
+        self.canvas.draw()
 
     def _apply_theme(self):
         """Aplica los colores del tema actual al gráfico."""

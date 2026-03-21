@@ -105,7 +105,7 @@ def diferencias_finitas(func_str: str, x_point: float, h: float = 0.01,
             error=round(error, 10),
         )
         table.append(row)
-        steps.append(f"h={hi:.6f}: f'({x_point}) ≈ {approx:.8f}, error = {error:.2e}")
+        steps.append(f"h={hi:.6f}: f'({x_point}) = {approx:.8f}, error = {error:.2e}")
 
     best = table[-1]
 
@@ -116,7 +116,7 @@ def diferencias_finitas(func_str: str, x_point: float, h: float = 0.01,
     return IntegrationResult(
         value=best.approximation, table=table, procedure_steps=steps,
         x_plot=x_plot, y_plot=y_plot,
-        message=(f"f'({x_point}) ≈ {best.approximation:.10f} "
+        message=(f"f'({x_point}) = {best.approximation:.10f} "
                  f"(valor exacto: {exact_value:.10f}, error: {best.error:.2e})")
     )
 
@@ -136,7 +136,7 @@ def trapecio(func_str: str, a: float, b: float,
         f"Función: f(x) = {expr}",
         f"Intervalo: [{a}, {b}]",
         f"Subintervalos: n = {n_intervals}",
-        f"Δx = {dx:.6f}",
+        f"dx = {dx:.6f}",
         "",
     ]
 
@@ -159,7 +159,7 @@ def trapecio(func_str: str, a: float, b: float,
             f"parcial={partial:.6f}"
         )
 
-    steps.append(f"\nResultado: ∫f(x)dx ≈ {total:.10f}")
+    steps.append(f"\nResultado: Int f(x)dx = {total:.10f}")
 
     x_plot = np.linspace(a, b, 200).tolist()
     y_plot = [float(func(xv)) for xv in x_plot]
@@ -167,7 +167,7 @@ def trapecio(func_str: str, a: float, b: float,
     return IntegrationResult(
         value=round(total, 10), table=table, procedure_steps=steps,
         x_plot=x_plot, y_plot=y_plot,
-        message=f"∫[{a},{b}] f(x)dx ≈ {total:.10f}"
+        message=f"Int [{a},{b}] f(x)dx = {total:.10f}"
     )
 
 
@@ -187,8 +187,8 @@ def simpson(func_str: str, a: float, b: float,
     steps = [
         f"Función: f(x) = {expr}",
         f"Intervalo: [{a}, {b}]",
-        f"Subintervalos: n = {n_intervals} (par ✓)",
-        f"Δx = {dx:.6f}",
+        f"Subintervalos: n = {n_intervals} (par [OK])",
+        f"dx = {dx:.6f}",
         "",
     ]
 
@@ -216,7 +216,7 @@ def simpson(func_str: str, a: float, b: float,
             f"parcial={partial:.6f}"
         )
 
-    steps.append(f"\nResultado: ∫f(x)dx ≈ {total:.10f}")
+    steps.append(f"\nResultado: Int f(x)dx = {total:.10f}")
 
     x_plot = np.linspace(a, b, 200).tolist()
     y_plot = [float(func(xv)) for xv in x_plot]
@@ -224,5 +224,5 @@ def simpson(func_str: str, a: float, b: float,
     return IntegrationResult(
         value=round(total, 10), table=table, procedure_steps=steps,
         x_plot=x_plot, y_plot=y_plot,
-        message=f"∫[{a},{b}] f(x)dx ≈ {total:.10f}"
+        message=f"Int [{a},{b}] f(x)dx = {total:.10f}"
     )
