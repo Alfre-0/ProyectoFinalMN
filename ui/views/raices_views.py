@@ -29,8 +29,8 @@ class BiseccionView(BaseMethodView):
         layout.setSpacing(10)
 
         self._input_func = QLineEdit()
-        self._input_func.setPlaceholderText("Ej: x**3 - x - 2")
-        self._input_func.setToolTip("Ingrese la función f(x). Use ** para potencias, sqrt() para raíz.")
+        self._input_func.setPlaceholderText("Ej: x^3 - x - 2")
+        self._input_func.setToolTip("Ingrese la función f(x). Use ^ para potencias, sqrt() para raíz.")
 
         self._input_a = QLineEdit()
         self._input_a.setPlaceholderText("Ej: 1")
@@ -93,7 +93,7 @@ class BiseccionView(BaseMethodView):
         }
 
     def _load_example(self):
-        self._input_func.setText("x**3 - x - 2")
+        self._input_func.setText("x^3 - x - 2")
         self._input_a.setText("1")
         self._input_b.setText("2")
         self._input_tol.setText("1e-6")
@@ -125,10 +125,10 @@ class NewtonRaphsonView(BaseMethodView):
         layout.setSpacing(10)
 
         self._input_func = QLineEdit()
-        self._input_func.setPlaceholderText("Ej: x**3 - x - 2")
+        self._input_func.setPlaceholderText("Ej: x^3 - x - 2")
 
         self._input_deriv = QLineEdit()
-        self._input_deriv.setPlaceholderText("Ej: 3*x**2 - 1")
+        self._input_deriv.setPlaceholderText("Ej: 3*x^2 - 1")
         self._input_deriv.setToolTip("Derivada de f(x). Si deja vacío se calculará automáticamente.")
 
         self._input_x0 = QLineEdit()
@@ -167,7 +167,7 @@ class NewtonRaphsonView(BaseMethodView):
 
         if not deriv_str:
             x_sym = sp.Symbol("x")
-            deriv_str = str(sp.diff(sp.sympify(func_str), x_sym))
+            deriv_str = str(sp.diff(sp.sympify(func_str.replace("^", "^")), x_sym))
 
         result = newton_raphson(
             func_str=func_str,
@@ -200,8 +200,8 @@ class NewtonRaphsonView(BaseMethodView):
         }
 
     def _load_example(self):
-        self._input_func.setText("x**3 - x - 2")
-        self._input_deriv.setText("3*x**2 - 1")
+        self._input_func.setText("x^3 - x - 2")
+        self._input_deriv.setText("3*x^2 - 1")
         self._input_x0.setText("1.5")
         self._input_tol.setText("1e-6")
         self._input_max_iter.setText("100")
@@ -232,7 +232,7 @@ class SecanteView(BaseMethodView):
         layout.setSpacing(10)
 
         self._input_func = QLineEdit()
-        self._input_func.setPlaceholderText("Ej: x**3 - x - 2")
+        self._input_func.setPlaceholderText("Ej: x^3 - x - 2")
 
         self._input_x0 = QLineEdit()
         self._input_x0.setPlaceholderText("Ej: 1")
@@ -292,7 +292,7 @@ class SecanteView(BaseMethodView):
         }
 
     def _load_example(self):
-        self._input_func.setText("x**3 - x - 2")
+        self._input_func.setText("x^3 - x - 2")
         self._input_x0.setText("1")
         self._input_x1.setText("2")
         self._input_tol.setText("1e-6")

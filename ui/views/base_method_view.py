@@ -108,6 +108,9 @@ class BaseMethodView(QWidget):
         self._btn_export.setEnabled(False)
         form_card_layout.addWidget(self._btn_export)
 
+        # Espacio extra debajo de los botones
+        form_card_layout.addSpacing(Spacing.LARGE)
+
         left_layout.addWidget(form_card)
 
         # Resumen de resultado (debajo de los botones, en el panel izquierdo)
@@ -159,15 +162,16 @@ class BaseMethodView(QWidget):
         self._procedure_text = QTextEdit()
         self._procedure_text.setReadOnly(True)
         self._procedure_text.setMinimumHeight(120)
-        self._tabs.addTab(self._procedure_text, "📖 Procedimiento")
 
         # Tab: Tabla
         self._result_table = QTableWidget()
         self._result_table.setAlternatingRowColors(True)
         self._result_table.setEditTriggers(QTableWidget.EditTrigger.NoEditTriggers)
         self._result_table.setMinimumHeight(120)
-        self._tabs.addTab(self._result_table, "📋 Tabla")
 
+        # Agregar la tabla primero
+        self._tabs.addTab(self._result_table, "📋 Tabla")
+        self._tabs.addTab(self._procedure_text, "📖 Procedimiento")
         results_inner.addWidget(self._tabs)
         right_layout.addWidget(self._results_card, 2)
 
@@ -288,13 +292,21 @@ class BaseMethodView(QWidget):
             colors = ThemeManager.colors().PLOT_LINE_COLORS
             self._plot_widget.axes.plot(
                 result["x_plot"], result["y_plot"],
-                color=colors[0], linewidth=2, label=result.get("plot_label", "f(x)")
+                color=colors[0], linewidth=2.5, label=result.get("plot_label", "f(x)"),
+                zorder=3
             )
-            # Puntos adicionales
+            # Título de la gráfica
+            title = f"{self._get_method_name()}"
+            if result.get("plot_label"):
+                title += f" — {result['plot_label']}"
+            self._plot_widget.axes.set_title(title)
+
+            # Puntos adicionales (marcadores diamante)
             if result.get("x_points") and result.get("y_points"):
                 self._plot_widget.axes.scatter(
                     result["x_points"], result["y_points"],
-                    color=colors[1], zorder=5, s=60, label="Puntos"
+                    color=colors[1], zorder=5, s=80, marker='D',
+                    edgecolors='white', linewidths=1.2, label="Puntos"
                 )
             if result.get("highlight_x") is not None:
                 self._plot_widget.axes.axvline(

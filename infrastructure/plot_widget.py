@@ -75,13 +75,36 @@ class PlotWidget(QFrame):
         c = ThemeManager.colors()
         self.figure.set_facecolor(c.PLOT_BG)
         self.axes.set_facecolor(c.PLOT_BG)
-        self.axes.tick_params(colors=c.TEXT_PRIMARY)
+
+        # Tick labels
+        self.axes.tick_params(
+            colors=c.TEXT_PRIMARY, labelsize=10, width=1.2,
+            direction='out', length=4
+        )
+
+        # Axis labels
         self.axes.xaxis.label.set_color(c.TEXT_PRIMARY)
+        self.axes.xaxis.label.set_fontsize(12)
+        self.axes.xaxis.label.set_fontweight('bold')
         self.axes.yaxis.label.set_color(c.TEXT_PRIMARY)
+        self.axes.yaxis.label.set_fontsize(12)
+        self.axes.yaxis.label.set_fontweight('bold')
+
+        # Title
         self.axes.title.set_color(c.TEXT_PRIMARY)
+        self.axes.title.set_fontsize(13)
+        self.axes.title.set_fontweight('bold')
+
+        # Spines
         for spine in self.axes.spines.values():
             spine.set_color(c.BORDER)
-        self.axes.grid(True, color=c.PLOT_GRID, linestyle="--", alpha=0.5)
+            spine.set_linewidth(1.2)
+
+        # Grid
+        self.axes.grid(
+            True, color=c.PLOT_GRID, linestyle='-', alpha=0.4, linewidth=0.8
+        )
+        self.axes.set_axisbelow(True)
 
     def clear(self):
         """Limpia el gráfico y reaplica el tema."""
@@ -92,11 +115,11 @@ class PlotWidget(QFrame):
     def refresh(self):
         """Redibuja el canvas después de modificar axes externamente."""
         self._apply_theme()
-        self.figure.tight_layout()
+        self.figure.tight_layout(pad=1.5)
         self.canvas.draw()
 
     def update_theme(self):
         """Llamar al cambiar de tema para reaplicar colores."""
         self._apply_theme()
-        self.figure.tight_layout()
+        self.figure.tight_layout(pad=1.5)
         self.canvas.draw()

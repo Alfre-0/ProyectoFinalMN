@@ -50,7 +50,8 @@ class IntegrationResult:
 def _parse_function(expression_str: str):
     x = sp.Symbol("x")
     try:
-        expr = sp.sympify(expression_str)
+        sanitized = expression_str.replace("^", "**")
+        expr = sp.sympify(sanitized)
         func = sp.lambdify(x, expr, modules=["numpy"])
         return func, expr
     except (sp.SympifyError, TypeError) as error:
@@ -67,12 +68,12 @@ def diferencias_finitas(func_str: str, x_point: float, h: float = 0.01,
     """
     func, expr = _parse_function(func_str)
     x_sym = sp.Symbol("x")
-    exact_deriv = sp.diff(sp.sympify(func_str), x_sym)
+    exact_deriv = sp.diff(sp.sympify(func_str.replace("^", "**")), x_sym)
     exact_func = sp.lambdify(x_sym, exact_deriv, modules=["numpy"])
 
     steps = [
-        f"Función: f(x) = {expr}",
-        f"Derivada simbólica: f'(x) = {exact_deriv}",
+        f"Función: f(x) = {str(expr).replace('**', '^')}",
+        f"Derivada simbólica: f'(x) = {str(exact_deriv).replace('**', '^')}",
         f"Punto de evaluación: x = {x_point}",
         f"Paso h = {h}",
         f"Tipo: {method}",
@@ -133,7 +134,7 @@ def trapecio(func_str: str, a: float, b: float,
     dx = (b - a) / n_intervals
 
     steps = [
-        f"Función: f(x) = {expr}",
+        f"Función: f(x) = {str(expr).replace('**', '^')}",
         f"Intervalo: [{a}, {b}]",
         f"Subintervalos: n = {n_intervals}",
         f"dx = {dx:.6f}",
@@ -185,7 +186,7 @@ def simpson(func_str: str, a: float, b: float,
     dx = (b - a) / n_intervals
 
     steps = [
-        f"Función: f(x) = {expr}",
+        f"Función: f(x) = {str(expr).replace('**', '^')}",
         f"Intervalo: [{a}, {b}]",
         f"Subintervalos: n = {n_intervals} (par [OK])",
         f"dx = {dx:.6f}",

@@ -43,7 +43,8 @@ def _parse_ode_function(expression_str: str):
     """Convierte un string f(x, y) en una función evaluable."""
     x_sym, y_sym = sp.symbols("x y")
     try:
-        expr = sp.sympify(expression_str)
+        sanitized = expression_str.replace("^", "**")
+        expr = sp.sympify(sanitized)
         func = sp.lambdify((x_sym, y_sym), expr, modules=["numpy"])
         return func, expr
     except (sp.SympifyError, TypeError) as error:
@@ -64,7 +65,7 @@ def euler(func_str: str, x0: float, y0: float,
     n_steps = int(np.ceil((x_final - x0) / h))
 
     steps = [
-        f"dy/dx = {expr}",
+        f"dy/dx = {str(expr).replace('**', '^')}",
         f"Condición inicial: y({x0}) = {y0}",
         f"Intervalo: [{x0}, {x_final}]",
         f"Paso h = {h}",
@@ -103,7 +104,7 @@ def euler(func_str: str, x0: float, y0: float,
     return ODEResult(
         x_values=x_values, y_values=y_values, table=table,
         procedure_steps=steps,
-        message=f"y({x_final}) ≈ {y_values[-1]:.10f} (Euler, {n_steps} pasos)"
+        message=f"y({x_final}) = {y_values[-1]:.10f} (Euler, {n_steps} pasos)"
     )
 
 
@@ -121,7 +122,7 @@ def runge_kutta_4(func_str: str, x0: float, y0: float,
     n_steps = int(np.ceil((x_final - x0) / h))
 
     steps = [
-        f"dy/dx = {expr}",
+        f"dy/dx = {str(expr).replace('**', '^')}",
         f"Condición inicial: y({x0}) = {y0}",
         f"Intervalo: [{x0}, {x_final}]",
         f"Paso h = {h}",
@@ -164,5 +165,5 @@ def runge_kutta_4(func_str: str, x0: float, y0: float,
     return ODEResult(
         x_values=x_values, y_values=y_values, table=table,
         procedure_steps=steps,
-        message=f"y({x_final}) ≈ {y_values[-1]:.10f} (RK4, {n_steps} pasos)"
+        message=f"y({x_final}) = {y_values[-1]:.10f} (RK4, {n_steps} pasos)"
     )

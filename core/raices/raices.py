@@ -61,7 +61,9 @@ def _parse_function(expression_str: str):
     """Convierte un string a una función numérica evaluable."""
     x = sp.Symbol("x")
     try:
-        expr = sp.sympify(expression_str)
+        # Preprocesar: convertir ^ a ** para soporte de notación matemática común
+        sanitized = expression_str.replace("^", "**")
+        expr = sp.sympify(sanitized)
         func = sp.lambdify(x, expr, modules=["numpy"])
         return func, expr
     except (sp.SympifyError, TypeError) as error:
@@ -89,7 +91,7 @@ def biseccion(func_str: str, a: float, b: float,
 
     table = []
     steps = [
-        f"Función: f(x) = {expr}",
+        f"Función: f(x) = {str(expr).replace('**', '^')}",
         f"Intervalo inicial: [{a}, {b}]",
         f"Tolerancia: {tolerance}",
         f"f({a}) = {fa:.6f}, f({b}) = {fb:.6f}",
@@ -150,8 +152,8 @@ def newton_raphson(func_str: str, deriv_str: str, x0: float,
 
     table = []
     steps = [
-        f"Función: f(x) = {expr}",
-        f"Derivada: f'(x) = {deriv_expr}",
+        f"Función: f(x) = {str(expr).replace('**', '^')}",
+        f"Derivada: f'(x) = {str(deriv_expr).replace('**', '^')}",
         f"Valor inicial: x0 = {x0}",
         f"Tolerancia: {tolerance}",
         "",
@@ -211,7 +213,7 @@ def secante(func_str: str, x0: float, x1: float,
 
     table = []
     steps = [
-        f"Función: f(x) = {expr}",
+        f"Función: f(x) = {str(expr).replace('**', '^')}",
         f"Valores iniciales: x0 = {x0}, x1 = {x1}",
         f"Tolerancia: {tolerance}",
         "",
