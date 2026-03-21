@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-03-21 13:44:59",
+    "module": "Raíces",
+    "method": "Método de Bisección",
+    "parameters": {
+      "f(x)": "x**3 - x - 2",
+      "a": "1",
+      "b": "2",
+      "Tolerancia": "1e-6",
+      "Máx. iteraciones": "100"
+    },
+    "result_summary": "Raíz encontrada: x ≈ 1.5213799477 con error 9.54e-07 en 21 iteraciones.",
+    "full_data": {}
+  }
+]
