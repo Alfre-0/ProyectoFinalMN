@@ -129,13 +129,13 @@ class ThemeManager:
 
         /* ── ToolBar (Matplotlib) ────────────────── */
         QToolButton {{
-            background-color: transparent;
-            color: {c.TEXT_PRIMARY};
+            background-color: {"transparent" if cls._is_dark else c.PRIMARY};
+            color: {"#FFFFFF" if not cls._is_dark else c.TEXT_PRIMARY};
             border-radius: {Radius.SMALL}px;
             padding: {Spacing.SMALL}px;
         }}
         QToolButton:hover {{
-            background-color: {c.SURFACE_ALT};
+            background-color: {c.SURFACE_ALT if cls._is_dark else c.PRIMARY_HOVER};
         }}
 
         /* ── Tablas ──────────────────────────────── */

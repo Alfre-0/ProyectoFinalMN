@@ -1,5 +1,31 @@
 [
   {
+    "timestamp": "2026-03-21 14:54:53",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1, 2, 4, 7",
+      "Puntos y": "1, 4, 16, 49",
+      "x a interpolar": "3"
+    },
+    "result_summary": "P(3.0) ≈ 9.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-03-21 14:54:09",
+    "module": "Raíces",
+    "method": "Método de Bisección",
+    "parameters": {
+      "f(x)": "x**3 - x - 2",
+      "a": "1",
+      "b": "2",
+      "Tolerancia": "1e-6",
+      "Máx. iteraciones": "100"
+    },
+    "result_summary": "Raíz encontrada: x = 1.5213799477 con error 9.54e-07 en 21 iteraciones.",
+    "full_data": {}
+  },
+  {
     "timestamp": "2026-03-21 14:49:55",
     "module": "Raíces",
     "method": "Método de Bisección",
