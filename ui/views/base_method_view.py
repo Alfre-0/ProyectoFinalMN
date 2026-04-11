@@ -348,3 +348,7 @@ class BaseMethodView(QWidget):
     def update_theme(self):
         """Llamar cuando cambia el tema."""
         self._plot_widget.update_theme()
+        # Actualizar todos los MathInput del formulario
+        from ui.components.math_input import MathInput
+        for math_input in self.findChildren(MathInput):
+            math_input.update_theme()

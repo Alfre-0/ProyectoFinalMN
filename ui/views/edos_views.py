@@ -3,6 +3,7 @@ edos_views.py — Vistas para ecuaciones diferenciales ordinarias (Euler, RK4).
 """
 from PyQt6.QtWidgets import QWidget, QFormLayout, QLineEdit, QLabel
 from ui.views.base_method_view import BaseMethodView
+from ui.components.math_input import MathInput
 from core.edos.edos import euler, runge_kutta_4
 
 
@@ -23,7 +24,7 @@ class EulerView(BaseMethodView):
         layout = QFormLayout(widget)
         layout.setSpacing(10)
 
-        self._input_func = QLineEdit()
+        self._input_func = MathInput()
         self._input_func.setPlaceholderText("Ej: x + y")
         self._input_func.setToolTip("Ecuación dy/dx = f(x, y). Use 'x' e 'y' como variables.")
 
@@ -112,7 +113,7 @@ class RungeKuttaView(BaseMethodView):
         layout = QFormLayout(widget)
         layout.setSpacing(10)
 
-        self._input_func = QLineEdit()
+        self._input_func = MathInput()
         self._input_func.setPlaceholderText("Ej: x + y")
 
         self._input_x0 = QLineEdit()

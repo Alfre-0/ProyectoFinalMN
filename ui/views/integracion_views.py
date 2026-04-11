@@ -4,6 +4,7 @@ Diferencias Finitas, Trapecio, Simpson.
 """
 from PyQt6.QtWidgets import QWidget, QFormLayout, QLineEdit, QLabel, QComboBox
 from ui.views.base_method_view import BaseMethodView
+from ui.components.math_input import MathInput
 from core.integracion_derivacion.integracion_derivacion import (
     diferencias_finitas, trapecio, simpson,
 )
@@ -26,8 +27,8 @@ class DiferenciasFinitasView(BaseMethodView):
         layout = QFormLayout(widget)
         layout.setSpacing(10)
 
-        self._input_func = QLineEdit()
-        self._input_func.setPlaceholderText("Ej: sin(x) + x**2")
+        self._input_func = MathInput()
+        self._input_func.setPlaceholderText("Ej: sin(x) + x^2")
 
         self._input_x = QLineEdit()
         self._input_x.setPlaceholderText("Ej: 1.0")
@@ -71,7 +72,7 @@ class DiferenciasFinitasView(BaseMethodView):
         }
 
     def _load_example(self):
-        self._input_func.setText("sin(x) + x**2")
+        self._input_func.setText("sin(x) + x^2")
         self._input_x.setText("1.0")
         self._input_h.setText("0.01")
         self._input_type.setCurrentText("central")
@@ -99,8 +100,8 @@ class TrapecioView(BaseMethodView):
         layout = QFormLayout(widget)
         layout.setSpacing(10)
 
-        self._input_func = QLineEdit()
-        self._input_func.setPlaceholderText("Ej: x**2")
+        self._input_func = MathInput()
+        self._input_func.setPlaceholderText("Ej: x^2")
 
         self._input_a = QLineEdit()
         self._input_a.setPlaceholderText("Ej: 0")
@@ -145,7 +146,7 @@ class TrapecioView(BaseMethodView):
         }
 
     def _load_example(self):
-        self._input_func.setText("x**2")
+        self._input_func.setText("x^2")
         self._input_a.setText("0")
         self._input_b.setText("1")
         self._input_n.setText("10")
@@ -174,8 +175,8 @@ class SimpsonView(BaseMethodView):
         layout = QFormLayout(widget)
         layout.setSpacing(10)
 
-        self._input_func = QLineEdit()
-        self._input_func.setPlaceholderText("Ej: x**2")
+        self._input_func = MathInput()
+        self._input_func.setPlaceholderText("Ej: x^2")
 
         self._input_a = QLineEdit()
         self._input_a.setPlaceholderText("Ej: 0")
@@ -220,7 +221,7 @@ class SimpsonView(BaseMethodView):
         }
 
     def _load_example(self):
-        self._input_func.setText("x**2")
+        self._input_func.setText("x^2")
         self._input_a.setText("0")
         self._input_b.setText("1")
         self._input_n.setText("10")

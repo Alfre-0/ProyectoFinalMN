@@ -481,7 +481,7 @@ proyecto_metodos_numericos/
 ├── requirements.txt
 ├── README.md
 ├── assets/
-├── modules/
+├── moduleAs/
 │   ├── raices/
 │   ├── interpolacion/
 │   ├── sistemas/

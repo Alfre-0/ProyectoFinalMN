@@ -7,6 +7,7 @@ from PyQt6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QFormLayout,
 )
 from ui.views.base_method_view import BaseMethodView
+from ui.components.math_input import MathInput
 from core.raices.raices import biseccion, newton_raphson, secante
 from dataclasses import asdict
 
@@ -28,9 +29,9 @@ class BiseccionView(BaseMethodView):
         layout = QFormLayout(widget)
         layout.setSpacing(10)
 
-        self._input_func = QLineEdit()
+        self._input_func = MathInput()
         self._input_func.setPlaceholderText("Ej: x^3 - x - 2")
-        self._input_func.setToolTip("Ingrese la función f(x). Use ^ para potencias, sqrt() para raíz.")
+        self._input_func.setToolTip("Ingrese la función f(x)")
 
         self._input_a = QLineEdit()
         self._input_a.setPlaceholderText("Ej: 1")
@@ -124,10 +125,10 @@ class NewtonRaphsonView(BaseMethodView):
         layout = QFormLayout(widget)
         layout.setSpacing(10)
 
-        self._input_func = QLineEdit()
+        self._input_func = MathInput()
         self._input_func.setPlaceholderText("Ej: x^3 - x - 2")
 
-        self._input_deriv = QLineEdit()
+        self._input_deriv = MathInput()
         self._input_deriv.setPlaceholderText("Ej: 3*x^2 - 1")
         self._input_deriv.setToolTip("Derivada de f(x). Si deja vacío se calculará automáticamente.")
 
@@ -231,7 +232,7 @@ class SecanteView(BaseMethodView):
         layout = QFormLayout(widget)
         layout.setSpacing(10)
 
-        self._input_func = QLineEdit()
+        self._input_func = MathInput()
         self._input_func.setPlaceholderText("Ej: x^3 - x - 2")
 
         self._input_x0 = QLineEdit()

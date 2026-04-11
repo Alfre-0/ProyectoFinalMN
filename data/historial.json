@@ -1,5 +1,61 @@
 [
   {
+    "timestamp": "2026-04-11 13:03:21",
+    "module": "Raíces",
+    "method": "Método de Newton-Raphson",
+    "parameters": {
+      "f(x)": "sqrt((x)**(7)+log(x)+3)-20*sin(x+1)",
+      "f'(x)": "(auto)",
+      "x0": "2",
+      "Tolerancia": "1e-8",
+      "Máx. iteraciones": "100"
+    },
+    "result_summary": "Raíz encontrada: x = 1.7591684033 con error 1.59e-08 en 4 iteraciones.",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-11 13:02:38",
+    "module": "Raíces",
+    "method": "Método de Newton-Raphson",
+    "parameters": {
+      "f(x)": "sqrt((x)**(7)+log(x)+3)-20*sin(x+1)",
+      "f'(x)": "(auto)",
+      "x0": "2",
+      "Tolerancia": "1e-6",
+      "Máx. iteraciones": "100"
+    },
+    "result_summary": "Raíz encontrada: x = 1.7591684192 con error 1.89e-04 en 3 iteraciones.",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-11 12:58:53",
+    "module": "Raíces",
+    "method": "Método de Bisección",
+    "parameters": {
+      "f(x)": "(x)**(3)-x-2",
+      "a": "1",
+      "b": "2",
+      "Tolerancia": "1e-6",
+      "Máx. iteraciones": "100"
+    },
+    "result_summary": "Raíz encontrada: x = 1.5213799477 con error 9.54e-07 en 21 iteraciones.",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-11 11:49:44",
+    "module": "Raíces",
+    "method": "Método de Bisección",
+    "parameters": {
+      "f(x)": "x^3 - x - 2",
+      "a": "1",
+      "b": "2",
+      "Tolerancia": "1e-6",
+      "Máx. iteraciones": "100"
+    },
+    "result_summary": "Raíz encontrada: x = 1.5213799477 con error 9.54e-07 en 21 iteraciones.",
+    "full_data": {}
+  },
+  {
     "timestamp": "2026-03-21 15:34:41",
     "module": "Raíces",
     "method": "Método de Bisección",
