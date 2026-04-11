@@ -5,6 +5,7 @@ from PyQt6.QtWidgets import (
     QWidget, QFormLayout, QLineEdit, QLabel, QTextEdit, QVBoxLayout,
 )
 from ui.views.base_method_view import BaseMethodView
+from ui.components.math_input import MathInput
 from core.sistemas.sistemas import gauss_seidel, factorizacion_lu
 
 
@@ -35,14 +36,13 @@ class GaussSeidelView(BaseMethodView):
 
         form = QFormLayout()
 
-        self._input_matrix = QTextEdit()
-        self._input_matrix.setPlaceholderText("4, -1, 0;\n-1, 4, -1;\n0, -1, 4")
-        self._input_matrix.setMaximumHeight(100)
+        self._input_matrix = MathInput()
+        self._input_matrix.setPlaceholderText("4, -1, 0; -1, 4, -1; 0, -1, 4")
 
-        self._input_b = QLineEdit()
+        self._input_b = MathInput()
         self._input_b.setPlaceholderText("Ej: 15, 10, 10")
 
-        self._input_x0 = QLineEdit()
+        self._input_x0 = MathInput()
         self._input_x0.setPlaceholderText("Ej: 0, 0, 0 (o dejar vacío)")
 
         self._input_tol = QLineEdit("1e-6")
@@ -59,14 +59,14 @@ class GaussSeidelView(BaseMethodView):
 
     def _get_parameters(self) -> dict:
         return {
-            "Matriz A": self._input_matrix.toPlainText(),
+            "Matriz A": self._input_matrix.text(),
             "Vector b": self._input_b.text(),
             "Vector x₀": self._input_x0.text() or "(ceros)",
             "Tolerancia": self._input_tol.text(),
         }
 
     def _run_calculation(self) -> dict:
-        matrix_text = self._input_matrix.toPlainText().strip()
+        matrix_text = self._input_matrix.text().strip()
         rows_text = [r.strip() for r in matrix_text.replace("\n", ";").split(";") if r.strip()]
         matrix_a = [[float(v.strip()) for v in row.split(",")] for row in rows_text]
 
@@ -96,7 +96,7 @@ class GaussSeidelView(BaseMethodView):
         }
 
     def _load_example(self):
-        self._input_matrix.setPlainText("4, -1, 0;\n-1, 4, -1;\n0, -1, 4")
+        self._input_matrix.setText("4, -1, 0; -1, 4, -1; 0, -1, 4")
         self._input_b.setText("15, 10, 10")
         self._input_x0.setText("0, 0, 0")
         self._input_tol.setText("1e-6")
@@ -136,11 +136,10 @@ class FactorizacionLUView(BaseMethodView):
 
         form = QFormLayout()
 
-        self._input_matrix = QTextEdit()
-        self._input_matrix.setPlaceholderText("2, 1, 1;\n4, 3, 3;\n8, 7, 9")
-        self._input_matrix.setMaximumHeight(100)
+        self._input_matrix = MathInput()
+        self._input_matrix.setPlaceholderText("2, 1, 1; 4, 3, 3; 8, 7, 9")
 
-        self._input_b = QLineEdit()
+        self._input_b = MathInput()
         self._input_b.setPlaceholderText("Ej: 1, 1, 1")
 
         form.addRow("Matriz A:", self._input_matrix)
@@ -151,12 +150,12 @@ class FactorizacionLUView(BaseMethodView):
 
     def _get_parameters(self) -> dict:
         return {
-            "Matriz A": self._input_matrix.toPlainText(),
+            "Matriz A": self._input_matrix.text(),
             "Vector b": self._input_b.text(),
         }
 
     def _run_calculation(self) -> dict:
-        matrix_text = self._input_matrix.toPlainText().strip()
+        matrix_text = self._input_matrix.text().strip()
         rows_text = [r.strip() for r in matrix_text.replace("\n", ";").split(";") if r.strip()]
         matrix_a = [[float(v.strip()) for v in row.split(",")] for row in rows_text]
         vector_b = [float(v.strip()) for v in self._input_b.text().split(",")]
@@ -174,7 +173,7 @@ class FactorizacionLUView(BaseMethodView):
         }
 
     def _load_example(self):
-        self._input_matrix.setPlainText("2, 1, 1;\n4, 3, 3;\n8, 7, 9")
+        self._input_matrix.setText("2, 1, 1; 4, 3, 3; 8, 7, 9")
         self._input_b.setText("1, 1, 1")
 
     def _clear_form(self):

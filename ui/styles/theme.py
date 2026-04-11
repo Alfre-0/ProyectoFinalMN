@@ -249,4 +249,16 @@ class ThemeManager:
         QTabBar::tab:hover:!selected {{
             background-color: {c.PRIMARY_LIGHT};
         }}
+
+        /* ── Diálogos (QMessageBox) ─────────────── */
+        QMessageBox {{
+            background-color: {c.SURFACE};
+        }}
+        QMessageBox QLabel {{
+            color: {c.TEXT_PRIMARY};
+            font-size: {Typography.BODY}pt;
+        }}
+        QMessageBox QPushButton {{
+            min-width: 80px;
+        }}
         """

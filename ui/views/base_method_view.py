@@ -177,10 +177,10 @@ class BaseMethodView(QWidget):
 
         body_splitter.addWidget(right_widget)
 
-        # Proporciones iniciales para el splitter (25% / 75%)
-        body_splitter.setStretchFactor(0, 1)
-        body_splitter.setStretchFactor(1, 3)
-        body_splitter.setSizes([300, 900])
+        # Proporciones iniciales para el splitter (30% / 70%)
+        body_splitter.setStretchFactor(0, 3)
+        body_splitter.setStretchFactor(1, 7)
+        body_splitter.setSizes([360, 840])
 
         main_layout.addWidget(body_splitter, 1)
 

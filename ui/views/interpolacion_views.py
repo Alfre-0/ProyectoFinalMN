@@ -3,6 +3,7 @@ interpolacion_views.py — Vistas para interpolación (Lagrange, Newton).
 """
 from PyQt6.QtWidgets import QWidget, QFormLayout, QLineEdit, QLabel
 from ui.views.base_method_view import BaseMethodView
+from ui.components.math_input import MathInput
 from core.interpolacion.interpolacion import lagrange, newton_interpolation
 
 
@@ -23,15 +24,15 @@ class LagrangeView(BaseMethodView):
         layout = QFormLayout(widget)
         layout.setSpacing(10)
 
-        self._input_x = QLineEdit()
+        self._input_x = MathInput()
         self._input_x.setPlaceholderText("Ej: 1, 2, 3, 4")
         self._input_x.setToolTip("Valores de x separados por comas")
 
-        self._input_y = QLineEdit()
+        self._input_y = MathInput()
         self._input_y.setPlaceholderText("Ej: 1, 4, 9, 16")
         self._input_y.setToolTip("Valores de y correspondientes, separados por comas")
 
-        self._input_xeval = QLineEdit()
+        self._input_xeval = MathInput()
         self._input_xeval.setPlaceholderText("Ej: 2.5")
         self._input_xeval.setToolTip("Valor de x donde se desea interpolar")
 
@@ -102,13 +103,13 @@ class NewtonInterpolacionView(BaseMethodView):
         layout = QFormLayout(widget)
         layout.setSpacing(10)
 
-        self._input_x = QLineEdit()
+        self._input_x = MathInput()
         self._input_x.setPlaceholderText("Ej: 1, 2, 3, 4")
 
-        self._input_y = QLineEdit()
+        self._input_y = MathInput()
         self._input_y.setPlaceholderText("Ej: 1, 4, 9, 16")
 
-        self._input_xeval = QLineEdit()
+        self._input_xeval = MathInput()
         self._input_xeval.setPlaceholderText("Ej: 2.5")
 
         layout.addRow("Valores x:", self._input_x)

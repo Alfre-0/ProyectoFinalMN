@@ -47,15 +47,16 @@ class MathInput(QWidget):
         canvas_row.setSpacing(4)
 
         self._canvas = MathCanvas(self._expression)
+        self._canvas.setFixedHeight(48)
         canvas_row.addWidget(self._canvas, 1)
 
-        self._toggle_btn = QPushButton('⌨')
-        self._toggle_btn.setFixedSize(36, 36)
+        self._toggle_btn = QPushButton('fₓ')
+        self._toggle_btn.setFixedSize(40, 48)
         self._toggle_btn.setFocusPolicy(Qt.FocusPolicy.NoFocus)
         self._toggle_btn.setCursor(Qt.CursorShape.PointingHandCursor)
         self._toggle_btn.setToolTip('Mostrar/ocultar teclado matemático')
         self._update_toggle_style()
-        canvas_row.addWidget(self._toggle_btn)
+        canvas_row.addWidget(self._toggle_btn, 0, Qt.AlignmentFlag.AlignTop)
 
         layout.addLayout(canvas_row)
 
@@ -97,7 +98,11 @@ class MathInput(QWidget):
                 color: {fg};
                 border: 1px solid {c.BORDER};
                 border-radius: {Radius.MEDIUM}px;
-                font-size: 14pt;
+                font-size: {Typography.SUBTITLE}pt;
+                font-weight: 700;
+                font-family: '{Typography.FONT_FAMILY}';
+                padding: 0px;
+                min-height: 0px;
             }}
             QPushButton:hover {{
                 background-color: {c.PRIMARY_HOVER};

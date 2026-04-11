@@ -1,5 +1,195 @@
 [
   {
+    "timestamp": "2026-04-11 13:59:06",
+    "module": "Raíces",
+    "method": "Método de la Secante",
+    "parameters": {
+      "f(x)": "sin(x)-(x)**((1)/(2))+1",
+      "x0": "2",
+      "x1": "3",
+      "Tolerancia": "1e-10",
+      "Máx. iteraciones": "10"
+    },
+    "result_summary": "Raíz encontrada: x = 2.5154557899 con error 1.29e-12 en 6 iteraciones.",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-11 13:57:14",
+    "module": "Raíces",
+    "method": "Método de Newton-Raphson",
+    "parameters": {
+      "f(x)": "sqrt((x)**(7)+log(x)+3)-20*sin(x+1)",
+      "f'(x)": "(auto)",
+      "x0": "2",
+      "Tolerancia": "1e-8",
+      "Máx. iteraciones": "10"
+    },
+    "result_summary": "Raíz encontrada: x = 1.7591684033 con error 1.59e-08 en 4 iteraciones.",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-11 13:56:56",
+    "module": "Raíces",
+    "method": "Método de Newton-Raphson",
+    "parameters": {
+      "f(x)": "sqrt((x)**(7)+log(x)+3)-20*sin(x+1)",
+      "f'(x)": "(auto)",
+      "x0": "2",
+      "Tolerancia": "1e-6",
+      "Máx. iteraciones": "10"
+    },
+    "result_summary": "Raíz encontrada: x = 1.7591684192 con error 1.89e-04 en 3 iteraciones.",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-11 13:54:04",
+    "module": "Raíces",
+    "method": "Método de Bisección",
+    "parameters": {
+      "f(x)": "atan(x)-log(x)",
+      "a": "3.6",
+      "b": "3.7",
+      "Tolerancia": "1e-6",
+      "Máx. iteraciones": "18"
+    },
+    "result_summary": "Raíz encontrada: x = 3.6925903320 con error 2.44e-05 en 13 iteraciones.",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-11 13:51:53",
+    "module": "Raíces",
+    "method": "Método de Bisección",
+    "parameters": {
+      "f(x)": "(E)**((x)**(2))-20",
+      "a": "1.6",
+      "b": "1.8",
+      "Tolerancia": "1e-6",
+      "Máx. iteraciones": "19"
+    },
+    "result_summary": "Raíz encontrada: x = 1.7308185577 con error 7.63e-07 en 19 iteraciones.",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-11 13:50:11",
+    "module": "Derivación e Integración",
+    "method": "Regla de Simpson 1/3",
+    "parameters": {
+      "f(x)": "sin(x)",
+      "a": "0",
+      "b": "3.141592654",
+      "n": "10"
+    },
+    "result_summary": "Int [0.0,3.141592654] f(x)dx = 2.0001095173",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-11 13:49:28",
+    "module": "Derivación e Integración",
+    "method": "Regla del Trapecio",
+    "parameters": {
+      "f(x)": "sin(x)",
+      "a": "0",
+      "b": "3.1415927",
+      "n": "10"
+    },
+    "result_summary": "Int [0.0,3.1415927] f(x)dx = 1.9835235370",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-11 13:48:11",
+    "module": "Derivación e Integración",
+    "method": "Regla del Punto Medio",
+    "parameters": {
+      "f(x)": "sin(x)",
+      "x": "0",
+      "h": "3.1415927",
+      "Tipo": "central"
+    },
+    "result_summary": "f'(0.0) = -0.0000000100 (valor exacto: 1.0000000000, error: 1.00e+00)",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-11 13:43:15",
+    "module": "Raíces",
+    "method": "Método de Bisección",
+    "parameters": {
+      "f(x)": "(x)**(3)-x-2",
+      "a": "1",
+      "b": "2",
+      "Tolerancia": "1e-6",
+      "Máx. iteraciones": "100"
+    },
+    "result_summary": "Raíz encontrada: x = 1.5213799477 con error 9.54e-07 en 21 iteraciones.",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-11 13:43:06",
+    "module": "Ecuaciones Diferenciales",
+    "method": "Método de Euler",
+    "parameters": {
+      "f(x,y)": "x+y",
+      "x₀": "0",
+      "y₀": "1",
+      "x final": "2",
+      "h": "0.1"
+    },
+    "result_summary": "y(2.0) = 10.4549998987 (Euler, 20 pasos)",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-11 13:42:59",
+    "module": "Derivación e Integración",
+    "method": "Regla del Trapecio",
+    "parameters": {
+      "f(x)": "(x)**(2)",
+      "a": "0",
+      "b": "1",
+      "n": "10"
+    },
+    "result_summary": "Int [0.0,1.0] f(x)dx = 0.3350000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-11 13:41:45",
+    "module": "Derivación e Integración",
+    "method": "Regla del Punto Medio",
+    "parameters": {
+      "f(x)": "sin(x)+(x)**(2)",
+      "x": "1.0",
+      "h": "0.01",
+      "Tipo": "central"
+    },
+    "result_summary": "f'(1.0) = 2.5402933000 (valor exacto: 2.5403023059, error: 9.00e-06)",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-11 13:25:38",
+    "module": "Raíces",
+    "method": "Método de Bisección",
+    "parameters": {
+      "f(x)": "(x)**(3)-x-2",
+      "a": "1",
+      "b": "2",
+      "Tolerancia": "1e-6",
+      "Máx. iteraciones": "100"
+    },
+    "result_summary": "Raíz encontrada: x = 1.5213799477 con error 9.54e-07 en 21 iteraciones.",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-11 13:10:17",
+    "module": "Derivación e Integración",
+    "method": "Regla del Punto Medio",
+    "parameters": {
+      "f(x)": "sin(x)+(x)**(2)",
+      "x": "1.0",
+      "h": "0.01",
+      "Tipo": "central"
+    },
+    "result_summary": "f'(1.0) = 2.5402933000 (valor exacto: 2.5403023059, error: 9.00e-06)",
+    "full_data": {}
+  },
+  {
     "timestamp": "2026-04-11 13:03:21",
     "module": "Raíces",
     "method": "Método de Newton-Raphson",
