@@ -33,7 +33,7 @@ class LagrangeView(BaseMethodView):
         self._input_y.setToolTip("Valores de y correspondientes, separados por comas")
 
         self._input_xeval = MathInput()
-        self._input_xeval.setPlaceholderText("Ej: 2.5")
+        self._input_xeval.setPlaceholderText("Ej: 2.5 (opcional)")
         self._input_xeval.setToolTip("Valor de x donde se desea interpolar")
 
         layout.addRow("Valores x:", self._input_x)
@@ -57,7 +57,8 @@ class LagrangeView(BaseMethodView):
     def _run_calculation(self) -> dict:
         x_points = [float(v.strip()) for v in self._input_x.text().split(",")]
         y_points = [float(v.strip()) for v in self._input_y.text().split(",")]
-        x_eval = float(self._input_xeval.text())
+        x_eval_text = self._input_xeval.text().strip()
+        x_eval = float(x_eval_text) if x_eval_text else None
 
         result = lagrange(x_points, y_points, x_eval)
 
@@ -66,12 +67,13 @@ class LagrangeView(BaseMethodView):
 
         return {
             "message": result.message, "converged": True,
+            "polynomial_math": result.polynomial_math,
             "procedure_steps": result.procedure_steps,
             "table_headers": headers, "table_rows": rows,
             "x_plot": result.x_plot, "y_plot": result.y_plot,
             "x_points": x_points, "y_points": y_points,
             "highlight_x": x_eval,
-            "highlight_label": f"P({x_eval}) ≈ {result.interpolated_value:.6f}",
+            "highlight_label": f"P({x_eval}) ≈ {result.interpolated_value:.6f}" if x_eval is not None else None,
             "xlabel": "x", "ylabel": "P(x)", "plot_label": "Polinomio interpolante",
         }
 
@@ -110,7 +112,7 @@ class NewtonInterpolacionView(BaseMethodView):
         self._input_y.setPlaceholderText("Ej: 1, 4, 9, 16")
 
         self._input_xeval = MathInput()
-        self._input_xeval.setPlaceholderText("Ej: 2.5")
+        self._input_xeval.setPlaceholderText("Ej: 2.5 (opcional)")
 
         layout.addRow("Valores x:", self._input_x)
         layout.addRow("Valores y:", self._input_y)
@@ -128,7 +130,8 @@ class NewtonInterpolacionView(BaseMethodView):
     def _run_calculation(self) -> dict:
         x_points = [float(v.strip()) for v in self._input_x.text().split(",")]
         y_points = [float(v.strip()) for v in self._input_y.text().split(",")]
-        x_eval = float(self._input_xeval.text())
+        x_eval_text = self._input_xeval.text().strip()
+        x_eval = float(x_eval_text) if x_eval_text else None
 
         result = newton_interpolation(x_points, y_points, x_eval)
 
@@ -137,12 +140,13 @@ class NewtonInterpolacionView(BaseMethodView):
 
         return {
             "message": result.message, "converged": True,
+            "polynomial_math": result.polynomial_math,
             "procedure_steps": result.procedure_steps,
             "table_headers": headers, "table_rows": rows,
             "x_plot": result.x_plot, "y_plot": result.y_plot,
             "x_points": x_points, "y_points": y_points,
             "highlight_x": x_eval,
-            "highlight_label": f"P({x_eval}) ≈ {result.interpolated_value:.6f}",
+            "highlight_label": f"P({x_eval}) ≈ {result.interpolated_value:.6f}" if x_eval is not None else None,
             "xlabel": "x", "ylabel": "P(x)", "plot_label": "Polinomio interpolante",
         }
 

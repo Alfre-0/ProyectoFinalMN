@@ -15,6 +15,8 @@ from ui.styles.theme import ThemeManager
 from infrastructure.plot_widget import PlotWidget
 from infrastructure.pdf_generator import PdfGenerator
 from infrastructure.history_repo import HistoryRepository, HistoryRecord
+from ui.components.math_canvas import MathCanvas
+from ui.components.math_ast import MathExpression, build_ast_from_text
 import tempfile
 import os
 
@@ -129,6 +131,14 @@ class BaseMethodView(QWidget):
         self._result_summary_label.setWordWrap(True)
         self._result_summary_label.setFont(QFont(Typography.FONT_FAMILY, Typography.SUBTITLE))
         summary_card_layout.addWidget(self._result_summary_label)
+
+        self._result_math_canvas = MathCanvas(MathExpression())
+        self._result_math_canvas.setFocusPolicy(Qt.FocusPolicy.NoFocus)
+        self._result_math_canvas.setCursor(Qt.CursorShape.ArrowCursor)
+        self._result_math_canvas.setVisible(False)
+        self._result_math_canvas.setMinimumHeight(40)
+        self._result_math_canvas.setStyleSheet("background-color: transparent; border: none;")
+        summary_card_layout.addWidget(self._result_math_canvas)
 
         left_layout.addWidget(self._results_summary_card)
         left_layout.addStretch()
@@ -268,6 +278,19 @@ class BaseMethodView(QWidget):
         color = ThemeManager.colors().SUCCESS if converged else ThemeManager.colors().DANGER
         self._result_summary_label.setText(msg)
         self._result_summary_label.setStyleSheet(f"color: {color}; font-weight: 600;")
+
+        # Polinomio Matemático
+        if poly_math := result.get("polynomial_math"):
+            self._result_math_canvas._expr.clear()
+            nodes = build_ast_from_text(poly_math)
+            for node in nodes:
+                self._result_math_canvas._expr.root_slot.insert(
+                    len(self._result_math_canvas._expr.root_slot), node
+                )
+            self._result_math_canvas.setVisible(True)
+            self._result_math_canvas.update()
+        else:
+            self._result_math_canvas.setVisible(False)
 
         # Procedimiento
         steps = result.get("procedure_steps", [])

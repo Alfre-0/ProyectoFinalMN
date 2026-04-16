@@ -1,5 +1,221 @@
 [
   {
+    "timestamp": "2026-04-16 14:54:56",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,7",
+      "Puntos y": "1,4,16,49",
+      "x a interpolar": "4"
+    },
+    "result_summary": "P(4.0) ≈ 16.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:54:52",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,7",
+      "Puntos y": "1,4,16,49",
+      "x a interpolar": "2"
+    },
+    "result_summary": "P(2.0) ≈ 4.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:54:28",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,7",
+      "Puntos y": "1,4,16,49",
+      "x a interpolar": "3"
+    },
+    "result_summary": "P(3.0) ≈ 9.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:50:16",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,5",
+      "Puntos y": "3,1,1,-2",
+      "x a interpolar": ""
+    },
+    "result_summary": "Polinomio interpolante calculado exitosamente",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:46:36",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,3",
+      "Puntos y": "2,6",
+      "x a interpolar": ""
+    },
+    "result_summary": "Polinomio interpolante calculado exitosamente",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:42:00",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,7",
+      "Puntos y": "1,4,16,49",
+      "x a interpolar": "3"
+    },
+    "result_summary": "P(3.0) ≈ 9.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:38:17",
+    "module": "Interpolación",
+    "method": "Interpolación de Newton",
+    "parameters": {
+      "Puntos x": "0,1,2,4",
+      "Puntos y": "1,3,2,5",
+      "x a interpolar": ""
+    },
+    "result_summary": "Polinomio interpolante calculado exitosamente",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:35:14",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,5",
+      "Puntos y": "3,1,1,-2",
+      "x a interpolar": ""
+    },
+    "result_summary": "Polinomio interpolante calculado exitosamente",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:33:47",
+    "module": "Interpolación",
+    "method": "Interpolación de Newton",
+    "parameters": {
+      "Puntos x": "1,2,4,7",
+      "Puntos y": "1,4,16,49",
+      "x a interpolar": ""
+    },
+    "result_summary": "Polinomio interpolante calculado exitosamente",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:33:37",
+    "module": "Interpolación",
+    "method": "Interpolación de Newton",
+    "parameters": {
+      "Puntos x": "1,2,4,7",
+      "Puntos y": "1,4,16,49",
+      "x a interpolar": "3"
+    },
+    "result_summary": "P(3.0) ≈ 9.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:25:10",
+    "module": "Interpolación",
+    "method": "Interpolación de Newton",
+    "parameters": {
+      "Puntos x": "1,2,4",
+      "Puntos y": "2,3,11",
+      "x a interpolar": ""
+    },
+    "result_summary": "Polinomio interpolante calculado exitosamente",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:22:52",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,5",
+      "Puntos y": "3,1,1,-2",
+      "x a interpolar": ""
+    },
+    "result_summary": "Polinomio interpolante calculado exitosamente",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:22:20",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,3",
+      "Puntos y": "2,6",
+      "x a interpolar": "3"
+    },
+    "result_summary": "P(3.0) ≈ 6.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:22:03",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,3",
+      "Puntos y": "2,6",
+      "x a interpolar": "1"
+    },
+    "result_summary": "P(1.0) ≈ 2.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:21:15",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,3",
+      "Puntos y": "2,6",
+      "x a interpolar": ""
+    },
+    "result_summary": "Polinomio interpolante calculado exitosamente",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:20:13",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,7",
+      "Puntos y": "1,4,16,49",
+      "x a interpolar": ""
+    },
+    "result_summary": "Polinomio interpolante calculado exitosamente",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:09:49",
+    "module": "Interpolación",
+    "method": "Interpolación de Newton",
+    "parameters": {
+      "Puntos x": "1,2,4",
+      "Puntos y": "2,3,11",
+      "x a interpolar": "4"
+    },
+    "result_summary": "P(4.0) ≈ 11.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:09:06",
+    "module": "Interpolación",
+    "method": "Interpolación de Newton",
+    "parameters": {
+      "Puntos x": "1,2,4",
+      "Puntos y": "2,3,11",
+      "x a interpolar": "1"
+    },
+    "result_summary": "P(1.0) ≈ 2.0000000000",
+    "full_data": {}
+  },
+  {
     "timestamp": "2026-04-16 14:03:29",
     "module": "Interpolación",
     "method": "Interpolación de Lagrange",
