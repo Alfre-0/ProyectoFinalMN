@@ -15,6 +15,29 @@ class PdfGenerator:
         self._pdf = FPDF()
         self._pdf.set_auto_page_break(auto=True, margin=20)
 
+    def _sanitize(self, text: str) -> str:
+        """Reemplaza caracteres no soportados por la fuente estándar."""
+        if not isinstance(text, str):
+            text = str(text)
+        replacements = {
+            '≈': '~',
+            '≤': '<=',
+            '≥': '>=',
+            '≠': '!=',
+            '±': '+/-',
+            'π': 'pi',
+            '∫': 'Integral',
+            'Δ': 'Delta',
+            '∑': 'Suma',
+            '√': 'raiz',
+            '²': '^2',
+            '³': '^3',
+            '∞': 'infinito',
+        }
+        for old, new in replacements.items():
+            text = text.replace(old, new)
+        return text
+
     def generate_report(
         self,
         method_name: str,
@@ -31,6 +54,15 @@ class PdfGenerator:
         Genera un PDF completo con los datos del cálculo.
         Retorna la ruta del archivo generado.
         """
+        # Sanitizar entradas
+        method_name = self._sanitize(method_name)
+        procedure_text = self._sanitize(procedure_text) if procedure_text else procedure_text
+        result_summary = self._sanitize(result_summary)
+        observations = self._sanitize(observations) if observations else observations
+        parameters = {self._sanitize(k): self._sanitize(v) for k, v in parameters.items()}
+        table_headers = [self._sanitize(h) for h in (table_headers or [])]
+        table_rows = [[self._sanitize(c) for c in (r or [])] for r in (table_rows or [])]
+
         self._pdf.add_page()
         self._pdf.set_font("Helvetica", "B", 18)
         self._pdf.cell(0, 12, "Reporte de Cálculo Numérico", new_x="LMARGIN", new_y="NEXT", align="C")

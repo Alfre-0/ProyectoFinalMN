@@ -1,5 +1,125 @@
 [
   {
+    "timestamp": "2026-04-16 14:03:29",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,7",
+      "Puntos y": "1,4,16,49",
+      "x a interpolar": "3"
+    },
+    "result_summary": "P(3.0) ≈ 9.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 14:00:30",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,7",
+      "Puntos y": "1,4,16,49",
+      "x a interpolar": "3"
+    },
+    "result_summary": "P(3.0) ≈ 9.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 13:57:10",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,5",
+      "Puntos y": "3,1,1,-2",
+      "x a interpolar": "4"
+    },
+    "result_summary": "P(4.0) ≈ 1.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 13:57:06",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,5",
+      "Puntos y": "3,1,1,-2",
+      "x a interpolar": "2"
+    },
+    "result_summary": "P(2.0) ≈ 1.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 13:56:00",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,5",
+      "Puntos y": "3,1,1,-2",
+      "x a interpolar": "1"
+    },
+    "result_summary": "P(1.0) ≈ 3.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 13:55:48",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,5",
+      "Puntos y": "3,1,1,-2",
+      "x a interpolar": "0"
+    },
+    "result_summary": "P(0.0) ≈ 9.6666666667",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 13:55:10",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,7",
+      "Puntos y": "1,4,16,49",
+      "x a interpolar": "3"
+    },
+    "result_summary": "P(3.0) ≈ 9.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 13:55:00",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,7",
+      "Puntos y": "1,4,16,49",
+      "x a interpolar": "3"
+    },
+    "result_summary": "P(3.0) ≈ 9.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 13:53:39",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,3",
+      "Puntos y": "2,6",
+      "x a interpolar": "3"
+    },
+    "result_summary": "P(3.0) ≈ 6.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 13:53:15",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,3",
+      "Puntos y": "2,6",
+      "x a interpolar": "1"
+    },
+    "result_summary": "P(1.0) ≈ 2.0000000000",
+    "full_data": {}
+  },
+  {
     "timestamp": "2026-04-11 13:59:06",
     "module": "Raíces",
     "method": "Método de la Secante",
