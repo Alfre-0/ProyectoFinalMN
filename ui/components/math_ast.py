@@ -394,8 +394,9 @@ class MathCursor:
             if all_empty and parent.parent_slot:
                 idx = next((i for i, n in enumerate(parent.parent_slot.nodes)
                             if n is parent), 0)
-                parent.parent_slot.remove(idx)
-                self.slot = parent.parent_slot
+                target_slot = parent.parent_slot
+                target_slot.remove(idx)
+                self.slot = target_slot
                 self.position = idx
                 return
             self._exit_slot_left()

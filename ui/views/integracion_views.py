@@ -5,12 +5,13 @@ Diferencias Finitas, Trapecio, Simpson.
 from PyQt6.QtWidgets import QWidget, QFormLayout, QLineEdit, QLabel, QComboBox
 from ui.views.base_method_view import BaseMethodView
 from ui.components.math_input import MathInput
+from ui.styles.theme import ThemeManager
 from core.integracion_derivacion.integracion_derivacion import (
-    diferencias_finitas, trapecio, simpson,
+    punto_medio, trapecio, simpson,
 )
 
 
-class DiferenciasFinitasView(BaseMethodView):
+class PuntoMedioView(BaseMethodView):
 
     def _get_method_name(self) -> str:
         return "Regla del Punto Medio"
@@ -19,8 +20,8 @@ class DiferenciasFinitasView(BaseMethodView):
         return "Derivación e Integración"
 
     def _get_method_description(self) -> str:
-        return ("Aproxima el valor (como la regla del Punto Medio / Diferencia Central) "
-                "evaluando en un intervalo.")
+        return ("Aproxima el área bajo la curva calculando rectángulos cuya altura "
+                "está dada por la función evaluada en el centro de cada subintervalo.")
 
     def _build_form(self) -> QWidget:
         widget = QWidget()
@@ -28,40 +29,41 @@ class DiferenciasFinitasView(BaseMethodView):
         layout.setSpacing(10)
 
         self._input_func = MathInput()
-        self._input_func.setPlaceholderText("Ej: sin(x) + x^2")
+        self._input_func.setPlaceholderText("Ej: x^2")
 
-        self._input_x = QLineEdit()
-        self._input_x.setPlaceholderText("Ej: 1.0")
+        self._input_a = QLineEdit()
+        self._input_a.setPlaceholderText("Ej: 0.0")
 
-        self._input_h = QLineEdit("0.01")
+        self._input_b = QLineEdit()
+        self._input_b.setPlaceholderText("Ej: 1.0")
 
-        self._input_type = QComboBox()
-        self._input_type.addItems(["central", "forward", "backward"])
+        self._input_n = QLineEdit("10")
+        self._input_n.setToolTip("Número de rectángulos")
 
         layout.addRow("f(x) =", self._input_func)
-        layout.addRow("Punto x:", self._input_x)
-        layout.addRow("Paso h:", self._input_h)
-        layout.addRow("Tipo:", self._input_type)
+        layout.addRow("a (límite inferior):", self._input_a)
+        layout.addRow("b (límite superior):", self._input_b)
+        layout.addRow("n (rectángulos):", self._input_n)
 
         return widget
 
     def _get_parameters(self) -> dict:
         return {
             "f(x)": self._input_func.text(),
-            "x": self._input_x.text(),
-            "h": self._input_h.text(),
-            "Tipo": self._input_type.currentText(),
+            "a": self._input_a.text(),
+            "b": self._input_b.text(),
+            "n": self._input_n.text(),
         }
 
     def _run_calculation(self) -> dict:
-        result = diferencias_finitas(
+        result = punto_medio(
             func_str=self._input_func.text().strip(),
-            x_point=float(self._input_x.text()),
-            h=float(self._input_h.text()),
-            method=self._input_type.currentText(),
+            a=float(self._input_a.text()),
+            b=float(self._input_b.text()),
+            n_intervals=int(self._input_n.text()),
         )
-        headers = ["No.", "xi", "f(xi)", "f(xi+h)", "Aproximación", "Error"]
-        rows = [[r.index, r.xi, r.fxi, r.fxi_h, r.approximation, r.error] for r in result.table]
+        headers = ["No.", "Xi", "Xi + 1", "X̄", "f(X̄)", "Area (Ai)"]
+        rows = [[r.index, r.xi, r.xi_plus_1, r.x_mid, r.f_x_mid, r.area_i] for r in result.table]
 
         return {
             "message": result.message, "converged": True,
@@ -69,18 +71,44 @@ class DiferenciasFinitasView(BaseMethodView):
             "table_headers": headers, "table_rows": rows,
             "x_plot": result.x_plot, "y_plot": result.y_plot,
             "xlabel": "x", "ylabel": "f(x)", "plot_label": "f(x)",
+            "rectangles": result.rectangles
         }
 
+    def _display_result(self, result: dict):
+        super()._display_result(result)
+        
+        # Inyectar rectángulos de área
+        colors = ThemeManager.colors().PLOT_LINE_COLORS
+        rect_color = colors[1] if len(colors) > 1 else "blue"
+        
+        for rect in result.get("rectangles", []):
+            x_mid = rect["x_mid"]
+            width = rect["width"]
+            height = rect["height"]
+            
+            # Dibujar el rectángulo
+            self._plot_widget.axes.bar(
+                x_mid, height, width=width, align="center",
+                edgecolor="black", color=rect_color, alpha=0.3, zorder=2
+            )
+            # Dibujar el centro del rectángulo
+            self._plot_widget.axes.scatter(
+                x_mid, height, color="red", zorder=4, s=30, marker="o"
+            )
+            
+        self._plot_widget.refresh()
+
     def _load_example(self):
-        self._input_func.setText("sin(x) + x^2")
-        self._input_x.setText("1.0")
-        self._input_h.setText("0.01")
-        self._input_type.setCurrentText("central")
+        self._input_func.setText("x^2")
+        self._input_a.setText("0")
+        self._input_b.setText("1")
+        self._input_n.setText("10")
 
     def _clear_form(self):
         self._input_func.clear()
-        self._input_x.clear()
-        self._input_h.setText("0.01")
+        self._input_a.clear()
+        self._input_b.clear()
+        self._input_n.setText("10")
 
 
 class TrapecioView(BaseMethodView):

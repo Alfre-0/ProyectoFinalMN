@@ -18,7 +18,7 @@ from ui.views.welcome_view import WelcomeView
 from ui.views.raices_views import BiseccionView, NewtonRaphsonView, SecanteView
 from ui.views.interpolacion_views import LagrangeView, NewtonInterpolacionView
 from ui.views.sistemas_views import GaussSeidelView, FactorizacionLUView
-from ui.views.integracion_views import DiferenciasFinitasView, TrapecioView, SimpsonView
+from ui.views.integracion_views import PuntoMedioView, TrapecioView, SimpsonView
 from ui.views.edos_views import EulerView, RungeKuttaView
 from ui.views.history_view import HistoryView
 
@@ -186,7 +186,7 @@ class MainWindow(QMainWindow):
             "newton_interp": NewtonInterpolacionView(),
             "gauss_seidel": GaussSeidelView(),
             "lu": FactorizacionLUView(),
-            "dif_finitas": DiferenciasFinitasView(),
+            "dif_finitas": PuntoMedioView(),
             "trapecio": TrapecioView(),
             "simpson": SimpsonView(),
             "euler": EulerView(),

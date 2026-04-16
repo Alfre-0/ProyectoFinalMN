@@ -1,5 +1,109 @@
 [
   {
+    "timestamp": "2026-04-16 17:36:06",
+    "module": "Derivación e Integración",
+    "method": "Regla del Trapecio",
+    "parameters": {
+      "f(x)": "(1)/(x)",
+      "a": "1",
+      "b": "2",
+      "n": "5"
+    },
+    "result_summary": "Int [1.0,2.0] f(x)dx = 0.6956349206",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 17:35:09",
+    "module": "Derivación e Integración",
+    "method": "Regla del Punto Medio",
+    "parameters": {
+      "f(x)": "(x)**(2)",
+      "a": "0",
+      "b": "1",
+      "n": "10"
+    },
+    "result_summary": "Área Total bajo la curva ≈ 0.3325000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 17:34:13",
+    "module": "Derivación e Integración",
+    "method": "Regla del Punto Medio",
+    "parameters": {
+      "f(x)": "tan((x)**((1)/(2)))",
+      "a": "0.5",
+      "b": "1.5",
+      "n": "100"
+    },
+    "result_summary": "Área Total bajo la curva ≈ 1.6386888568",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 17:32:55",
+    "module": "Derivación e Integración",
+    "method": "Regla del Punto Medio",
+    "parameters": {
+      "f(x)": "tan((x)**((1)/(2)))",
+      "a": "0.5",
+      "b": "1.5",
+      "n": "5"
+    },
+    "result_summary": "Área Total bajo la curva ≈ 1.6348585604",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 17:23:29",
+    "module": "Derivación e Integración",
+    "method": "Regla del Punto Medio",
+    "parameters": {
+      "f(x)": "(x)**((1)/(2))",
+      "a": "0.5",
+      "b": "1.5",
+      "n": "5"
+    },
+    "result_summary": "Área Total bajo la curva ≈ 0.9895369864",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 17:20:33",
+    "module": "Derivación e Integración",
+    "method": "Regla del Punto Medio",
+    "parameters": {
+      "f(x)": "(x)**(2)",
+      "a": "0",
+      "b": "1",
+      "n": "10"
+    },
+    "result_summary": "Área Total bajo la curva ≈ 0.3325000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 17:00:08",
+    "module": "Derivación e Integración",
+    "method": "Regla del Punto Medio",
+    "parameters": {
+      "f(x)": "sin(x)+(x)**(2)",
+      "x": "1.0",
+      "h": "0.01",
+      "Tipo": "central"
+    },
+    "result_summary": "f'(1.0) = 2.5402933000 (valor exacto: 2.5403023059, error: 9.00e-06)",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 16:53:32",
+    "module": "Derivación e Integración",
+    "method": "Regla del Punto Medio",
+    "parameters": {
+      "f(x)": "sin(x)+(x)**(2)",
+      "x": "1.0",
+      "h": "0.01",
+      "Tipo": "central"
+    },
+    "result_summary": "f'(1.0) = 2.5402933000 (valor exacto: 2.5403023059, error: 9.00e-06)",
+    "full_data": {}
+  },
+  {
     "timestamp": "2026-04-16 16:45:02",
     "module": "Interpolación",
     "method": "Interpolación de Newton",

@@ -8,13 +8,13 @@ import sympy as sp
 
 
 @dataclass(frozen=True)
-class DiffFinitasRow:
+class PuntoMedioRow:
     index: int
     xi: float
-    fxi: float
-    fxi_h: float
-    approximation: float
-    error: float
+    xi_plus_1: float
+    x_mid: float
+    f_x_mid: float
+    area_i: float
 
 
 @dataclass(frozen=True)
@@ -45,6 +45,7 @@ class IntegrationResult:
     x_plot: list[float]
     y_plot: list[float]
     message: str = ""
+    rectangles: list[dict] = None
 
 
 def _parse_function(expression_str: str):
@@ -58,67 +59,71 @@ def _parse_function(expression_str: str):
         raise ValueError(f"No se pudo interpretar la función: {expression_str}") from error
 
 
-# ── Diferencias Finitas ────────────────────────────────────────────
+# ── Regla del Punto Medio ──────────────────────────────────────────
 
-def diferencias_finitas(func_str: str, x_point: float, h: float = 0.01,
-                        method: str = "central") -> IntegrationResult:
-    """
-    Aproximación de la derivada por diferencias finitas.
-    method: 'forward', 'backward', 'central'
-    """
+def punto_medio(func_str: str, a: float, b: float, n_intervals: int) -> IntegrationResult:
+    """Integración numérica por la regla del Punto Medio (Área bajo la curva)."""
+    if n_intervals < 1:
+        raise ValueError("El número de rectángulos (n) debe ser ≥ 1.")
+
     func, expr = _parse_function(func_str)
-    x_sym = sp.Symbol("x")
-    exact_deriv = sp.diff(sp.sympify(func_str.replace("^", "**")), x_sym)
-    exact_func = sp.lambdify(x_sym, exact_deriv, modules=["numpy"])
+    dx = (b - a) / n_intervals
 
     steps = [
         f"Función: f(x) = {str(expr).replace('**', '^')}",
-        f"Derivada simbólica: f'(x) = {str(exact_deriv).replace('**', '^')}",
-        f"Punto de evaluación: x = {x_point}",
-        f"Paso h = {h}",
-        f"Tipo: {method}",
+        f"Intervalo: [{a}, {b}]",
+        f"Rectángulos (n): {n_intervals}",
+        f"Δx = ({b} - {a}) / {n_intervals} = {dx:.6f}",
         "",
     ]
 
     table = []
-    exact_value = float(exact_func(x_point))
+    rectangles = []
+    total_area = 0.0
 
-    # Calcular con distintos valores de h
-    h_values = [h * (2 ** i) for i in range(5, -1, -1)]
-    for idx, hi in enumerate(h_values):
-        fxi = float(func(x_point))
-        if method == "forward":
-            fxi_h = float(func(x_point + hi))
-            approx = (fxi_h - fxi) / hi
-        elif method == "backward":
-            fxi_h = float(func(x_point - hi))
-            approx = (fxi - fxi_h) / hi
-        else:  # central
-            f_plus = float(func(x_point + hi))
-            f_minus = float(func(x_point - hi))
-            fxi_h = f_plus
-            approx = (f_plus - f_minus) / (2 * hi)
+    for i in range(n_intervals):
+        xi = a + i * dx
+        xi_plus_1 = a + (i + 1) * dx
+        x_mid = (xi + xi_plus_1) / 2.0
+        f_x_mid = float(func(x_mid))
+        area_i = f_x_mid * dx
 
-        error = abs(approx - exact_value)
-        row = DiffFinitasRow(
-            index=idx + 1, xi=round(x_point, 8), fxi=round(fxi, 8),
-            fxi_h=round(fxi_h, 8), approximation=round(approx, 8),
-            error=round(error, 10),
+        total_area += area_i
+
+        row = PuntoMedioRow(
+            index=i + 1,
+            xi=round(xi, 8),
+            xi_plus_1=round(xi_plus_1, 8),
+            x_mid=round(x_mid, 8),
+            f_x_mid=round(f_x_mid, 8),
+            area_i=round(area_i, 8)
         )
         table.append(row)
-        steps.append(f"h={hi:.6f}: f'({x_point}) = {approx:.8f}, error = {error:.2e}")
 
-    best = table[-1]
+        rectangles.append({
+            "x_left": xi,
+            "x_mid": x_mid,
+            "width": dx,
+            "height": f_x_mid
+        })
 
-    # Datos para gráfica de la función y derivada
-    x_plot = np.linspace(x_point - 3, x_point + 3, 200).tolist()
+        steps.append(
+            f"i={i+1}: Xi={xi:.4f}, Xi+1={xi_plus_1:.4f}, X̄={x_mid:.4f}, "
+            f"f(X̄)={f_x_mid:.4f}, Área={area_i:.4f}"
+        )
+
+    steps.append("")
+    steps.append(f"Resultado: Área Total ≈ {total_area:.10f}")
+
+    margin = abs(b - a) * 0.1 if a != b else 1.0
+    x_plot = np.linspace(a - margin, b + margin, 200).tolist()
     y_plot = [float(func(xv)) for xv in x_plot]
 
     return IntegrationResult(
-        value=best.approximation, table=table, procedure_steps=steps,
+        value=total_area, table=table, procedure_steps=steps,
         x_plot=x_plot, y_plot=y_plot,
-        message=(f"f'({x_point}) = {best.approximation:.10f} "
-                 f"(valor exacto: {exact_value:.10f}, error: {best.error:.2e})")
+        message=f"Área Total bajo la curva ≈ {total_area:.10f}",
+        rectangles=rectangles
     )
 
 
