@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-04-16 16:45:02",
+    "module": "Interpolación",
+    "method": "Interpolación de Newton",
+    "parameters": {
+      "Puntos x": "1,2,4,7",
+      "Puntos y": "1,4,16,49",
+      "x a interpolar": "3"
+    },
+    "result_summary": "P(3.0) ≈ 9.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 16:43:15",
+    "module": "Interpolación",
+    "method": "Interpolación de Newton",
+    "parameters": {
+      "Puntos x": "1,2,4,7",
+      "Puntos y": "1,4,16,49",
+      "x a interpolar": "3"
+    },
+    "result_summary": "P(3.0) ≈ 9.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 16:42:52",
+    "module": "Interpolación",
+    "method": "Interpolación de Newton",
+    "parameters": {
+      "Puntos x": "1,2,4,7",
+      "Puntos y": "1,4,16,49",
+      "x a interpolar": "3"
+    },
+    "result_summary": "P(3.0) ≈ 9.0000000000",
+    "full_data": {}
+  },
+  {
     "timestamp": "2026-04-16 14:54:56",
     "module": "Interpolación",
     "method": "Interpolación de Lagrange",

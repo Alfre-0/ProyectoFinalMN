@@ -33,6 +33,7 @@ class PdfGenerator:
             '²': '^2',
             '³': '^3',
             '∞': 'infinito',
+            '•': '-',
         }
         for old, new in replacements.items():
             text = text.replace(old, new)
