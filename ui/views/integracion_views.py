@@ -1,6 +1,6 @@
 """
-integracion_views.py — Vistas para derivación e integración numérica.
-Diferencias Finitas, Trapecio, Simpson.
+integracion_views.py — Vistas para integración numérica.
+Trapecio, Simpson, Punto Medio.
 """
 from PyQt6.QtWidgets import QWidget, QFormLayout, QLineEdit, QLabel, QComboBox
 from ui.views.base_method_view import BaseMethodView
@@ -17,7 +17,7 @@ class PuntoMedioView(BaseMethodView):
         return "Regla del Punto Medio"
 
     def _get_module_name(self) -> str:
-        return "Derivación e Integración"
+        return "Integración Numérica"
 
     def _get_method_description(self) -> str:
         return ("Aproxima el área bajo la curva calculando rectángulos cuya altura "
@@ -118,7 +118,7 @@ class TrapecioView(BaseMethodView):
         return "Regla del Trapecio"
 
     def _get_module_name(self) -> str:
-        return "Derivación e Integración"
+        return "Integración Numérica"
 
     def _get_method_description(self) -> str:
         return ("Aproxima la integral definida ∫f(x)dx dividiendo el intervalo "
@@ -217,7 +217,7 @@ class SimpsonView(BaseMethodView):
         return "Regla de Simpson 1/3"
 
     def _get_module_name(self) -> str:
-        return "Derivación e Integración"
+        return "Integración Numérica"
 
     def _get_method_description(self) -> str:
         return ("Aproxima la integral definida usando parábolas. "

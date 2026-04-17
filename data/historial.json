@@ -1,5 +1,70 @@
 [
   {
+    "timestamp": "2026-04-16 18:29:16",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,7",
+      "Puntos y": "1,4,16,49",
+      "x a interpolar": "3"
+    },
+    "result_summary": "P(3.0) ≈ 9.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 18:28:30",
+    "module": "Raíces",
+    "method": "Método de Bisección",
+    "parameters": {
+      "f(x)": "(x)**(3)-x-2",
+      "a": "1",
+      "b": "2",
+      "Tolerancia": "1e-6",
+      "Máx. iteraciones": "100"
+    },
+    "result_summary": "Raíz encontrada: x = 1.5213799477 con error 9.54e-07 en 21 iteraciones.",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 18:27:08",
+    "module": "Raíces",
+    "method": "Método de Newton-Raphson",
+    "parameters": {
+      "f(x)": "(x)**(3)-x-2",
+      "f'(x)": "3*(x)**(2)-1",
+      "x0": "1.5",
+      "Tolerancia": "1e-6",
+      "Máx. iteraciones": "100"
+    },
+    "result_summary": "Raíz encontrada: x = 1.5213798060 con error 3.59e-04 en 2 iteraciones.",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 18:25:04",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,7",
+      "Puntos y": "1,4,16,49",
+      "x a interpolar": "3"
+    },
+    "result_summary": "P(3.0) ≈ 9.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-04-16 18:18:30",
+    "module": "Integración Numérica",
+    "method": "Regla del Punto Medio",
+    "parameters": {
+      "f(x)": "(x)**(2)",
+      "a": "0",
+      "b": "1",
+      "n": "10"
+    },
+    "result_summary": "Área Total bajo la curva ≈ 0.3325000000",
+    "full_data": {}
+  },
+  {
     "timestamp": "2026-04-16 17:51:04",
     "module": "Derivación e Integración",
     "method": "Regla del Trapecio",
@@ -1147,34 +1212,6 @@
     "full_data": {}
   },
   {
-    "timestamp": "2026-03-21 15:06:39",
-    "module": "Raíces",
-    "method": "Método de Bisección",
-    "parameters": {
-      "f(x)": "x**3 - x - 2",
-      "a": "1",
-      "b": "2",
-      "Tolerancia": "1e-6",
-      "Máx. iteraciones": "100"
-    },
-    "result_summary": "Raíz encontrada: x = 1.5213799477 con error 9.54e-07 en 21 iteraciones.",
-    "full_data": {}
-  },
-  {
-    "timestamp": "2026-03-21 14:59:02",
-    "module": "Raíces",
-    "method": "Método de Bisección",
-    "parameters": {
-      "f(x)": "x**3 - x - 2",
-      "a": "1",
-      "b": "2",
-      "Tolerancia": "1e-6",
-      "Máx. iteraciones": "100"
-    },
-    "result_summary": "Raíz encontrada: x = 1.5213799477 con error 9.54e-07 en 21 iteraciones.",
-    "full_data": {}
-  },
-  {
     "timestamp": "2026-03-21 14:56:49",
     "module": "Derivación e Integración",
     "method": "Regla del Trapecio",
@@ -1450,18 +1487,6 @@
   },
   {
     "timestamp": "2026-03-21 13:59:34",
-    "module": "Interpolación",
-    "method": "Interpolación de Lagrange",
-    "parameters": {
-      "Puntos x": "1, 2, 4, 7",
-      "Puntos y": "1, 4, 16, 49",
-      "x a interpolar": "3"
-    },
-    "result_summary": "P(3.0) ≈ 9.0000000000",
-    "full_data": {}
-  },
-  {
-    "timestamp": "2026-03-21 13:59:32",
     "module": "Interpolación",
     "method": "Interpolación de Lagrange",
     "parameters": {

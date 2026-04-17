@@ -102,9 +102,9 @@ class WelcomeView(QWidget):
              "para encontrar las incógnitas dependientes.<br><br>"
              "<b>Métodos:</b> Gauss-Seidel, Factorización LU", "Sistemas"),
             
-            ("∫", "Integración y Derivación", 
-             "Aproxima el área bajo la curva (integración) o la tasa de cambio (deriva) "
-             "mediante discretización y fórmulas exactas de subintervalos estandarizados.<br><br>"
+            ("∫", "Integración Numérica", 
+             "Calcula la integral definida de una función mediante técnicas de cuadratura "
+             "que aproximan el área bajo la curva usando geometrías discretas (rectángulos, trapecios o parábolas de ajuste).<br><br>"
              "<b>Métodos:</b> Trapecio, Simpson, Punto Medio", "Integración"),
             
             ("📈", "Ecuaciones Diferenciales", 
