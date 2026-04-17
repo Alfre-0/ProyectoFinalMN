@@ -6,8 +6,9 @@ API compatible con QLineEdit para integración transparente con las vistas.
 El usuario interactúa con la expresión renderizada (canvas), NO con texto plano.
 El teclado virtual es colapsable con toggle y se auto-expande al recibir foco.
 """
-from PyQt6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QSizePolicy
-from PyQt6.QtCore import Qt, pyqtSignal
+from PyQt6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QSizePolicy, QApplication
+from PyQt6.QtCore import Qt, pyqtSignal, QTimer
+from PyQt6.QtGui import QCursor
 from ui.components.math_ast import MathExpression, build_ast_from_text
 from ui.components.math_canvas import MathCanvas
 from ui.components.math_keyboard import MathKeyboard
@@ -79,10 +80,32 @@ class MathInput(QWidget):
         self._update_toggle_style()
 
     def _on_canvas_focus(self, focused: bool):
-        """Auto-expandir teclado cuando el canvas recibe foco."""
+        """Auto-expandir teclado cuando el canvas recibe foco, y colapsar al perderlo asegurando que no clickeó el propio teclado."""
         if focused and not self._keyboard_visible:
             self._keyboard_visible = True
             self._keyboard.setVisible(True)
+            self._update_toggle_style()
+        elif not focused and self._keyboard_visible:
+            # Retrasamos la comprobación milisegundos para que Qt asigne el nuevo foco
+            QTimer.singleShot(10, self._check_focus_loss)
+
+    def _check_focus_loss(self):
+        fw = QApplication.focusWidget()
+        # Si el nuevo foco se quedó dentro de nuestro input/teclado explícitamente
+        if fw and self.isAncestorOf(fw):
+            return
+            
+        # Validar la geometría: si el cursor del mouse está dentro de nuestros límites
+        # significa que el clic fue en un área muerta (fondos, pestañas) de nuestro teclado.
+        # En este caso, NO encerramos, interceptamos y restauramos el foco al canvas fuertemente.
+        global_pos = QCursor.pos()
+        if self.rect().contains(self.mapFromGlobal(global_pos)):
+            self._canvas.setFocus()
+            return
+            
+        if self._keyboard_visible:
+            self._keyboard_visible = False
+            self._keyboard.setVisible(False)
             self._update_toggle_style()
 
     def _on_keyboard_action(self, action: str, data: str):

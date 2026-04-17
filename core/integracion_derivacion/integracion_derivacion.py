@@ -46,6 +46,7 @@ class IntegrationResult:
     y_plot: list[float]
     message: str = ""
     rectangles: list[dict] = None
+    parabolas: list[dict] = None
 
 
 def _parse_function(expression_str: str):
@@ -197,7 +198,6 @@ def simpson(func_str: str, a: float, b: float,
         f"dx = {dx:.6f}",
         "",
     ]
-
     table = []
     total = 0.0
     for i in range(n_intervals + 1):
@@ -222,13 +222,39 @@ def simpson(func_str: str, a: float, b: float,
             f"parcial={partial:.6f}"
         )
 
+    # Construir parábolas de interpolación verdaderas para la gráfica
+    parabolas = []
+    for i in range(0, n_intervals, 2):
+        x0 = a + i * dx
+        x1 = a + (i + 1) * dx
+        x2 = a + (i + 2) * dx
+        y0, y1, y2 = float(func(x0)), float(func(x1)), float(func(x2))
+
+        # Evitar divisiones por cero por flotantes
+        d0 = (x0 - x1) * (x0 - x2)
+        d1 = (x1 - x0) * (x1 - x2)
+        d2 = (x2 - x0) * (x2 - x1)
+
+        px = np.linspace(x0, x2, 25).tolist()
+        py = []
+        for xv in px:
+            val = 0.0
+            if d0 != 0: val += y0 * (xv - x1) * (xv - x2) / d0
+            if d1 != 0: val += y1 * (xv - x0) * (xv - x2) / d1
+            if d2 != 0: val += y2 * (xv - x0) * (xv - x1) / d2
+            py.append(val)
+        
+        parabolas.append({"x": px, "y": py})
+
     steps.append(f"\nResultado: Int f(x)dx = {total:.10f}")
 
-    x_plot = np.linspace(a, b, 200).tolist()
+    margin = abs(b - a) * 0.1 if a != b else 1.0
+    x_plot = np.linspace(a - margin, b + margin, 200).tolist()
     y_plot = [float(func(xv)) for xv in x_plot]
 
     return IntegrationResult(
         value=round(total, 10), table=table, procedure_steps=steps,
         x_plot=x_plot, y_plot=y_plot,
-        message=f"Int [{a},{b}] f(x)dx = {total:.10f}"
+        message=f"Int [{a},{b}] f(x)dx = {total:.10f}",
+        parabolas=parabolas
     )

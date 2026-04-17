@@ -161,6 +161,8 @@ class MathKeyboard(QWidget):
 
         self._tabs = QTabWidget()
         self._tabs.setFocusPolicy(Qt.FocusPolicy.NoFocus)
+        self._tabs.tabBar().setFocusPolicy(Qt.FocusPolicy.NoFocus)
+        self._tabs.tabBar().setCursor(Qt.CursorShape.PointingHandCursor)
         self._tabs.addTab(self._build_tab(TAB_123), '123')
         self._tabs.addTab(self._build_tab(TAB_FX), 'f(x)')
         self._tabs.addTab(self._build_tab(TAB_ABC), 'ABC')

@@ -77,23 +77,24 @@ class PuntoMedioView(BaseMethodView):
     def _display_result(self, result: dict):
         super()._display_result(result)
         
-        # Inyectar rectángulos de área
+        # Inyectar rectángulos de área (VECTORIZADO)
         colors = ThemeManager.colors().PLOT_LINE_COLORS
         rect_color = colors[1] if len(colors) > 1 else "blue"
         
-        for rect in result.get("rectangles", []):
-            x_mid = rect["x_mid"]
-            width = rect["width"]
-            height = rect["height"]
+        rects = result.get("rectangles", [])
+        if rects:
+            x_mids = [r["x_mid"] for r in rects]
+            heights = [r["height"] for r in rects]
+            width = rects[0]["width"]
             
-            # Dibujar el rectángulo
+            # Dibujar en bloque todos los rectángulos de forma nativa e instantánea
             self._plot_widget.axes.bar(
-                x_mid, height, width=width, align="center",
+                x_mids, heights, width=width, align="center",
                 edgecolor="black", color=rect_color, alpha=0.3, zorder=2
             )
-            # Dibujar el centro del rectángulo
+            # Dibujar el centro de todos ellos
             self._plot_widget.axes.scatter(
-                x_mid, height, color="red", zorder=4, s=30, marker="o"
+                x_mids, heights, color="red", zorder=4, s=30, marker="o"
             )
             
         self._plot_widget.refresh()
@@ -173,6 +174,30 @@ class TrapecioView(BaseMethodView):
             "xlabel": "x", "ylabel": "f(x)", "plot_label": "f(x)",
         }
 
+    def _display_result(self, result: dict):
+        super()._display_result(result)
+        
+        colors = ThemeManager.colors().PLOT_LINE_COLORS
+        poly_color = colors[1] if len(colors) > 1 else "blue"
+        
+        rows = result.get("table_rows", [])
+        if rows and len(rows) > 0 and len(rows[0]) > 3:
+            # row[2] = xi, row[3] = f(xi)
+            x_points = [r[2] for r in rows]
+            y_points = [r[3] for r in rows]
+            
+            # Área de Trapecios
+            self._plot_widget.axes.fill_between(
+                x_points, 0, y_points,
+                edgecolor="black", color=poly_color, alpha=0.3, zorder=2
+            )
+            # Puntos extremos evaluados
+            self._plot_widget.axes.plot(
+                x_points, y_points, 'ro', zorder=4, markersize=5
+            )
+            
+        self._plot_widget.refresh()
+
     def _load_example(self):
         self._input_func.setText("x^2")
         self._input_a.setText("0")
@@ -246,7 +271,34 @@ class SimpsonView(BaseMethodView):
             "table_headers": headers, "table_rows": rows,
             "x_plot": result.x_plot, "y_plot": result.y_plot,
             "xlabel": "x", "ylabel": "f(x)", "plot_label": "f(x)",
+            "parabolas": getattr(result, "parabolas", [])
         }
+
+    def _display_result(self, result: dict):
+        super()._display_result(result)
+
+        colors = ThemeManager.colors().PLOT_LINE_COLORS
+        poly_color = colors[1] if len(colors) > 1 else "blue"
+
+        for p in result.get("parabolas", []):
+            px, py = p["x"], p["y"]
+            
+            # Área bajo la parábola de Simpson
+            self._plot_widget.axes.fill_between(
+                px, 0, py,
+                edgecolor="black", color=poly_color, alpha=0.3, zorder=2
+            )
+            
+            # Demarcación de los 3 puntos base por cada intervalo doble
+            if len(px) >= 3:
+                mid = len(px) // 2
+                self._plot_widget.axes.plot(
+                    [px[0], px[mid], px[-1]],
+                    [py[0], py[mid], py[-1]],
+                    'ro', zorder=4, markersize=5
+                )
+
+        self._plot_widget.refresh()
 
     def _load_example(self):
         self._input_func.setText("x^2")
