@@ -8,6 +8,10 @@ import numpy as np
 import sympy as sp
 
 
+def _fmt(val: float) -> str:
+    """Formatea para mostrar todos los decimales relevantes sin notación científica."""
+    s = f"{val:.14f}".rstrip('0').rstrip('.')
+    return s if s and s != '-' else "0"
 # ── Estructuras de resultado inmutables ────────────────────────────
 
 @dataclass(frozen=True)
@@ -113,15 +117,15 @@ def biseccion(func_str: str, a: float, b: float,
         )
         table.append(row)
         steps.append(
-            f"Iteración {i}: a={a:.6f}, c={c:.6f}, b={b:.6f}, "
-            f"f(c)={fc:.6f}, error={error:.6e}"
+            f"Iteración {i}: a={_fmt(a)}, c={_fmt(c)}, b={_fmt(b)}, "
+            f"f(c)={_fmt(fc)}, error={_fmt(error)}"
         )
 
         if abs(fc) < tolerance or error < tolerance:
             return RootResult(
                 root=round(c, 10), iterations=i, error=round(error, 10),
                 converged=True, table=table, procedure_steps=steps,
-                message=f"Raíz encontrada: x = {c:.10f} con error {error:.2e} en {i} iteraciones."
+                message=f"Raíz encontrada: x = {_fmt(c)} con error {_fmt(error)} en {i} iteraciones."
             )
 
         if fa_current * fc < 0:
@@ -135,7 +139,7 @@ def biseccion(func_str: str, a: float, b: float,
         root=round(c, 10), iterations=max_iterations,
         error=round(error, 10), converged=False, table=table,
         procedure_steps=steps,
-        message=f"No convergió en {max_iterations} iteraciones. Última aproximación: x = {c:.10f}"
+        message=f"No convergió en {max_iterations} iteraciones. Última aproximación: x = {_fmt(c)}"
     )
 
 
@@ -166,7 +170,7 @@ def newton_raphson(func_str: str, deriv_str: str, x0: float,
 
         if abs(fpxn) < 1e-14:
             raise ValueError(
-                f"Derivada prácticamente cero en x = {xn:.6f}. "
+                f"Derivada prácticamente cero en x = {_fmt(xn)}. "
                 "El método diverge. Intente otro valor inicial."
             )
 
@@ -181,15 +185,15 @@ def newton_raphson(func_str: str, deriv_str: str, x0: float,
         )
         table.append(row)
         steps.append(
-            f"Iteración {i}: x{i-1}={xn:.6f}, f(x)={fxn:.6f}, "
-            f"f'(x)={fpxn:.6f}, x{i}={xn1:.6f}, error={error:.6e}"
+            f"Iteración {i}: x{i-1}={_fmt(xn)}, f(x)={_fmt(fxn)}, "
+            f"f'(x)={_fmt(fpxn)}, x{i}={_fmt(xn1)}, error={_fmt(error)}"
         )
 
         if error < tolerance or abs(fxn1) < tolerance:
             return RootResult(
                 root=round(xn1, 10), iterations=i, error=round(error, 10),
                 converged=True, table=table, procedure_steps=steps,
-                message=f"Raíz encontrada: x = {xn1:.10f} con error {error:.2e} en {i} iteraciones."
+                message=f"Raíz encontrada: x = {_fmt(xn1)} con error {_fmt(error)} en {i} iteraciones."
             )
         xn = xn1
 
@@ -197,7 +201,7 @@ def newton_raphson(func_str: str, deriv_str: str, x0: float,
         root=round(xn, 10), iterations=max_iterations,
         error=round(abs(float(func(xn))), 10), converged=False,
         table=table, procedure_steps=steps,
-        message=f"No convergió en {max_iterations} iteraciones. Última aproximación: x = {xn:.10f}"
+        message=f"No convergió en {max_iterations} iteraciones. Última aproximación: x = {_fmt(xn)}"
     )
 
 
@@ -239,15 +243,15 @@ def secante(func_str: str, x0: float, x1: float,
         )
         table.append(row)
         steps.append(
-            f"Iteración {i}: x(n-1)={x0:.6f}, x(n)={x1:.6f}, "
-            f"f(xn-1)={fx0:.6f}, f(xn)={fx1:.6f}, x(n+1)={x2:.6f}, error={error:.6e}"
+            f"Iteración {i}: x(n-1)={_fmt(x0)}, x(n)={_fmt(x1)}, "
+            f"f(xn-1)={_fmt(fx0)}, f(xn)={_fmt(fx1)}, x(n+1)={_fmt(x2)}, error={_fmt(error)}"
         )
 
         if error < tolerance:
             return RootResult(
                 root=round(x2, 10), iterations=i, error=round(error, 10),
                 converged=True, table=table, procedure_steps=steps,
-                message=f"Raíz encontrada: x = {x2:.10f} con error {error:.2e} en {i} iteraciones."
+                message=f"Raíz encontrada: x = {_fmt(x2)} con error {_fmt(error)} en {i} iteraciones."
             )
         x0, x1 = x1, x2
 
@@ -255,5 +259,5 @@ def secante(func_str: str, x0: float, x1: float,
         root=round(x1, 10), iterations=max_iterations,
         error=round(abs(float(func(x1))), 10), converged=False,
         table=table, procedure_steps=steps,
-        message=f"No convergió en {max_iterations} iteraciones. Última aproximación: x = {x1:.10f}"
+        message=f"No convergió en {max_iterations} iteraciones. Última aproximación: x = {_fmt(x1)}"
     )

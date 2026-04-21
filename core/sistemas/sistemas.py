@@ -6,6 +6,9 @@ from dataclasses import dataclass, field
 import numpy as np
 
 
+def _fmt(val: float) -> str:
+    s = f"{val:.14f}".rstrip('0').rstrip('.')
+    return s if s and s != '-' else "0"
 @dataclass(frozen=True)
 class GaussSeidelRow:
     iteration: int
@@ -85,8 +88,8 @@ def gauss_seidel(matrix_a: list[list[float]], vector_b: list[float],
             error=round(error, 8),
         )
         table.append(row)
-        vals_str = ", ".join(f"x{j+1}={x[j]:.6f}" for j in range(n))
-        steps.append(f"Iteración {iteration}: {vals_str}, error={error:.6e}")
+        vals_str = ", ".join(f"x{j+1}={_fmt(x[j])}" for j in range(n))
+        steps.append(f"Iteración {iteration}: {vals_str}, error={_fmt(error)}")
 
         if error < tolerance:
             solution = [round(v, 10) for v in x]
@@ -142,7 +145,7 @@ def factorizacion_lu(matrix_a: list[list[float]],
             operation=f"Procesar columna {j + 1}",
             matrix_l_snapshot=_matrix_to_string(L),
             matrix_u_snapshot=_matrix_to_string(U),
-            observation=f"U[{j}][{j}] = {U[j][j]:.6f}",
+            observation=f"U[{j}][{j}] = {_fmt(U[j][j])}",
         )
         table.append(lu_step)
         steps.append(f"Paso {step_count}: Columna {j+1} procesada")
@@ -155,7 +158,7 @@ def factorizacion_lu(matrix_a: list[list[float]],
     steps.append("")
     steps.append("Sustitución hacia adelante (Ly = b):")
     for i in range(n):
-        steps.append(f"  y{i+1} = {y[i]:.6f}")
+        steps.append(f"  y{i+1} = {_fmt(y[i])}")
 
     # Sustitución hacia atrás: Ux = y
     x = np.zeros(n)
@@ -165,7 +168,7 @@ def factorizacion_lu(matrix_a: list[list[float]],
     steps.append("")
     steps.append("Sustitución hacia atrás (Ux = y):")
     for i in range(n):
-        steps.append(f"  x{i+1} = {x[i]:.6f}")
+        steps.append(f"  x{i+1} = {_fmt(x[i])}")
 
     solution = [round(v, 10) for v in x]
     residual = float(np.max(np.abs(A @ x - b)))
@@ -173,7 +176,7 @@ def factorizacion_lu(matrix_a: list[list[float]],
     return SystemResult(
         solution=solution, iterations=step_count, error=round(residual, 10),
         converged=True, table=table, procedure_steps=steps,
-        message=f"Solución: {solution} | Residuo máximo: {residual:.2e}"
+        message=f"Solución: {solution} | Residuo máximo: {_fmt(residual)}"
     )
 
 

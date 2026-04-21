@@ -304,7 +304,19 @@ class BaseMethodView(QWidget):
         self._result_table.setHorizontalHeaderLabels(headers)
         for r, row in enumerate(rows):
             for c_idx, val in enumerate(row):
-                item = QTableWidgetItem(str(val))
+                if isinstance(val, (float, int)) and not isinstance(val, bool):
+                    if isinstance(val, float):
+                        s = f"{val:.14f}".rstrip('0').rstrip('.')
+                        s = s if s and s != '-' else "0"
+                        item = QTableWidgetItem(s)
+                    else:
+                        item = QTableWidgetItem(str(val))
+                elif type(val).__name__ in ('float64', 'float32'):
+                    s = f"{float(val):.14f}".rstrip('0').rstrip('.')
+                    s = s if s and s != '-' else "0"
+                    item = QTableWidgetItem(s)
+                else:
+                    item = QTableWidgetItem(str(val))
                 item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
                 self._result_table.setItem(r, c_idx, item)
         self._result_table.resizeColumnsToContents()

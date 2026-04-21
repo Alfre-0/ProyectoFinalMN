@@ -135,7 +135,7 @@ def lagrange(x_points: list[float], y_points: list[float],
         steps.append(f"    Multiplicación: {den_val}")
         
         num_sym = sp.expand(sp.prod([x_sym - x_points[j] for j in range(n) if i != j]))
-        L_i_math = format_poly(num_sym, 4)
+        L_i_math = format_poly(num_sym, 5)
         L_i_final = f"({L_i_math}) / {den_val}"
         steps.append("Por lo tanto:")
         steps.append(f"  L_{i}(x) = {L_i_final}")
@@ -170,13 +170,13 @@ def lagrange(x_points: list[float], y_points: list[float],
     steps.append(f"PASO {step_num}: Desarrollar cada término")
     step_num += 1
     for i in range(n):
-        term_expanded = format_poly(sp.expand(y_points[i] * L_syms[i]), 4)
+        term_expanded = format_poly(sp.expand(y_points[i] * L_syms[i]), 5)
         steps.append(f"Término {i+1}: {y_points[i]} * [{L_polys[i]}]")
         steps.append(f"  = {term_expanded}")
         steps.append("")
 
     poly_simplified = sp.simplify(poly_expr)
-    poly_math_str = format_poly(poly_simplified, 4) if poly_simplified != 0 else "0"
+    poly_math_str = format_poly(poly_simplified, 5) if poly_simplified != 0 else "0"
     
     steps.append(f"PASO {step_num}: Polinomio resultante")
     steps.append(f"  P(x) = {poly_math_str}")
@@ -289,12 +289,12 @@ def newton_interpolation(x_points: list[float], y_points: list[float],
                 term *= (x_eval - x_points[k])
             accumulated += term
 
-    coefs_str = " + ".join([f"{format_poly(coefficients[i], 4)}*{''.join([f'(x-{x_points[k]})' for k in range(i)])}" for i in range(n)])
+    coefs_str = " + ".join([f"{format_poly(coefficients[i], 5)}*{''.join([f'(x-{x_points[k]})' for k in range(i)])}" for i in range(n)])
     steps.append("Sustituimos coeficientes:")
     steps.append(f"  P(x) = {coefs_str.replace('+-', '- ')}")
     
     poly_simplified = sp.simplify(poly_expr)
-    poly_math_str = format_poly(poly_simplified, 4) if poly_simplified != 0 else "0"
+    poly_math_str = format_poly(poly_simplified, 5) if poly_simplified != 0 else "0"
     
     steps.append("")
     steps.append("PASO 4: Polinomio resultante (desarrollado y simplificado)")
