@@ -74,7 +74,7 @@ class EulerView(BaseMethodView):
         rows = [[r.iteration, r.xi, r.yi, r.fxy, r.yi_next, r.error] for r in result.table]
 
         return {
-            "message": result.message, "converged": True,
+            "message": result.message, "converged": not result.diverged,
             "procedure_steps": result.procedure_steps,
             "table_headers": headers, "table_rows": rows,
             "x_plot": result.x_values, "y_plot": result.y_values,
@@ -158,7 +158,7 @@ class RungeKuttaView(BaseMethodView):
                 for r in result.table]
 
         return {
-            "message": result.message, "converged": True,
+            "message": result.message, "converged": not result.diverged,
             "procedure_steps": result.procedure_steps,
             "table_headers": headers, "table_rows": rows,
             "x_plot": result.x_values, "y_plot": result.y_values,

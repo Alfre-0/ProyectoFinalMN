@@ -1,5 +1,335 @@
 [
   {
+    "timestamp": "2026-05-19 17:35:02",
+    "module": "Sistemas de Ecuaciones",
+    "method": "Gauss-Seidel",
+    "parameters": {
+      "Matriz A": "4,-1,0;-1,4,-1;0,-1,4",
+      "Vector b": "15,10,10",
+      "Vector x₀": "0,0,0",
+      "Tolerancia": "0.000001"
+    },
+    "result_summary": "Convergió en 10 iteraciones.\nSolución: [x1 = 4.9107142678, x2 = 4.6428571339, x3 = 3.6607142835]",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:34:59",
+    "module": "Sistemas de Ecuaciones",
+    "method": "Gauss-Seidel",
+    "parameters": {
+      "Matriz A": "4,-1,0;-1,4,-1;0,-1,4",
+      "Vector b": "15,10,10",
+      "Vector x₀": "0,0,0",
+      "Tolerancia": "0.00001"
+    },
+    "result_summary": "Convergió en 8 iteraciones.\nSolución: [x1 = 4.9107131362, x2 = 4.6428565681, x3 = 3.660714142]",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:34:58",
+    "module": "Sistemas de Ecuaciones",
+    "method": "Gauss-Seidel",
+    "parameters": {
+      "Matriz A": "4,-1,0;-1,4,-1;0,-1,4",
+      "Vector b": "15,10,10",
+      "Vector x₀": "0,0,0",
+      "Tolerancia": "0.00001"
+    },
+    "result_summary": "Convergió en 8 iteraciones.\nSolución: [x1 = 4.9107131362, x2 = 4.6428565681, x3 = 3.660714142]",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:34:55",
+    "module": "Sistemas de Ecuaciones",
+    "method": "Gauss-Seidel",
+    "parameters": {
+      "Matriz A": "4,-1,0;-1,4,-1;0,-1,4",
+      "Vector b": "15,10,10",
+      "Vector x₀": "0,0,0",
+      "Tolerancia": "0.000001"
+    },
+    "result_summary": "Convergió en 10 iteraciones.\nSolución: [x1 = 4.9107142678, x2 = 4.6428571339, x3 = 3.6607142835]",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:34:55",
+    "module": "Sistemas de Ecuaciones",
+    "method": "Gauss-Seidel",
+    "parameters": {
+      "Matriz A": "4,-1,0;-1,4,-1;0,-1,4",
+      "Vector b": "15,10,10",
+      "Vector x₀": "0,0,0",
+      "Tolerancia": "0.000001"
+    },
+    "result_summary": "Convergió en 10 iteraciones.\nSolución: [x1 = 4.9107142678, x2 = 4.6428571339, x3 = 3.6607142835]",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:34:55",
+    "module": "Sistemas de Ecuaciones",
+    "method": "Gauss-Seidel",
+    "parameters": {
+      "Matriz A": "4,-1,0;-1,4,-1;0,-1,4",
+      "Vector b": "15,10,10",
+      "Vector x₀": "0,0,0",
+      "Tolerancia": "0.000001"
+    },
+    "result_summary": "Convergió en 10 iteraciones.\nSolución: [x1 = 4.9107142678, x2 = 4.6428571339, x3 = 3.6607142835]",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:34:55",
+    "module": "Sistemas de Ecuaciones",
+    "method": "Gauss-Seidel",
+    "parameters": {
+      "Matriz A": "4,-1,0;-1,4,-1;0,-1,4",
+      "Vector b": "15,10,10",
+      "Vector x₀": "0,0,0",
+      "Tolerancia": "0.000001"
+    },
+    "result_summary": "Convergió en 10 iteraciones.\nSolución: [x1 = 4.9107142678, x2 = 4.6428571339, x3 = 3.6607142835]",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:34:54",
+    "module": "Sistemas de Ecuaciones",
+    "method": "Gauss-Seidel",
+    "parameters": {
+      "Matriz A": "4,-1,0;-1,4,-1;0,-1,4",
+      "Vector b": "15,10,10",
+      "Vector x₀": "0,0,0",
+      "Tolerancia": "0.000001"
+    },
+    "result_summary": "Convergió en 10 iteraciones.\nSolución: [x1 = 4.9107142678, x2 = 4.6428571339, x3 = 3.6607142835]",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:34:43",
+    "module": "Sistemas de Ecuaciones",
+    "method": "Gauss-Seidel",
+    "parameters": {
+      "Matriz A": "4,-1,0;-1,4,-1;0,-1,4",
+      "Vector b": "15,10,10",
+      "Vector x₀": "0,0,0",
+      "Tolerancia": "1e-6"
+    },
+    "result_summary": "Convergió en 10 iteraciones.\nSolución: [x1 = 4.9107142678, x2 = 4.6428571339, x3 = 3.6607142835]",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:34:36",
+    "module": "Sistemas de Ecuaciones",
+    "method": "Gauss-Seidel",
+    "parameters": {
+      "Matriz A": "4,-1,0;-1,4,-1;0,-1,4",
+      "Vector b": "15,10,10",
+      "Vector x₀": "0,0,0",
+      "Tolerancia": "0.000001"
+    },
+    "result_summary": "Convergió en 10 iteraciones.\nSolución: [x1 = 4.9107142678, x2 = 4.6428571339, x3 = 3.6607142835]",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:33:47",
+    "module": "Ecuaciones Diferenciales",
+    "method": "Método de Euler",
+    "parameters": {
+      "f(x,y)": "x+y",
+      "x₀": "0",
+      "y₀": "1",
+      "x final": "2",
+      "h": "0.1"
+    },
+    "result_summary": "y(2.0) = 10.4549998987 (Euler, 20 pasos)",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:33:40",
+    "module": "Sistemas de Ecuaciones",
+    "method": "Factorización LU",
+    "parameters": {
+      "Matriz A": "2,1,1;4,3,3;8,7,9",
+      "Vector b": "1,1,1"
+    },
+    "result_summary": "Solución: [x1 = 1, x2 = -1, x3 = 0] | Residuo máximo: 0",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:33:33",
+    "module": "Sistemas de Ecuaciones",
+    "method": "Gauss-Seidel",
+    "parameters": {
+      "Matriz A": "4,-1,0;-1,4,-1;0,-1,4",
+      "Vector b": "15,10,10",
+      "Vector x₀": "0,0,0",
+      "Tolerancia": "1e-6"
+    },
+    "result_summary": "Convergió en 10 iteraciones.\nSolución: [x1 = 4.9107142678, x2 = 4.6428571339, x3 = 3.6607142835]",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:27:27",
+    "module": "Sistemas de Ecuaciones",
+    "method": "Factorización LU",
+    "parameters": {
+      "Matriz A": "2,1,1;4,3,3;8,7,9",
+      "Vector b": "1,1,1"
+    },
+    "result_summary": "Solución: [np.float64(1.0), np.float64(-1.0), np.float64(0.0)] | Residuo máximo: 0",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:27:23",
+    "module": "Sistemas de Ecuaciones",
+    "method": "Gauss-Seidel",
+    "parameters": {
+      "Matriz A": "4,-1,0;-1,4,-1;0,-1,4",
+      "Vector b": "15,10,10",
+      "Vector x₀": "0,0,0",
+      "Tolerancia": "1e-6"
+    },
+    "result_summary": "Convergió en 10 iteraciones. Solución: [np.float64(4.9107142678), np.float64(4.6428571339), np.float64(3.6607142835)]",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:26:51",
+    "module": "Interpolación",
+    "method": "Interpolación de Lagrange",
+    "parameters": {
+      "Puntos x": "1,2,4,7",
+      "Puntos y": "1,4,16,49",
+      "x a interpolar": "3"
+    },
+    "result_summary": "P(3.0) ≈ 9.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:17:03",
+    "module": "Ecuaciones Diferenciales",
+    "method": "Método de Euler",
+    "parameters": {
+      "f(x,y)": "x+y",
+      "x₀": "0",
+      "y₀": "1",
+      "x final": "2",
+      "h": "0.1"
+    },
+    "result_summary": "y(2.0) = 10.4549998987 (Euler, 20 pasos)",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:14:39",
+    "module": "Ecuaciones Diferenciales",
+    "method": "Método de Euler",
+    "parameters": {
+      "f(x,y)": "(y-xy)/((x)**(2))",
+      "x₀": "-1",
+      "y₀": "-1",
+      "x final": "-0.2",
+      "h": "0.2"
+    },
+    "result_summary": "y(-0.2) = -11.3628472222 (Euler, 4 pasos)",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:14:34",
+    "module": "Ecuaciones Diferenciales",
+    "method": "Método de Euler",
+    "parameters": {
+      "f(x,y)": "(y-xy)/((x)**(2))",
+      "x₀": "-1",
+      "y₀": "-1",
+      "x final": "-0.6",
+      "h": "0.2"
+    },
+    "result_summary": "y(-0.6) = -2.1875000000 (Euler, 2 pasos)",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:14:18",
+    "module": "Ecuaciones Diferenciales",
+    "method": "Método de Euler",
+    "parameters": {
+      "f(x,y)": "(y-xy)/((x)**(2))",
+      "x₀": "-1",
+      "y₀": "-1",
+      "x final": "-0.4",
+      "h": "0.2"
+    },
+    "result_summary": "y(-0.4) = -4.1319444444 (Euler, 3 pasos)",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:00:41",
+    "module": "Ecuaciones Diferenciales",
+    "method": "Método de Euler",
+    "parameters": {
+      "f(x,y)": "1+(y)**(2)",
+      "x₀": "0",
+      "y₀": "0",
+      "x final": "0.5",
+      "h": "0.1"
+    },
+    "result_summary": "y(0.5) = 0.5315132280 (Euler, 5 pasos)",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 16:59:50",
+    "module": "Ecuaciones Diferenciales",
+    "method": "Método de Euler",
+    "parameters": {
+      "f(x,y)": "1+(y)**(2)",
+      "x₀": "0",
+      "y₀": "0",
+      "x final": "2",
+      "h": "0.1"
+    },
+    "result_summary": "y(2.0) = 925.9487514232 (Euler, 20 pasos)",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 16:58:49",
+    "module": "Ecuaciones Diferenciales",
+    "method": "Método de Euler",
+    "parameters": {
+      "f(x,y)": "1+(y)**(2)",
+      "x₀": "0",
+      "y₀": "0",
+      "x final": "5",
+      "h": "0.1"
+    },
+    "result_summary": "⚠ La solución diverge cerca de x = 2.200000. Se completaron 22 de 50 pasos antes de la divergencia.",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 16:46:07",
+    "module": "Ecuaciones Diferenciales",
+    "method": "Método de Euler",
+    "parameters": {
+      "f(x,y)": "x+y",
+      "x₀": "0",
+      "y₀": "1",
+      "x final": "2",
+      "h": "0.1"
+    },
+    "result_summary": "y(2.0) = 10.4549998987 (Euler, 20 pasos)",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 16:42:32",
+    "module": "Ecuaciones Diferenciales",
+    "method": "Método de Euler",
+    "parameters": {
+      "f(x,y)": "x+y",
+      "x₀": "0",
+      "y₀": "1",
+      "x final": "2",
+      "h": "0.1"
+    },
+    "result_summary": "y(2.0) = 10.4549998987 (Euler, 20 pasos)",
+    "full_data": {}
+  },
+  {
     "timestamp": "2026-04-20 19:37:07",
     "module": "Interpolación",
     "method": "Interpolación de Lagrange",

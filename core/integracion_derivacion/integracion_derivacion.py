@@ -53,10 +53,30 @@ def _parse_function(expression_str: str):
     x = sp.Symbol("x")
     try:
         sanitized = expression_str.replace("^", "**")
-        expr = sp.sympify(sanitized)
-        func = sp.lambdify(x, expr, modules=["numpy"])
-        return func, expr
-    except (sp.SympifyError, TypeError) as error:
+        from sympy.parsing.sympy_parser import parse_expr, standard_transformations, implicit_multiplication_application
+        transformations = standard_transformations + (implicit_multiplication_application,)
+        expr = parse_expr(sanitized, transformations=transformations)
+        
+        # Validar variables permitidas
+        allowed_symbols = {x}
+        extra_symbols = expr.free_symbols - allowed_symbols
+        if extra_symbols:
+            names = ", ".join(str(s) for s in extra_symbols)
+            raise ValueError(f"Variable(s) no permitida(s): {names}. Use únicamente 'x'.")
+
+        raw_func = sp.lambdify(x, expr, modules=["numpy"])
+
+        # Wrapper que protege contra OverflowError y valores no finitos
+        def safe_func(x_val):
+            try:
+                return float(raw_func(x_val))
+            except (OverflowError, FloatingPointError, ZeroDivisionError):
+                return float('nan')
+
+        return safe_func, expr
+    except Exception as error:
+        if isinstance(error, ValueError):
+            raise error
         raise ValueError(f"No se pudo interpretar la función: {expression_str}") from error
 
 

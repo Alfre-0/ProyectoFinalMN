@@ -66,19 +66,68 @@ class GaussSeidelView(BaseMethodView):
         }
 
     def _run_calculation(self) -> dict:
+        # 1. Validar Matriz A
         matrix_text = self._input_matrix.text().strip()
-        rows_text = [r.strip() for r in matrix_text.replace("\n", ";").split(";") if r.strip()]
-        matrix_a = [[float(v.strip()) for v in row.split(",")] for row in rows_text]
+        if not matrix_text:
+            raise ValueError("Por favor, ingrese la Matriz A.")
+        try:
+            rows_text = [r.strip() for r in matrix_text.replace("\n", ";").split(";") if r.strip()]
+            matrix_a = [[float(v.strip()) for v in row.split(",") if v.strip()] for row in rows_text]
+        except Exception as e:
+            raise ValueError("La Matriz A tiene un formato inválido. Use comas para separar los elementos y punto y coma (;) para separar las filas.\nEjemplo: 4, -1, 0; -1, 4, -1; 0, -1, 4") from e
 
-        vector_b = [float(v.strip()) for v in self._input_b.text().split(",")]
+        if not matrix_a or any(len(row) == 0 for row in matrix_a):
+            raise ValueError("La Matriz A no puede estar vacía.")
 
+        n_rows = len(matrix_a)
+        for idx, row in enumerate(matrix_a):
+            if len(row) != n_rows:
+                raise ValueError(f"La Matriz A debe ser cuadrada. La fila {idx+1} tiene {len(row)} columnas pero el sistema tiene {n_rows} filas.")
+
+        # 2. Validar Vector b
+        b_text = self._input_b.text().strip()
+        if not b_text:
+            raise ValueError("Por favor, ingrese el Vector b.")
+        try:
+            vector_b = [float(v.strip()) for v in b_text.split(",") if v.strip()]
+        except Exception as e:
+            raise ValueError("El Vector b tiene un formato inválido. Separe los elementos con comas. Ejemplo: 15, 10, 10") from e
+
+        if len(vector_b) != n_rows:
+            raise ValueError(f"Las dimensiones no coinciden: el Vector b tiene {len(vector_b)} elementos, pero la Matriz A tiene {n_rows} filas.")
+
+        # 3. Validar Vector inicial x0 (opcional)
         x0_text = self._input_x0.text().strip()
-        x0 = [float(v.strip()) for v in x0_text.split(",")] if x0_text else None
+        if x0_text:
+            try:
+                x0 = [float(v.strip()) for v in x0_text.split(",") if v.strip()]
+            except Exception as e:
+                raise ValueError("El Vector inicial x₀ tiene un formato inválido. Separe los elementos con comas. Ejemplo: 0, 0, 0") from e
+            if len(x0) != n_rows:
+                raise ValueError(f"El Vector inicial x₀ tiene {len(x0)} elementos, pero debe tener {n_rows} para coincidir con el sistema.")
+        else:
+            x0 = None
+
+        # 4. Validar Tolerancia y Máx. iteraciones
+        try:
+            tol = float(self._input_tol.text())
+            if tol <= 0:
+                raise ValueError("La tolerancia debe ser un número positivo mayor que cero.")
+        except ValueError as e:
+            if "positivo" in str(e): raise
+            raise ValueError("La tolerancia debe ser un número decimal válido (ej: 1e-6).") from e
+
+        try:
+            max_iter = int(self._input_max_iter.text())
+            if max_iter <= 0:
+                raise ValueError("El número de iteraciones debe ser un entero positivo.")
+        except ValueError as e:
+            if "entero positivo" in str(e): raise
+            raise ValueError("El número máximo de iteraciones debe ser un número entero válido (ej: 100).") from e
 
         result = gauss_seidel(
             matrix_a=matrix_a, vector_b=vector_b, x0=x0,
-            tolerance=float(self._input_tol.text()),
-            max_iterations=int(self._input_max_iter.text()),
+            tolerance=tol, max_iterations=max_iter,
         )
 
         n = len(vector_b)
@@ -155,10 +204,35 @@ class FactorizacionLUView(BaseMethodView):
         }
 
     def _run_calculation(self) -> dict:
+        # 1. Validar Matriz A
         matrix_text = self._input_matrix.text().strip()
-        rows_text = [r.strip() for r in matrix_text.replace("\n", ";").split(";") if r.strip()]
-        matrix_a = [[float(v.strip()) for v in row.split(",")] for row in rows_text]
-        vector_b = [float(v.strip()) for v in self._input_b.text().split(",")]
+        if not matrix_text:
+            raise ValueError("Por favor, ingrese la Matriz A.")
+        try:
+            rows_text = [r.strip() for r in matrix_text.replace("\n", ";").split(";") if r.strip()]
+            matrix_a = [[float(v.strip()) for v in row.split(",") if v.strip()] for row in rows_text]
+        except Exception as e:
+            raise ValueError("La Matriz A tiene un formato inválido. Use comas para separar los elementos y punto y coma (;) para separar las filas.\nEjemplo: 2, 1, 1; 4, 3, 3; 8, 7, 9") from e
+
+        if not matrix_a or any(len(row) == 0 for row in matrix_a):
+            raise ValueError("La Matriz A no puede estar vacía.")
+
+        n_rows = len(matrix_a)
+        for idx, row in enumerate(matrix_a):
+            if len(row) != n_rows:
+                raise ValueError(f"La Matriz A debe ser cuadrada. La fila {idx+1} tiene {len(row)} columnas pero el sistema tiene {n_rows} filas.")
+
+        # 2. Validar Vector b
+        b_text = self._input_b.text().strip()
+        if not b_text:
+            raise ValueError("Por favor, ingrese el Vector b.")
+        try:
+            vector_b = [float(v.strip()) for v in b_text.split(",") if v.strip()]
+        except Exception as e:
+            raise ValueError("El Vector b tiene un formato inválido. Separe los elementos con comas. Ejemplo: 1, 1, 1") from e
+
+        if len(vector_b) != n_rows:
+            raise ValueError(f"Las dimensiones no coinciden: el Vector b tiene {len(vector_b)} elementos, pero la Matriz A tiene {n_rows} filas.")
 
         result = factorizacion_lu(matrix_a=matrix_a, vector_b=vector_b)
 

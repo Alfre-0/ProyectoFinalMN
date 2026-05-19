@@ -19,7 +19,9 @@ class PdfGenerator:
         """Reemplaza caracteres no soportados por la fuente estándar."""
         if not isinstance(text, str):
             text = str(text)
+        import unicodedata
         replacements = {
+            # Símbolos matemáticos
             '≈': '~',
             '≤': '<=',
             '≥': '>=',
@@ -34,10 +36,47 @@ class PdfGenerator:
             '³': '^3',
             '∞': 'infinito',
             '•': '-',
+            '×': 'x',
+            '÷': '/',
+            # Subíndices
+            '₀': '0', '₁': '1', '₂': '2', '₃': '3', '₄': '4',
+            '₅': '5', '₆': '6', '₇': '7', '₈': '8', '₉': '9',
+            '₊': '+', '₋': '-', '₌': '=', '₍': '(', '₎': ')',
+            'ₐ': 'a', 'ₑ': 'e', 'ₕ': 'h', 'ᵢ': 'i', 'ⱼ': 'j',
+            'ₖ': 'k', 'ₗ': 'l', 'ₘ': 'm', 'ₙ': 'n', 'ₒ': 'o',
+            'ₚ': 'p', 'ᵣ': 'r', 'ₛ': 's', 'ₜ': 't', 'ᵤ': 'u',
+            'ᵥ': 'v', 'ₓ': 'x',
+            # Superíndices
+            '⁰': '^0', '¹': '^1', '⁴': '^4',
+            '⁵': '^5', '⁶': '^6', '⁷': '^7', '⁸': '^8', '⁹': '^9',
+            '⁺': '^+', '⁻': '^-', '⁼': '^=', '⁽': '^(', '⁾': '^)',
+            'ⁿ': '^n', 'ⁱ': '^i'
         }
         for old, new in replacements.items():
             text = text.replace(old, new)
-        return text
+
+        # Forzar compatibilidad con latin-1 para evitar cualquier excepción en fpdf2
+        sanitized_chars = []
+        for char in text:
+            try:
+                char.encode('latin-1')
+                sanitized_chars.append(char)
+            except UnicodeEncodeError:
+                # Intentar descomponer/normalizar
+                normalized = unicodedata.normalize('NFKD', char)
+                latin1_compatible = ""
+                for c in normalized:
+                    try:
+                        c.encode('latin-1')
+                        if not unicodedata.combining(c):
+                            latin1_compatible += c
+                    except UnicodeEncodeError:
+                        pass
+                if latin1_compatible:
+                    sanitized_chars.append(latin1_compatible)
+                else:
+                    sanitized_chars.append('?')
+        return "".join(sanitized_chars)
 
     def generate_report(
         self,

@@ -84,27 +84,30 @@ def gauss_seidel(matrix_a: list[list[float]], vector_b: list[float],
         error = float(np.max(np.abs(x - x_old)))
         row = GaussSeidelRow(
             iteration=iteration,
-            values=tuple(round(v, 8) for v in x),
-            error=round(error, 8),
+            values=tuple(round(float(v), 8) for v in x),
+            error=round(float(error), 8),
         )
         table.append(row)
-        vals_str = ", ".join(f"x{j+1}={_fmt(x[j])}" for j in range(n))
+        vals_str = ", ".join(f"x{j+1}={_fmt(float(x[j]))}" for j in range(n))
         steps.append(f"Iteración {iteration}: {vals_str}, error={_fmt(error)}")
 
         if error < tolerance:
-            solution = [round(v, 10) for v in x]
+            solution = [round(float(v), 10) for v in x]
+            sol_str = ", ".join(f"x{i+1} = {_fmt(v)}" for i, v in enumerate(solution))
             return SystemResult(
-                solution=solution, iterations=iteration, error=round(error, 10),
+                solution=solution, iterations=iteration, error=round(float(error), 10),
                 converged=True, table=table, procedure_steps=steps,
-                message=f"Convergió en {iteration} iteraciones. Solución: {solution}"
+                message=f"Convergió en {iteration} iteraciones.\nSolución: [{sol_str}]"
             )
 
-    solution = [round(v, 10) for v in x]
+    solution = [round(float(v), 10) for v in x]
+    sol_str = ", ".join(f"x{i+1} = {_fmt(v)}" for i, v in enumerate(solution))
+    initial_err = float(np.max(np.abs(x - np.array(x0 or [0]*n))))
     return SystemResult(
         solution=solution, iterations=max_iterations,
-        error=round(float(np.max(np.abs(x - np.array(x0 or [0]*n)))), 10),
+        error=round(initial_err, 10),
         converged=False, table=table, procedure_steps=steps,
-        message=f"No convergió en {max_iterations} iteraciones."
+        message=f"No convergió en {max_iterations} iteraciones.\nÚltima aproximación: [{sol_str}]"
     )
 
 
@@ -145,7 +148,7 @@ def factorizacion_lu(matrix_a: list[list[float]],
             operation=f"Procesar columna {j + 1}",
             matrix_l_snapshot=_matrix_to_string(L),
             matrix_u_snapshot=_matrix_to_string(U),
-            observation=f"U[{j}][{j}] = {_fmt(U[j][j])}",
+            observation=f"U[{j}][{j}] = {_fmt(float(U[j][j]))}",
         )
         table.append(lu_step)
         steps.append(f"Paso {step_count}: Columna {j+1} procesada")
@@ -158,7 +161,7 @@ def factorizacion_lu(matrix_a: list[list[float]],
     steps.append("")
     steps.append("Sustitución hacia adelante (Ly = b):")
     for i in range(n):
-        steps.append(f"  y{i+1} = {_fmt(y[i])}")
+        steps.append(f"  y{i+1} = {_fmt(float(y[i]))}")
 
     # Sustitución hacia atrás: Ux = y
     x = np.zeros(n)
@@ -168,15 +171,16 @@ def factorizacion_lu(matrix_a: list[list[float]],
     steps.append("")
     steps.append("Sustitución hacia atrás (Ux = y):")
     for i in range(n):
-        steps.append(f"  x{i+1} = {_fmt(x[i])}")
+        steps.append(f"  x{i+1} = {_fmt(float(x[i]))}")
 
-    solution = [round(v, 10) for v in x]
+    solution = [round(float(v), 10) for v in x]
     residual = float(np.max(np.abs(A @ x - b)))
+    sol_str = ", ".join(f"x{i+1} = {_fmt(v)}" for i, v in enumerate(solution))
 
     return SystemResult(
-        solution=solution, iterations=step_count, error=round(residual, 10),
+        solution=solution, iterations=step_count, error=round(float(residual), 10),
         converged=True, table=table, procedure_steps=steps,
-        message=f"Solución: {solution} | Residuo máximo: {_fmt(residual)}"
+        message=f"Solución: [{sol_str}] | Residuo máximo: {_fmt(residual)}"
     )
 
 
