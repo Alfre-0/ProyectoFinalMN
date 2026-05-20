@@ -1,5 +1,116 @@
 [
   {
+    "timestamp": "2026-05-19 19:08:57",
+    "module": "Integración Numérica",
+    "method": "Regla de Simpson 1/3",
+    "parameters": {
+      "f(x)": "(x)**(2)",
+      "a": "0",
+      "b": "1",
+      "n": "10"
+    },
+    "result_summary": "Int [0.0,1.0] f(x)dx = 0.3333333333",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:52:22",
+    "module": "Integración y Derivación",
+    "method": "Diferencias Finitas (Derivación)",
+    "parameters": {
+      "f(x)": "(x)**(2)",
+      "x0": "2.0",
+      "h": "0.1",
+      "Orden": "Primera Derivada",
+      "Dirección": "Central"
+    },
+    "result_summary": "f'(2.0) ≈ 4.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:49:49",
+    "module": "Integración y Derivación",
+    "method": "Diferencias Finitas (Derivación)",
+    "parameters": {
+      "f(x)": "(x)**(2)",
+      "x0": "2.0",
+      "h": "0.1",
+      "Orden": "Segunda Derivada",
+      "Dirección": "Hacia atrás"
+    },
+    "result_summary": "f''(2.0) ≈ 2.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:49:47",
+    "module": "Integración y Derivación",
+    "method": "Diferencias Finitas (Derivación)",
+    "parameters": {
+      "f(x)": "(x)**(2)",
+      "x0": "2.0",
+      "h": "0.1",
+      "Orden": "Segunda Derivada",
+      "Dirección": "Hacia adelante"
+    },
+    "result_summary": "f''(2.0) ≈ 2.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:49:46",
+    "module": "Integración y Derivación",
+    "method": "Diferencias Finitas (Derivación)",
+    "parameters": {
+      "f(x)": "(x)**(2)",
+      "x0": "2.0",
+      "h": "0.1",
+      "Orden": "Segunda Derivada",
+      "Dirección": "Central"
+    },
+    "result_summary": "f''(2.0) ≈ 2.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:49:41",
+    "module": "Integración y Derivación",
+    "method": "Diferencias Finitas (Derivación)",
+    "parameters": {
+      "f(x)": "(x)**(2)",
+      "x0": "2.0",
+      "h": "0.1",
+      "Orden": "Segunda Derivada",
+      "Dirección": "Hacia adelante"
+    },
+    "result_summary": "f''(2.0) ≈ 2.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:49:38",
+    "module": "Integración y Derivación",
+    "method": "Diferencias Finitas (Derivación)",
+    "parameters": {
+      "f(x)": "(x)**(2)",
+      "x0": "2.0",
+      "h": "0.1",
+      "Orden": "Segunda Derivada",
+      "Dirección": "Central"
+    },
+    "result_summary": "f''(2.0) ≈ 2.0000000000",
+    "full_data": {}
+  },
+  {
+    "timestamp": "2026-05-19 17:49:33",
+    "module": "Integración y Derivación",
+    "method": "Diferencias Finitas (Derivación)",
+    "parameters": {
+      "f(x)": "(x)**(2)",
+      "x0": "2.0",
+      "h": "0.1",
+      "Orden": "Primera Derivada",
+      "Dirección": "Central"
+    },
+    "result_summary": "f'(2.0) ≈ 4.0000000000",
+    "full_data": {}
+  },
+  {
     "timestamp": "2026-05-19 17:35:02",
     "module": "Sistemas de Ecuaciones",
     "method": "Gauss-Seidel",

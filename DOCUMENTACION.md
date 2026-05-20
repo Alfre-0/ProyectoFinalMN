@@ -15,13 +15,69 @@ Es una calculadora avanzada de escritorio con interfaz gráfica (GUI) construida
 - **📝 Procedimiento a detalle**: Documentación de todo el desarrollo algebraico y lógico. Si pones un método de interpolación, te mostrará la fórmula general, valores de sustitución y desarrollo fraccionario. 
 - **📈 Gráficos Interactivos**: Creados sobre **Matplotlib**, permiten a los usuarios acercar e inspeccionar el comportamiento de las funciones visualmente.
 - **💾 Reportes en PDF**: ¿Tienes un examen o tarea? Presiona **Exportar PDF** para plasmar un reporte elegante y formateado incluyendo la gráfica resultante, la tabla iterativa y los datos de entrada.
-- **🕒 Historial de Cálculo**: Registro guardado internamente mediante *SQLite*, lo que mantiene memoria para auditar cálulos previos.
-
----
+- **🕒 Historial de Cálculo**: Registro guardado internamente mediante un archivo *JSON* local en la carpeta `data/`, lo que mantiene memoria para auditar cálculos previos.
 
 ## 🏗 Arquitectura del Software (El Esqueleto)
 
 Nuestro objetivo con el código ha sido respetar la **Separación Estricta de Responsabilidades**. Hemos procurado que el motor matemático matemático sea "indiferente" ante la interfaz visual: la interfaz lo dibuja, el motor solo lo resuelve.
+
+### 📂 Estructura del Proyecto (Solo Código Fuente)
+
+```text
+ProyectoFinalMN/
+├── main.py                          # Punto de entrada de la aplicación
+├── requirements.txt                 # Dependencias del proyecto
+├── DOCUMENTACION.md                 # Documentación técnica general
+├── GUIA_INSTALACION.md              # Guía de instalación y configuración
+├── especificacion_requerimientos_metodos_numericos.md # Especificaciones de la UMG
+├── core/                            # Capa de Lógica Matemática (Core)
+│   ├── __init__.py
+│   ├── edos/
+│   │   ├── __init__.py
+│   │   └── edos.py                  # Algoritmos de Euler y Runge-Kutta 4
+│   ├── integracion_derivacion/
+│   │   ├── __init__.py
+│   │   └── integracion_derivacion.py # Algoritmos de Simpson, Trapecio y Diferencias Finitas
+│   ├── interpolacion/
+│   │   ├── __init__.py
+│   │   └── interpolacion.py         # Algoritmos de Lagrange y Newton
+│   ├── raices/
+│   │   ├── __init__.py
+│   │   └── raices.py                # Algoritmos de Bisección, Newton-Raphson y Secante
+│   └── sistemas/
+│       ├── __init__.py
+│       └── sistemas.py              # Algoritmos de Gauss-Seidel y Factorización LU
+├── ui/                              # Capa de Presentación Gráfica (UI)
+│   ├── __init__.py
+│   ├── main_window.py               # Ventana principal y enrutador de navegación
+│   ├── components/
+│   │   ├── __init__.py
+│   │   ├── math_ast.py              # Árbol de sintaxis abstracta para matemáticas
+│   │   ├── math_canvas.py           # Editor gráfico interactivo
+│   │   ├── math_input.py            # Campo de entrada de fórmulas
+│   │   └── math_keyboard.py         # Teclado interactivo estilo GeoGebra
+│   ├── styles/
+│   │   ├── __init__.py
+│   │   ├── theme.py                 # Gestor de temas claro/oscuro
+│   │   └── tokens.py                # Tokens de diseño (Colores, Spacing, Fuentes)
+│   └── views/
+│       ├── __init__.py
+│       ├── base_method_view.py      # Clase base abstracta de cada vista
+│       ├── welcome_view.py          # Pantalla de bienvenida
+│       ├── raices_views.py          # Vistas para Bisección, Newton y Secante
+│       ├── interpolacion_views.py   # Vistas para Lagrange y Newton
+│       ├── sistemas_views.py        # Vistas para Gauss-Seidel y LU
+│       ├── integracion_views.py     # Vistas para Trapecio, Simpson y Diferencias Finitas
+│       ├── edos_views.py            # Vistas para Euler y RK4
+│       └── history_view.py          # Vista del historial de cálculos
+├── infrastructure/                  # Capa de Soporte y Servicios (Infraestructura)
+│   ├── __init__.py
+│   ├── history_repo.py              # Repositorio de persistencia del historial
+│   ├── pdf_generator.py             # Generador de reportes PDF (fpdf2)
+│   └── plot_widget.py               # Lienzo interactivo de gráficas (Matplotlib)
+└── data/                            # Almacenamiento local de persistencia
+    └── historial.json               # Historial de cálculos guardados (JSON)
+```
 
 La arquitectura se divide en capas (Módulos):
 
@@ -42,7 +98,11 @@ Construida exquisitamente con PyQt6 integrando un sistema de tokens visuales y *
 Aquí viven los puentes asombrosos del mundo real y los servicios:
 * **`pdf_generator.py`**: Interfaz transitoria construida en `fpdf2` que sabe formatear y renderizar bonitos reportes y sanitiza letras tipo LaTeX para adaptarlas a la fuente base.
 * **`plot_widget.py`**: Puente a *Matplotlib* integrado orgánicamente a *PyQt6*.
-* **`history_repo.py`**: Intercomunicador simple hacia base de datos SQLite para registros perennes.
+* **`history_repo.py`**: Intercomunicador simple hacia el archivo local JSON en `data/historial.json` para registros perennes.
+
+### 4. `data/` (Persistencia 💾)
+Almacén físico para la persistencia de la aplicación:
+* **`historial.json`**: Archivo JSON que almacena el historial estructurado de cálculos y parámetros.
 
 ---
 

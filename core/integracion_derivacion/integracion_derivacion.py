@@ -278,3 +278,162 @@ def simpson(func_str: str, a: float, b: float,
         message=f"Int [{a},{b}] f(x)dx = {total:.10f}",
         parabolas=parabolas
     )
+
+
+# ── Derivación Numérica (Diferencias Finitas) ─────────────────────
+
+@dataclass(frozen=True)
+class DerivationRow:
+    node: str
+    x: float
+    fx: float
+
+
+@dataclass(frozen=True)
+class DerivationResult:
+    value: float
+    table: list[DerivationRow]
+    procedure_steps: list[str]
+    x_plot: list[float]
+    y_plot: list[float]
+    x_tangent: list[float] | None = None
+    y_tangent: list[float] | None = None
+    message: str = ""
+
+
+def diferencias_finitas(func_str: str, x0: float, h: float,
+                        order: int, direction: str) -> DerivationResult:
+    """Aproximación de la 1ra o 2da derivada de f(x) en x0 usando Diferencias Finitas."""
+    if h <= 0:
+        raise ValueError("El paso h debe ser positivo y mayor que cero.")
+
+    func, expr = _parse_function(func_str)
+    direction = direction.lower().strip()
+
+    # Puntos necesarios dependiendo del orden y la dirección
+    # f(x0) siempre se evalúa
+    fx0 = float(func(x0))
+    table = []
+
+    steps = [
+        f"Función f(x) = {str(expr).replace('**', '^')}",
+        f"Punto de evaluación x₀ = {x0}",
+        f"Punto f(x₀) = {fx0:.8f}",
+        f"Paso h = {h}",
+        f"Orden de la derivada: {order}ª derivada",
+        f"Dirección de diferencias: {direction.capitalize()}",
+        "",
+    ]
+
+    # Evaluaciones
+    nodes_eval = {}
+    
+    if order == 1:
+        if direction == "adelante":
+            # f'(x) ≈ (f(x0+h) - f(x0)) / h
+            fx_plus_h = float(func(x0 + h))
+            nodes_eval["x₀"] = (x0, fx0)
+            nodes_eval["x₀ + h"] = (x0 + h, fx_plus_h)
+            
+            value = (fx_plus_h - fx0) / h
+            
+            formula_str = "f'(x₀) ≈ [f(x₀ + h) - f(x₀)] / h"
+            calc_str = f"f'({x0}) ≈ [{fx_plus_h:.8f} - {fx0:.8f}] / {h} = {value:.10f}"
+            
+        elif direction == "atrás":
+            # f'(x) ≈ (f(x0) - f(x0-h)) / h
+            fx_minus_h = float(func(x0 - h))
+            nodes_eval["x₀ - h"] = (x0 - h, fx_minus_h)
+            nodes_eval["x₀"] = (x0, fx0)
+            
+            value = (fx0 - fx_minus_h) / h
+            
+            formula_str = "f'(x₀) ≈ [f(x₀) - f(x₀ - h)] / h"
+            calc_str = f"f'({x0}) ≈ [{fx0:.8f} - {fx_minus_h:.8f}] / {h} = {value:.10f}"
+            
+        else:  # central
+            # f'(x) ≈ (f(x0+h) - f(x0-h)) / 2h
+            fx_plus_h = float(func(x0 + h))
+            fx_minus_h = float(func(x0 - h))
+            nodes_eval["x₀ - h"] = (x0 - h, fx_minus_h)
+            nodes_eval["x₀"] = (x0, fx0)
+            nodes_eval["x₀ + h"] = (x0 + h, fx_plus_h)
+            
+            value = (fx_plus_h - fx_minus_h) / (2 * h)
+            
+            formula_str = "f'(x₀) ≈ [f(x₀ + h) - f(x₀ - h)] / (2h)"
+            calc_str = f"f'({x0}) ≈ [{fx_plus_h:.8f} - {fx_minus_h:.8f}] / {2*h} = {value:.10f}"
+            
+    elif order == 2:
+        if direction == "adelante":
+            # f''(x) ≈ (f(x0+2h) - 2f(x0+h) + f(x0)) / h^2
+            fx_plus_h = float(func(x0 + h))
+            fx_plus_2h = float(func(x0 + 2 * h))
+            nodes_eval["x₀"] = (x0, fx0)
+            nodes_eval["x₀ + h"] = (x0 + h, fx_plus_h)
+            nodes_eval["x₀ + 2h"] = (x0 + 2 * h, fx_plus_2h)
+            
+            value = (fx_plus_2h - 2 * fx_plus_h + fx0) / (h ** 2)
+            
+            formula_str = "f''(x₀) ≈ [f(x₀ + 2h) - 2f(x₀ + h) + f(x₀)] / h²"
+            calc_str = f"f''({x0}) ≈ [{fx_plus_2h:.8f} - 2*({fx_plus_h:.8f}) + {fx0:.8f}] / {h**2} = {value:.10f}"
+            
+        elif direction == "atrás":
+            # f''(x) ≈ (f(x0) - 2f(x0-h) + f(x0-2h)) / h^2
+            fx_minus_h = float(func(x0 - h))
+            fx_minus_2h = float(func(x0 - 2 * h))
+            nodes_eval["x₀ - 2h"] = (x0 - 2 * h, fx_minus_2h)
+            nodes_eval["x₀ - h"] = (x0 - h, fx_minus_h)
+            nodes_eval["x₀"] = (x0, fx0)
+            
+            value = (fx0 - 2 * fx_minus_h + fx_minus_2h) / (h ** 2)
+            
+            formula_str = "f''(x₀) ≈ [f(x₀) - 2f(x₀ - h) + f(x₀ - 2h)] / h²"
+            calc_str = f"f''({x0}) ≈ [{fx0:.8f} - 2*({fx_minus_h:.8f}) + {fx_minus_2h:.8f}] / {h**2} = {value:.10f}"
+            
+        else:  # central
+            # f''(x) ≈ (f(x0+h) - 2f(x0) + f(x0-h)) / h^2
+            fx_plus_h = float(func(x0 + h))
+            fx_minus_h = float(func(x0 - h))
+            nodes_eval["x₀ - h"] = (x0 - h, fx_minus_h)
+            nodes_eval["x₀"] = (x0, fx0)
+            nodes_eval["x₀ + h"] = (x0 + h, fx_plus_h)
+            
+            value = (fx_plus_h - 2 * fx0 + fx_minus_h) / (h ** 2)
+            
+            formula_str = "f''(x₀) ≈ [f(x₀ + h) - 2f(x₀) + f(x₀ - h)] / h²"
+            calc_str = f"f''({x0}) ≈ [{fx_plus_h:.8f} - 2*({fx0:.8f}) + {fx_minus_h:.8f}] / {h**2} = {value:.10f}"
+    else:
+        raise ValueError("El orden de la derivada debe ser 1 (Primera) o 2 (Segunda).")
+
+    # Guardar pasos en procedure_steps
+    steps.append("Fórmula utilizada:")
+    steps.append(f"  {formula_str}")
+    steps.append("")
+    steps.append("Valores calculados:")
+    for lbl, (xv, yv) in sorted(nodes_eval.items(), key=lambda t: t[1][0]):
+        steps.append(f"  f({lbl}) = f({xv:.4f}) = {yv:.8f}")
+        table.append(DerivationRow(node=lbl, x=round(xv, 8), fx=round(yv, 8)))
+
+    steps.append("")
+    steps.append("Sustitución y cálculo:")
+    steps.append(f"  {calc_str}")
+
+    # Coordenadas de graficación
+    margin = 5.0 * h
+    x_plot = np.linspace(x0 - margin, x0 + margin, 200).tolist()
+    y_plot = [float(func(xv)) for xv in x_plot]
+
+    # Calcular recta tangente o secante para graficar (solo primera derivada)
+    x_tangent, y_tangent = None, None
+    if order == 1:
+        x_tangent = np.linspace(x0 - 2 * h, x0 + 2 * h, 10).tolist()
+        y_tangent = [fx0 + value * (xv - x0) for xv in x_tangent]
+
+    sign = "'" if order == 1 else "''"
+    return DerivationResult(
+        value=round(value, 10), table=table, procedure_steps=steps,
+        x_plot=x_plot, y_plot=y_plot,
+        x_tangent=x_tangent, y_tangent=y_tangent,
+        message=f"f{sign}({x0}) ≈ {value:.10f}"
+    )

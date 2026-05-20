@@ -21,7 +21,7 @@ Existen dos maneras de instalar las dependencias: globalmente o mediante un ento
 
 ### Opción Recomendada (Usando Entorno Virtual)
 
-1. **Abre tu terminal o consola de comandos (CMD, PowerShell o Terminal de VS Code).**
+1. **Abre tu terminal o consola de comandos (CMD, PowerShell o Terminal en tu IDE de preferencia).**
 2. **Navega a la carpeta principal del proyecto** (donde está alojado el archivo `main.py`):
    ```bash
    cd "ruta\a\la\carpeta\ProyectoFinalMN"
@@ -41,6 +41,7 @@ Existen dos maneras de instalar las dependencias: globalmente o mediante un ento
      ```
    *(Una vez activado, deberías ver `(.venv)` al inicio de tu línea de comandos).*
 5. **Instala las librerías necesarias** leyendo el archivo `requirements.txt`:
+   ***Ejecuta el siguiente código:***
    ```bash
    pip install -r requirements.txt
    ```
@@ -49,7 +50,7 @@ Existen dos maneras de instalar las dependencias: globalmente o mediante un ento
 
 ## ▶️ Cómo Ejecutar el Programa
 
-Una vez finalizada la instalación de los requerimientos, el único comando necesario para abrir la aplicación es:
+Una vez finalizada la instalación de los requerimientos, ejecuta el programa con tu IDE favorito, o ejecuta el siguiente comando en la terminal:
 
 ```bash
 python main.py

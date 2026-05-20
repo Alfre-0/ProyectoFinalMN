@@ -18,7 +18,7 @@ from ui.views.welcome_view import WelcomeView
 from ui.views.raices_views import BiseccionView, NewtonRaphsonView, SecanteView
 from ui.views.interpolacion_views import LagrangeView, NewtonInterpolacionView
 from ui.views.sistemas_views import GaussSeidelView, FactorizacionLUView
-from ui.views.integracion_views import PuntoMedioView, TrapecioView, SimpsonView
+from ui.views.integracion_views import PuntoMedioView, TrapecioView, SimpsonView, DiferenciasFinitasView
 from ui.views.edos_views import EulerView, RungeKuttaView
 from ui.views.history_view import HistoryView
 
@@ -61,9 +61,10 @@ SIDEBAR_MODULES = [
         "icon": "∫",
         "label": "Integración",
         "methods": [
-            {"label": "Punto Medio", "view_key": "dif_finitas"},
+            {"label": "Punto Medio", "view_key": "punto_medio"},
             {"label": "Trapecio", "view_key": "trapecio"},
             {"label": "Simpson", "view_key": "simpson"},
+            {"label": "Diferencias Finitas", "view_key": "dif_finitas"},
         ],
     },
     {
@@ -186,9 +187,10 @@ class MainWindow(QMainWindow):
             "newton_interp": NewtonInterpolacionView(),
             "gauss_seidel": GaussSeidelView(),
             "lu": FactorizacionLUView(),
-            "dif_finitas": PuntoMedioView(),
+            "punto_medio": PuntoMedioView(),
             "trapecio": TrapecioView(),
             "simpson": SimpsonView(),
+            "dif_finitas": DiferenciasFinitasView(),
             "euler": EulerView(),
             "runge_kutta": RungeKuttaView(),
             "history": HistoryView(),

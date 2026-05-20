@@ -7,7 +7,7 @@ from ui.views.base_method_view import BaseMethodView
 from ui.components.math_input import MathInput
 from ui.styles.theme import ThemeManager
 from core.integracion_derivacion.integracion_derivacion import (
-    punto_medio, trapecio, simpson,
+    punto_medio, trapecio, simpson, diferencias_finitas,
 )
 
 
@@ -311,3 +311,150 @@ class SimpsonView(BaseMethodView):
         self._input_a.clear()
         self._input_b.clear()
         self._input_n.setText("10")
+
+
+class DiferenciasFinitasView(BaseMethodView):
+
+    def _get_method_name(self) -> str:
+        return "Diferencias Finitas (Derivación)"
+
+    def _get_module_name(self) -> str:
+        return "Integración y Derivación"
+
+    def _get_method_description(self) -> str:
+        return ("Aproxima el valor de la derivada (1ra o 2da) de una función en un punto x₀ "
+                "usando esquemas de diferencias hacia adelante, hacia atrás o centrales.")
+
+    def _build_form(self) -> QWidget:
+        widget = QWidget()
+        layout = QFormLayout(widget)
+        layout.setSpacing(10)
+
+        self._input_func = MathInput()
+        self._input_func.setPlaceholderText("Ej: x^2")
+
+        self._input_x0 = QLineEdit()
+        self._input_x0.setPlaceholderText("Ej: 2.0")
+
+        self._input_h = QLineEdit("0.1")
+        self._input_h.setToolTip("Paso de diferenciación h")
+
+        self._combo_order = QComboBox()
+        self._combo_order.addItems(["Primera Derivada", "Segunda Derivada"])
+
+        self._combo_dir = QComboBox()
+        self._combo_dir.addItems(["Central", "Hacia adelante", "Hacia atrás"])
+
+        layout.addRow("f(x) =", self._input_func)
+        layout.addRow("x₀ (evaluación):", self._input_x0)
+        layout.addRow("h (paso):", self._input_h)
+        layout.addRow("Orden:", self._combo_order)
+        layout.addRow("Dirección:", self._combo_dir)
+
+        return widget
+
+    def _get_parameters(self) -> dict:
+        return {
+            "f(x)": self._input_func.text(),
+            "x0": self._input_x0.text(),
+            "h": self._input_h.text(),
+            "Orden": self._combo_order.currentText(),
+            "Dirección": self._combo_dir.currentText(),
+        }
+
+    def _run_calculation(self) -> dict:
+        # Validar campos
+        func_text = self._input_func.text().strip()
+        if not func_text:
+            raise ValueError("Por favor, ingrese la función f(x).")
+
+        x0_text = self._input_x0.text().strip()
+        if not x0_text:
+            raise ValueError("Por favor, ingrese el punto de evaluación x₀.")
+        try:
+            x0 = float(x0_text)
+        except ValueError as e:
+            raise ValueError("El punto de evaluación x₀ debe ser un número real válido.") from e
+
+        h_text = self._input_h.text().strip()
+        if not h_text:
+            raise ValueError("Por favor, ingrese el paso h.")
+        try:
+            h = float(h_text)
+            if h <= 0:
+                raise ValueError("El paso h debe ser positivo y mayor que cero.")
+        except ValueError as e:
+            if "positivo" in str(e): raise
+            raise ValueError("El paso h debe ser un número real válido (ej: 0.1).") from e
+
+        # Determinar orden
+        order_idx = self._combo_order.currentIndex()
+        order = 1 if order_idx == 0 else 2
+
+        # Determinar dirección
+        dir_text = self._combo_dir.currentText().strip()
+        if dir_text == "Hacia adelante":
+            direction = "adelante"
+        elif dir_text == "Hacia atrás":
+            direction = "atrás"
+        else:
+            direction = "central"
+
+        result = diferencias_finitas(
+            func_str=func_text, x0=x0, h=h, order=order, direction=direction
+        )
+
+        headers = ["Nodo", "x", "f(x)"]
+        rows = [[r.node, r.x, r.fx] for r in result.table]
+
+        return {
+            "message": result.message, "converged": True,
+            "procedure_steps": result.procedure_steps,
+            "table_headers": headers, "table_rows": rows,
+            "x_plot": result.x_plot, "y_plot": result.y_plot,
+            "xlabel": "x", "ylabel": "f(x)", "plot_label": "f(x)",
+            "x_tangent": result.x_tangent, "y_tangent": result.y_tangent,
+        }
+
+    def _display_result(self, result: dict):
+        super()._display_result(result)
+
+        # Graficar recta tangente (si existe)
+        x_tangent = result.get("x_tangent")
+        y_tangent = result.get("y_tangent")
+
+        if x_tangent and y_tangent:
+            colors = ThemeManager.colors().PLOT_LINE_COLORS
+            tangent_color = colors[1] if len(colors) > 1 else "blue"
+
+            self._plot_widget.axes.plot(
+                x_tangent, y_tangent, "--", color=tangent_color,
+                label="Aprox. Recta Tangente", linewidth=1.5
+            )
+
+        # Graficar los nodos evaluados como puntos destacados
+        rows = result.get("table_rows", [])
+        if rows:
+            x_nodes = [r[1] for r in rows]
+            y_nodes = [r[2] for r in rows]
+
+            self._plot_widget.axes.scatter(
+                x_nodes, y_nodes, color="red", zorder=5, s=50, label="Nodos evaluados"
+            )
+
+        self._plot_widget.axes.legend()
+        self._plot_widget.refresh()
+
+    def _load_example(self):
+        self._input_func.setText("x^2")
+        self._input_x0.setText("2.0")
+        self._input_h.setText("0.1")
+        self._combo_order.setCurrentIndex(0)
+        self._combo_dir.setCurrentIndex(0)
+
+    def _clear_form(self):
+        self._input_func.clear()
+        self._input_x0.clear()
+        self._input_h.setText("0.1")
+        self._combo_order.setCurrentIndex(0)
+        self._combo_dir.setCurrentIndex(0)
