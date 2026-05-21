@@ -64,7 +64,7 @@ class CharNode(MathNode):
         '≠': '\\neq', '∞': '\\infty',
     }
     _EVAL_MAP = {
-        'π': 'pi', '×': '*', '÷': '/', '·': '*', '−': '-',
+        'π': 'pi', '×': '*', '÷': '/', '·': '*', '−': '-', 'e': 'E',
     }
     _DISPLAY_MAP = {
         '*': '×', '/': '÷', '-': '−',
@@ -87,8 +87,6 @@ class CharNode(MathNode):
         return self._LATEX_MAP.get(self.char, self.char)
 
     def to_evaluable(self) -> str:
-        if self.is_constant and self.char == 'e':
-            return 'E'
         return self._EVAL_MAP.get(self.char, self.char)
 
 
@@ -504,6 +502,11 @@ def build_ast_from_text(text: str) -> list[MathNode]:
             if i < len(text):
                 if text[i] == '{':
                     inner, consumed = _extract_balanced(text, i, '{', '}')
+                    i += consumed
+                    for n in build_ast_from_text(inner):
+                        power.exponent_slot.insert(len(power.exponent_slot), n)
+                elif text[i] == '(':
+                    inner, consumed = _extract_balanced(text, i, '(', ')')
                     i += consumed
                     for n in build_ast_from_text(inner):
                         power.exponent_slot.insert(len(power.exponent_slot), n)

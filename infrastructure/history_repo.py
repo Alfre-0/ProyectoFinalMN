@@ -4,16 +4,23 @@ Persiste los registros en un archivo JSON local.
 """
 import json
 import os
+import sys
 from datetime import datetime
 from dataclasses import dataclass, asdict, field
 from typing import Any
 
 
-HISTORY_FILE = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-    "data",
-    "historial.json",
-)
+def _get_app_base_dir() -> str:
+    """Retorna la carpeta base de la aplicación.
+    En desarrollo: la raíz del proyecto (padre de infrastructure/).
+    Empaquetado (PyInstaller): la carpeta donde vive el .exe.
+    """
+    if getattr(sys, 'frozen', False):
+        return os.path.dirname(sys.executable)
+    return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+HISTORY_FILE = os.path.join(_get_app_base_dir(), "data", "historial.json")
 
 
 @dataclass

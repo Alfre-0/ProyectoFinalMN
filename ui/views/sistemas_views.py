@@ -144,6 +144,26 @@ class GaussSeidelView(BaseMethodView):
             "x_plot": None, "y_plot": None,
         }
 
+    def _get_examples(self) -> list[dict]:
+        return [
+            {
+                "name": "1. Dominante 3x3 (Convergente)",
+                "values": {"matrix": "4, -1, 0; -1, 4, -1; 0, -1, 4", "b": "15, 10, 10", "x0": "0, 0, 0", "tol": "1e-6", "max_iter": "100"}
+            },
+            {
+                "name": "2. Dominante 2x2 (Simple)",
+                "values": {"matrix": "3, 1; 1, 4", "b": "5, 6", "x0": "0, 0", "tol": "1e-6", "max_iter": "100"}
+            },
+            {
+                "name": "3. Red Eléctrica 3x3 (Física)",
+                "values": {"matrix": "5, -2, -1; -2, 6, -2; -1, -2, 7", "b": "10, 20, 30", "x0": "0, 0, 0", "tol": "1e-6", "max_iter": "100"}
+            },
+            {
+                "name": "4. Tridiagonal Simétrica 3x3",
+                "values": {"matrix": "4, 1, 0; 1, 4, 1; 0, 1, 4", "b": "5, 6, 5", "x0": "0, 0, 0", "tol": "1e-6", "max_iter": "100"}
+            }
+        ]
+
     def _load_example(self):
         self._input_matrix.setText("4, -1, 0; -1, 4, -1; 0, -1, 4")
         self._input_b.setText("15, 10, 10")
@@ -245,6 +265,26 @@ class FactorizacionLUView(BaseMethodView):
             "table_headers": headers, "table_rows": rows,
             "x_plot": None, "y_plot": None,
         }
+
+    def _get_examples(self) -> list[dict]:
+        return [
+            {
+                "name": "1. Estándar 3x3 (LU sin pivoteo)",
+                "values": {"matrix": "2, 1, 1; 4, 3, 3; 8, 7, 9", "b": "1, 1, 1"}
+            },
+            {
+                "name": "2. Sistema 3x3 (Solución única)",
+                "values": {"matrix": "1, 1, 1; 2, 3, 1; 1, -1, -2", "b": "6, 11, -6"}
+            },
+            {
+                "name": "3. Sistema 3x3 (Convergente)",
+                "values": {"matrix": "3, 2, 4; 2, 2, 3; 3, 3, 5", "b": "1, 2, 3"}
+            },
+            {
+                "name": "4. Sistema 2x2 (Básico)",
+                "values": {"matrix": "4, 3; 6, 3", "b": "10, 12"}
+            }
+        ]
 
     def _load_example(self):
         self._input_matrix.setText("2, 1, 1; 4, 3, 3; 8, 7, 9")

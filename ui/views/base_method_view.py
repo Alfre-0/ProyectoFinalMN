@@ -213,15 +213,113 @@ class BaseMethodView(QWidget):
             self._history_repo.save(record)
 
         except ValueError as error:
-            QMessageBox.warning(self, "Error de Validación", str(error))
+            msg = str(error)
+            # Convertir errores de campo vacío en mensajes amigables
+            if "could not convert string to float" in msg or msg.strip() in ("''", '""', ""):
+                QMessageBox.warning(
+                    self, "Datos incompletos",
+                    "Por favor, ingrese todos los datos requeridos\no seleccione un ejemplo con el botón 📋 Ejemplo."
+                )
+            else:
+                QMessageBox.warning(self, "Error de Validación", msg)
         except Exception as error:
-            QMessageBox.critical(self, "Error de Cálculo", f"Ocurrió un error inesperado:\n{error}")
+            msg = str(error)
+            if "could not convert string to float" in msg:
+                QMessageBox.warning(
+                    self, "Datos incompletos",
+                    "Por favor, ingrese todos los datos requeridos\no seleccione un ejemplo con el botón 📋 Ejemplo."
+                )
+            else:
+                QMessageBox.critical(self, "Error de Cálculo", f"Ocurrió un error inesperado:\n{error}")
+
+    def _get_examples(self) -> list[dict]:
+        """Retorna una lista de ejemplos definidos para el método.
+        Debe ser implementado por las subclases.
+        """
+        return []
 
     def _on_load_example(self):
-        try:
-            self._load_example()
-        except Exception as error:
-            QMessageBox.warning(self, "Error", f"No se pudo cargar el ejemplo:\n{error}")
+        import time
+        if hasattr(self, "_menu_closed_time") and (time.time() - self._menu_closed_time) < 0.1:
+            # Si se cerró hace menos de 100ms (clic para cerrar en el botón), no reabrir
+            return
+
+        examples = self._get_examples()
+        if not examples:
+            try:
+                self._load_example()
+            except Exception as error:
+                QMessageBox.warning(self, "Error", f"No se pudo cargar el ejemplo:\n{error}")
+            return
+
+        from PyQt6.QtWidgets import QMenu
+        from PyQt6.QtGui import QAction
+
+        menu = QMenu(self)
+        menu.setStyleSheet("""
+            QMenu {
+                background-color: #1e1e2e;
+                color: #cdd6f4;
+                border: 1px solid #45475a;
+                border-radius: 6px;
+                padding: 4px;
+            }
+            QMenu::item {
+                padding: 6px 20px;
+                border-radius: 4px;
+                font-family: "Segoe UI", sans-serif;
+                font-size: 12px;
+            }
+            QMenu::item:selected {
+                background-color: #89b4fa;
+                color: #11111b;
+            }
+        """)
+
+        for i, ex in enumerate(examples):
+            action = menu.addAction(ex["name"])
+            def make_trigger(vals=ex["values"]):
+                return lambda: self._apply_example_values(vals)
+            action.triggered.connect(make_trigger())
+
+        menu.aboutToHide.connect(lambda: setattr(self, "_menu_closed_time", time.time()))
+        menu.exec(self._btn_example.mapToGlobal(self._btn_example.rect().bottomLeft()))
+
+    def _apply_example_values(self, vals: dict):
+        self._clear_form()
+        
+        from ui.components.math_input import MathInput
+        from PyQt6.QtWidgets import QLineEdit
+        
+        mapping = {
+            "func": "_input_func",
+            "deriv": "_input_deriv",
+            "a": "_input_a",
+            "b": "_input_b",
+            "x0": "_input_x0",
+            "x1": "_input_x1",
+            "y0": "_input_y0",
+            "xf": "_input_xf",
+            "h": "_input_h",
+            "tol": "_input_tol",
+            "max_iter": "_input_max_iter",
+            "n": "_input_n",
+            "matrix": "_input_matrix",
+            "x": "_input_x",
+            "y": "_input_y",
+            "xeval": "_input_xeval"
+        }
+        
+        for key, attr_name in mapping.items():
+            if key in vals and hasattr(self, attr_name):
+                widget = getattr(self, attr_name)
+                if isinstance(widget, (MathInput, QLineEdit)):
+                    widget.setText(str(vals[key]))
+                    
+        if "order_idx" in vals and hasattr(self, "_combo_order"):
+            self._combo_order.setCurrentIndex(vals["order_idx"])
+        if "dir_idx" in vals and hasattr(self, "_combo_dir"):
+            self._combo_dir.setCurrentIndex(vals["dir_idx"])
 
     def _on_clear(self):
         self._clear_form()

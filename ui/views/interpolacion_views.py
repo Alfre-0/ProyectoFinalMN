@@ -77,6 +77,26 @@ class LagrangeView(BaseMethodView):
             "xlabel": "x", "ylabel": "P(x)", "plot_label": "Polinomio interpolante",
         }
 
+    def _get_examples(self) -> list[dict]:
+        return [
+            {
+                "name": "1. Cuadrática (Puntos: [1,1], [2,4], [4,16])",
+                "values": {"x": "1, 2, 4", "y": "1, 4, 16", "xeval": "3"}
+            },
+            {
+                "name": "2. Cúbica (Puntos: [0,1], [1,3], [2,2], [3,5])",
+                "values": {"x": "0, 1, 2, 3", "y": "1, 3, 2, 5", "xeval": "1.5"}
+            },
+            {
+                "name": "3. Lineal (Puntos: [0,1], [2,5])",
+                "values": {"x": "0, 2", "y": "1, 5", "xeval": "1.0"}
+            },
+            {
+                "name": "4. Curva de Runge (Puntos: [-2,0.2], [-1,0.5], [0,1], [1,0.5], [2,0.2])",
+                "values": {"x": "-2, -1, 0, 1, 2", "y": "0.2, 0.5, 1.0, 0.5, 0.2", "xeval": "0.5"}
+            }
+        ]
+
     def _load_example(self):
         self._input_x.setText("1, 2, 4, 7")
         self._input_y.setText("1, 4, 16, 49")
@@ -149,6 +169,26 @@ class NewtonInterpolacionView(BaseMethodView):
             "highlight_label": f"P({x_eval}) ≈ {result.interpolated_value:.6f}" if x_eval is not None else None,
             "xlabel": "x", "ylabel": "P(x)", "plot_label": "Polinomio interpolante",
         }
+
+    def _get_examples(self) -> list[dict]:
+        return [
+            {
+                "name": "1. Cuadrática (Puntos: [1,1], [2,4], [4,16])",
+                "values": {"x": "1, 2, 4", "y": "1, 4, 16", "xeval": "3"}
+            },
+            {
+                "name": "2. Cúbica (Puntos: [0,1], [1,3], [2,7])",
+                "values": {"x": "0, 1, 2", "y": "1, 3, 7", "xeval": "1.5"}
+            },
+            {
+                "name": "3. Lineal (Puntos: [1,2], [3,8], [5,14], [7,20])",
+                "values": {"x": "1, 3, 5, 7", "y": "2, 8, 14, 20", "xeval": "4"}
+            },
+            {
+                "name": "4. Polinomial (Puntos: [-1,15], [0,8], [1,3], [2,0])",
+                "values": {"x": "-1, 0, 1, 2", "y": "15, 8, 3, 0", "xeval": "0.5"}
+            }
+        ]
 
     def _load_example(self):
         self._input_x.setText("1, 2, 4, 7")

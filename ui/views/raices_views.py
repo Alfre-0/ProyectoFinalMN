@@ -93,6 +93,26 @@ class BiseccionView(BaseMethodView):
             "xlabel": "x", "ylabel": "f(x)", "plot_label": "f(x)",
         }
 
+    def _get_examples(self) -> list[dict]:
+        return [
+            {
+                "name": "1. x³ - x - 2  [1, 2] (Polinomial)",
+                "values": {"func": "x^3 - x - 2", "a": "1", "b": "2", "tol": "1e-6", "max_iter": "100"}
+            },
+            {
+                "name": "2. cos(x) - x  [0, 1] (Trigonométrica)",
+                "values": {"func": "cos(x) - x", "a": "0", "b": "1", "tol": "1e-6", "max_iter": "100"}
+            },
+            {
+                "name": "3. e^(-x) - x  [0, 1] (Exponencial)",
+                "values": {"func": "e^(-x) - x", "a": "0", "b": "1", "tol": "1e-6", "max_iter": "100"}
+            },
+            {
+                "name": "4. x² - ln(x) - 2  [1, 2] (Trascendente)",
+                "values": {"func": "x^2 - ln(x) - 2", "a": "1", "b": "2", "tol": "1e-6", "max_iter": "100"}
+            }
+        ]
+
     def _load_example(self):
         self._input_func.setText("x^3 - x - 2")
         self._input_a.setText("1")
@@ -200,6 +220,26 @@ class NewtonRaphsonView(BaseMethodView):
             "xlabel": "x", "ylabel": "f(x)", "plot_label": "f(x)",
         }
 
+    def _get_examples(self) -> list[dict]:
+        return [
+            {
+                "name": "1. x³ - x - 2 (x₀ = 1.5)",
+                "values": {"func": "x^3 - x - 2", "deriv": "3*x^2 - 1", "x0": "1.5", "tol": "1e-6", "max_iter": "100"}
+            },
+            {
+                "name": "2. cos(x) - x (x₀ = 0.5)",
+                "values": {"func": "cos(x) - x", "deriv": "-sin(x) - 1", "x0": "0.5", "tol": "1e-6", "max_iter": "100"}
+            },
+            {
+                "name": "3. x² - e^(-x) (x₀ = 1.0)",
+                "values": {"func": "x^2 - e^(-x)", "deriv": "2*x + e^(-x)", "x0": "1.0", "tol": "1e-6", "max_iter": "100"}
+            },
+            {
+                "name": "4. ln(x) + x - 2 (x₀ = 1.5)",
+                "values": {"func": "ln(x) + x - 2", "deriv": "1/x + 1", "x0": "1.5", "tol": "1e-6", "max_iter": "100"}
+            }
+        ]
+
     def _load_example(self):
         self._input_func.setText("x^3 - x - 2")
         self._input_deriv.setText("3*x^2 - 1")
@@ -291,6 +331,26 @@ class SecanteView(BaseMethodView):
             "highlight_x": result.root, "highlight_label": f"Raíz = {result.root:.6f}",
             "xlabel": "x", "ylabel": "f(x)", "plot_label": "f(x)",
         }
+
+    def _get_examples(self) -> list[dict]:
+        return [
+            {
+                "name": "1. x³ - x - 2 [1, 2]",
+                "values": {"func": "x^3 - x - 2", "x0": "1", "x1": "2", "tol": "1e-6", "max_iter": "100"}
+            },
+            {
+                "name": "2. cos(x) - x [0, 1]",
+                "values": {"func": "cos(x) - x", "x0": "0", "x1": "1", "tol": "1e-6", "max_iter": "100"}
+            },
+            {
+                "name": "3. e^(-x) - x [0, 1]",
+                "values": {"func": "e^(-x) - x", "x0": "0", "x1": "1", "tol": "1e-6", "max_iter": "100"}
+            },
+            {
+                "name": "4. x² - 3 [1, 2]",
+                "values": {"func": "x^2 - 3", "x0": "1", "x1": "2", "tol": "1e-6", "max_iter": "100"}
+            }
+        ]
 
     def _load_example(self):
         self._input_func.setText("x^3 - x - 2")

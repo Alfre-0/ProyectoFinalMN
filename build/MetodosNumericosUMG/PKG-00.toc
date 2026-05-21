@@ -1,0 +1,71 @@
+('F:\\Tareas UMG\\5to Semestre\\Métodos '
+ 'Númericos\\ProyectoFinalMN\\build\\MetodosNumericosUMG\\MetodosNumericosUMG.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\build\\MetodosNumericosUMG\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\build\\MetodosNumericosUMG\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\build\\MetodosNumericosUMG\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\build\\MetodosNumericosUMG\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\build\\MetodosNumericosUMG\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\build\\MetodosNumericosUMG\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt6',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt6.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_mplconfig',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_mplconfig.py',
+   'PYSOURCE'),
+  ('main',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos Númericos\\ProyectoFinalMN\\main.py',
+   'PYSOURCE')],
+ 'python314.dll',
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

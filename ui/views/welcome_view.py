@@ -128,7 +128,7 @@ class WelcomeView(QWidget):
         layout.addStretch()
 
         # Footer
-        footer = QLabel("Selecciona un módulo arriba o del menú lateral para comenzar →")
+        footer = QLabel("Selecciona un módulo arriba o del menú lateral para comenzar")
         footer.setObjectName("subtitle")
         footer.setAlignment(Qt.AlignmentFlag.AlignCenter)
         layout.addWidget(footer)

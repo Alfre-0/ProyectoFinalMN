@@ -81,6 +81,26 @@ class EulerView(BaseMethodView):
             "xlabel": "x", "ylabel": "y(x)", "plot_label": "Solución aprox. (Euler)",
         }
 
+    def _get_examples(self) -> list[dict]:
+        return [
+            {
+                "name": "1. dy/dx = x + y  [x₀=0, y₀=1, xf=2]",
+                "values": {"func": "x + y", "x0": "0", "y0": "1", "xf": "2", "h": "0.1"}
+            },
+            {
+                "name": "2. dy/dx = y - x  [x₀=0, y₀=2, xf=1]",
+                "values": {"func": "y - x", "x0": "0", "y0": "2", "xf": "1", "h": "0.1"}
+            },
+            {
+                "name": "3. dy/dx = -2y  [x₀=0, y₀=1, xf=1.5]",
+                "values": {"func": "-2*y", "x0": "0", "y0": "1", "xf": "1.5", "h": "0.05"}
+            },
+            {
+                "name": "4. dy/dx = x² + y²  [x₀=0, y₀=0, xf=1]",
+                "values": {"func": "x^2 + y^2", "x0": "0", "y0": "0", "xf": "1", "h": "0.1"}
+            }
+        ]
+
     def _load_example(self):
         self._input_func.setText("x + y")
         self._input_x0.setText("0")
@@ -164,6 +184,26 @@ class RungeKuttaView(BaseMethodView):
             "x_plot": result.x_values, "y_plot": result.y_values,
             "xlabel": "x", "ylabel": "y(x)", "plot_label": "Solución aprox. (RK4)",
         }
+
+    def _get_examples(self) -> list[dict]:
+        return [
+            {
+                "name": "1. dy/dx = x + y  [x₀=0, y₀=1, xf=2]",
+                "values": {"func": "x + y", "x0": "0", "y0": "1", "xf": "2", "h": "0.1"}
+            },
+            {
+                "name": "2. dy/dx = y - x²  [x₀=0, y₀=1, xf=2]",
+                "values": {"func": "y - x^2", "x0": "0", "y0": "1", "xf": "2", "h": "0.2"}
+            },
+            {
+                "name": "3. dy/dx = x/y  [x₀=0, y₀=1, xf=1]",
+                "values": {"func": "x/y", "x0": "0", "y0": "1", "xf": "1", "h": "0.1"}
+            },
+            {
+                "name": "4. dy/dx = sin(x) - y  [x₀=0, y₀=0, xf=3]",
+                "values": {"func": "sin(x) - y", "x0": "0", "y0": "0", "xf": "3", "h": "0.2"}
+            }
+        ]
 
     def _load_example(self):
         self._input_func.setText("x + y")

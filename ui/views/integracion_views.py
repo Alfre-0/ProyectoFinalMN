@@ -99,6 +99,26 @@ class PuntoMedioView(BaseMethodView):
             
         self._plot_widget.refresh()
 
+    def _get_examples(self) -> list[dict]:
+        return [
+            {
+                "name": "1. f(x) = x²  [0, 1] (Simple)",
+                "values": {"func": "x^2", "a": "0", "b": "1", "n": "10"}
+            },
+            {
+                "name": "2. f(x) = sin(x)  [0, 3.14159] (Trigonométrica)",
+                "values": {"func": "sin(x)", "a": "0", "b": "3.14159", "n": "6"}
+            },
+            {
+                "name": "3. f(x) = e^x  [0, 2] (Exponencial)",
+                "values": {"func": "e^x", "a": "0", "b": "2", "n": "8"}
+            },
+            {
+                "name": "4. f(x) = 1/x  [1, 2] (Logarítmica)",
+                "values": {"func": "1/x", "a": "1", "b": "2", "n": "12"}
+            }
+        ]
+
     def _load_example(self):
         self._input_func.setText("x^2")
         self._input_a.setText("0")
@@ -197,6 +217,26 @@ class TrapecioView(BaseMethodView):
             )
             
         self._plot_widget.refresh()
+
+    def _get_examples(self) -> list[dict]:
+        return [
+            {
+                "name": "1. f(x) = x²  [0, 1] (Polinomial)",
+                "values": {"func": "x^2", "a": "0", "b": "1", "n": "10"}
+            },
+            {
+                "name": "2. f(x) = 3x³ - 2x  [1, 3] (Cúbica)",
+                "values": {"func": "3*x^3 - 2*x", "a": "1", "b": "3", "n": "8"}
+            },
+            {
+                "name": "3. f(x) = cos(x)  [0, 1.5708] (Trigonométrica)",
+                "values": {"func": "cos(x)", "a": "0", "b": "1.5708", "n": "10"}
+            },
+            {
+                "name": "4. f(x) = 1/(1+x²)  [0, 1] (Racional)",
+                "values": {"func": "1/(1+x^2)", "a": "0", "b": "1", "n": "10"}
+            }
+        ]
 
     def _load_example(self):
         self._input_func.setText("x^2")
@@ -299,6 +339,26 @@ class SimpsonView(BaseMethodView):
                 )
 
         self._plot_widget.refresh()
+
+    def _get_examples(self) -> list[dict]:
+        return [
+            {
+                "name": "1. f(x) = x²  [0, 1] (Simple)",
+                "values": {"func": "x^2", "a": "0", "b": "1", "n": "10"}
+            },
+            {
+                "name": "2. f(x) = x⁴  [0, 2] (Grado 4)",
+                "values": {"func": "x^4", "a": "0", "b": "2", "n": "4"}
+            },
+            {
+                "name": "3. f(x) = sqrt(x)  [1, 4] (Raíz)",
+                "values": {"func": "sqrt(x)", "a": "1", "b": "4", "n": "6"}
+            },
+            {
+                "name": "4. f(x) = 1/x  [1, 3] (Hiperbólica)",
+                "values": {"func": "1/x", "a": "1", "b": "3", "n": "8"}
+            }
+        ]
 
     def _load_example(self):
         self._input_func.setText("x^2")
@@ -444,6 +504,26 @@ class DiferenciasFinitasView(BaseMethodView):
 
         self._plot_widget.axes.legend()
         self._plot_widget.refresh()
+
+    def _get_examples(self) -> list[dict]:
+        return [
+            {
+                "name": "1. x² en x₀=2 (Derivada 1, Central)",
+                "values": {"func": "x^2", "x0": "2.0", "h": "0.1", "order_idx": 0, "dir_idx": 0}
+            },
+            {
+                "name": "2. sin(x) en x₀=0 (Derivada 1, Adelante)",
+                "values": {"func": "sin(x)", "x0": "0.0", "h": "0.05", "order_idx": 0, "dir_idx": 1}
+            },
+            {
+                "name": "3. e^x en x₀=1 (Derivada 2, Central)",
+                "values": {"func": "e^x", "x0": "1.0", "h": "0.1", "order_idx": 1, "dir_idx": 0}
+            },
+            {
+                "name": "4. x³ - 2x en x₀=1.5 (Derivada 1, Atrás)",
+                "values": {"func": "x^3 - 2*x", "x0": "1.5", "h": "0.1", "order_idx": 0, "dir_idx": 2}
+            }
+        ]
 
     def _load_example(self):
         self._input_func.setText("x^2")
