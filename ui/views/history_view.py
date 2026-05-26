@@ -72,23 +72,32 @@ class HistoryView(QWidget):
             self._table.setItem(row, 0, QTableWidgetItem(record.timestamp))
             self._table.setItem(row, 1, QTableWidgetItem(record.module))
             self._table.setItem(row, 2, QTableWidgetItem(record.method))
-            self._table.setItem(row, 3, QTableWidgetItem(record.result_summary[:80]))
+            
+            result_item = QTableWidgetItem(record.result_summary)
+            result_item.setToolTip(record.result_summary)
+            self._table.setItem(row, 3, result_item)
 
-            delete_btn = QPushButton("❌")
-            delete_btn.setFixedWidth(40)
+            delete_btn = QPushButton("Eliminar")
+            delete_btn.setObjectName("dangerButton")
             delete_btn.setToolTip("Eliminar este registro")
             delete_btn.clicked.connect(lambda checked, idx=row: self._on_delete(idx))
             
             btn_container = QWidget()
             btn_layout = QHBoxLayout(btn_container)
-            btn_layout.setContentsMargins(0, 0, 0, 0)
+            btn_layout.setContentsMargins(4, 4, 4, 4)
             btn_layout.setAlignment(Qt.AlignmentFlag.AlignCenter)
             btn_layout.addWidget(delete_btn)
             
             self._table.setCellWidget(row, 4, btn_container)
 
         self._table.resizeColumnsToContents()
+        self._table.horizontalHeader().setSectionResizeMode(4, QHeaderView.ResizeMode.Stretch)
         self._table.resizeRowsToContents()
+        
+        # Asegurar altura mínima para que los botones (min-height: 32px) no se corten
+        for i in range(self._table.rowCount()):
+            if self._table.rowHeight(i) < 42:
+                self._table.setRowHeight(i, 42)
 
     def _on_delete(self, index: int):
         reply = QMessageBox.question(

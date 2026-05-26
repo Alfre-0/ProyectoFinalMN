@@ -112,9 +112,8 @@ class WelcomeView(QWidget):
              "estimando los valores continuos de la ecuación diferencial en el tiempo.<br><br>"
              "<b>Métodos:</b> Euler, Runge-Kutta (RK4)", "EDOs"),
             
-            ("📜", "Historial", 
-             "Consulta todos tus cálculos anteriores. Puedes cargar y reutilizar resultados pasados "
-             "sin tener que reescribir nuevamente todas las ecuaciones o matrices.", "Historial"),
+            ("📜", "Historial",
+             "Consulta todos tus cálculos anteriores", "Historial"),
         ]
 
         for idx, (icon, name, desc, key) in enumerate(modules):
@@ -128,7 +127,7 @@ class WelcomeView(QWidget):
         layout.addStretch()
 
         # Footer
-        footer = QLabel("Selecciona un módulo arriba o del menú lateral para comenzar")
+        footer = QLabel("Desarrollado por Alfredo García (3490-24-13232) y Sheyla Revolorio (3490-24-15091)")
         footer.setObjectName("subtitle")
         footer.setAlignment(Qt.AlignmentFlag.AlignCenter)
         layout.addWidget(footer)

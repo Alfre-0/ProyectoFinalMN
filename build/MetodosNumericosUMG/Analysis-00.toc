@@ -6063,65 +6063,65 @@
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-4bb64bb73b19ae7523581172b5c4a821.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
-   'BINARY'),
   ('PyQt6\\Qt6\\plugins\\generic\\qtuiotouchplugin.dll',
    'F:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\generic\\qtuiotouchplugin.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
+  ('PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
    'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
    'F:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
-   'BINARY'),
   ('PyQt6\\Qt6\\plugins\\platforms\\qwindows.dll',
    'F:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\plugins\\imageformats\\qsvg.dll',
    'F:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qsvg.dll',
    'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
   ('PyQt6\\Qt6\\plugins\\platforms\\qoffscreen.dll',
    'F:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qoffscreen.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qwebp.dll',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwebp.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll',
    'F:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
    'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qwebp.dll',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\plugins\\styles\\qmodernwindowsstyle.dll',
    'F:\\Tareas UMG\\5to Semestre\\Métodos '
@@ -6317,37 +6317,20 @@
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\QtWidgets.pyd',
    'EXTENSION'),
-  ('api-ms-win-crt-math-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-math-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-locale-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-filesystem-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-string-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-heap-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-conio-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-stdio-l1-1-0.dll',
+  ('api-ms-win-crt-math-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-environment-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
@@ -6357,16 +6340,33 @@
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-process-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-runtime-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-time-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-time-l1-1-0.dll',
    'BINARY'),
-  ('VCRUNTIME140.dll',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\VCRUNTIME140.dll',
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-utility-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
@@ -6379,21 +6379,21 @@
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-crt-private-l1-1-0.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\bin\\Qt6Gui.dll',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Gui.dll',
-   'BINARY'),
   ('PyQt6\\Qt6\\bin\\Qt6Core.dll',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Core.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\bin\\MSVCP140.dll',
+  ('PyQt6\\Qt6\\bin\\Qt6Gui.dll',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\MSVCP140.dll',
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Gui.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\bin\\Qt6Network.dll',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Network.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\MSVCP140.dll',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\MSVCP140.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\bin\\Qt6Svg.dll',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
@@ -6443,37 +6443,37 @@
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-interlocked-l1-1-0.dll',
+  ('api-ms-win-core-synch-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
+  ('api-ms-win-core-heap-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-kernel32-legacy-l1-1-1.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-kernel32-legacy-l1-1-1.dll',
    'BINARY'),
   ('api-ms-win-core-datetime-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
+  ('api-ms-win-core-util-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
+  ('api-ms-win-core-timezone-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-debug-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-kernel32-legacy-l1-1-1.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-kernel32-legacy-l1-1-1.dll',
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-sysinfo-l1-2-0.dll',
    'C:\\Program Files\\Eclipse '
@@ -6483,29 +6483,21 @@
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-fibers-l1-1-1.dll',
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-fibers-l1-1-1.dll',
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
+  ('api-ms-win-core-file-l2-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-file-l2-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-fibers-l1-1-0.dll',
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-string-l1-1-0.dll',
+  ('api-ms-win-core-debug-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-debug-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-sysinfo-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
@@ -6519,41 +6511,49 @@
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-memory-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
+  ('api-ms-win-core-console-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-console-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-file-l2-1-0.dll',
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-1.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-fibers-l1-1-1.dll',
    'BINARY'),
   ('api-ms-win-core-localization-l1-2-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-localization-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-console-l1-1-0.dll',
+  ('api-ms-win-core-string-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-string-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-handle-l1-1-0.dll',
+  ('api-ms-win-core-file-l1-2-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-file-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
+  ('api-ms-win-core-profile-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-profile-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-processthreads-l1-1-1.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
    'BINARY'),
-  ('api-ms-win-core-errorhandling-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-file-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.10.7-hotspot\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
    'BINARY')],
  [],
  [],
@@ -6561,1291 +6561,1300 @@
    'F:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\data\\historial.json',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_it.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_it.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ru.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ru.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ar.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ar.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_en.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_en.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_nl.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ko.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ko.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_sk.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_sk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ko.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ko.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ko.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ko.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_uk.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_uk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_sl.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_hu.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hu.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_da.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_da.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_nn.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nn.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_de.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_de.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_gl.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_nn.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nn.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_hr.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_fi.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fi.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_nl.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_hu.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hu.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_hu.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hu.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_lv.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lv.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_sl.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ja.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ja.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ka.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ka.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_hr.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_sk.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_bg.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_bg.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_hr.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_fr.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_cs.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_cs.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_nn.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nn.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_gd.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gd.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_uk.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_uk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_nl.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_tr.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_tr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_tr.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_tr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_he.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_he.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_fr.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_fa.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fa.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ka.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ka.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_sv.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sv.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_sv.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_sv.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_es.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_es.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
-   'DATA'),
   ('PyQt6\\Qt6\\translations\\qt_help_en.qm',
    'F:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_en.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ca.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ca.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_tr.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_tr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_it.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_it.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ar.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ar.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_es.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_es.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_lv.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_lv.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_en.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_en.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ca.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ca.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ka.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ka.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_sv.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sv.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_cs.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_cs.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_pl.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_lg.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lg.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ja.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ja.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_lt.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lt.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_pl.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_de.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_de.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_cs.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_cs.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_sk.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_da.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_da.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_bg.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_bg.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ru.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ru.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_gl.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_gl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ja.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ja.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_da.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_da.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_gd.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_gd.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_bg.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_bg.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_lg.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_lg.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_fa.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fa.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_it.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_it.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ru.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ru.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_fr.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_fr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ar.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ar.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_fi.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fi.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_pl.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_uk.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_uk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_de.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_de.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_es.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_es.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ca.qm',
-   'F:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ca.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qtbase_he.qm',
    'F:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_he.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvbo8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvbo8a.afm',
+  ('PyQt6\\Qt6\\translations\\qt_bg.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_bg.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pzdr.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pzdr.afm',
+  ('PyQt6\\Qt6\\translations\\qt_help_de.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_de.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pncb8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncb8a.afm',
+  ('PyQt6\\Qt6\\translations\\qt_lv.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lv.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\images\\matplotlib_large.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib_large.png',
+  ('PyQt6\\Qt6\\translations\\qt_uk.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_uk.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\fast.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\fast.mplstyle',
+  ('PyQt6\\Qt6\\translations\\qtbase_hu.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hu.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Oblique.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Oblique.afm',
+  ('PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica.afm',
+  ('PyQt6\\Qt6\\translations\\qt_es.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_es.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pplb8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplb8a.afm',
+  ('PyQt6\\Qt6\\translations\\qtbase_bg.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_bg.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\_mpl-gallery-nogrid.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\_mpl-gallery-nogrid.mplstyle',
+  ('PyQt6\\Qt6\\translations\\qtbase_fi.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fi.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\ptmb8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmb8a.afm',
+  ('PyQt6\\Qt6\\translations\\qtbase_fa.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fa.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pplr8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplr8a.afm',
+  ('PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\cmsy10.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmsy10.afm',
+  ('PyQt6\\Qt6\\translations\\qtbase_lg.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_lg.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pzcmi8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pzcmi8a.afm',
+  ('PyQt6\\Qt6\\translations\\qt_it.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_it.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\eeg.dat',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\eeg.dat',
+  ('PyQt6\\Qt6\\translations\\qt_ko.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ko.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\images\\back_large.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\back_large.png',
+  ('PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\ptmbi8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmbi8a.afm',
+  ('PyQt6\\Qt6\\translations\\qtbase_gd.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_gd.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\images\\help-symbolic.svg',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\help-symbolic.svg',
+  ('PyQt6\\Qt6\\translations\\qt_ar.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ar.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\images\\zoom_to_rect_large.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect_large.png',
+  ('PyQt6\\Qt6\\translations\\qt_help_tr.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_tr.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\images\\filesave.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave.png',
+  ('PyQt6\\Qt6\\translations\\qt_sl.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sl.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\ZapfDingbats.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\ZapfDingbats.afm',
+  ('PyQt6\\Qt6\\translations\\qt_help_sk.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sk.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\images\\subplots.pdf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots.pdf',
+  ('PyQt6\\Qt6\\translations\\qtbase_ko.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ko.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\fivethirtyeight.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\fivethirtyeight.mplstyle',
+  ('PyQt6\\Qt6\\translations\\qtbase_es.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_es.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-notebook.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-notebook.mplstyle',
+  ('PyQt6\\Qt6\\translations\\qt_pl.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pl.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf',
+  ('PyQt6\\Qt6\\translations\\qt_fa.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fa.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf',
+  ('PyQt6\\Qt6\\translations\\qtbase_cs.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_cs.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\images\\back-symbolic.svg',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\back-symbolic.svg',
+  ('PyQt6\\Qt6\\translations\\qtbase_ca.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ca.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\membrane.dat',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\membrane.dat',
+  ('PyQt6\\Qt6\\translations\\qt_help_hu.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hu.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Bold.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Bold.afm',
+  ('PyQt6\\Qt6\\translations\\qtbase_de.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_de.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\bmh.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\bmh.mplstyle',
+  ('PyQt6\\Qt6\\translations\\qt_gl.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gl.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\msft.csv',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\msft.csv',
+  ('PyQt6\\Qt6\\translations\\qt_help_fr.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_fr.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Italic.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Italic.afm',
+  ('PyQt6\\Qt6\\translations\\qt_help_hr.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hr.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf',
+  ('PyQt6\\Qt6\\translations\\qtbase_da.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_da.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\images\\home.svg',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\home.svg',
+  ('PyQt6\\Qt6\\translations\\qt_gd.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gd.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-BoldOblique.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-BoldOblique.afm',
+  ('PyQt6\\Qt6\\translations\\qt_help_uk.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_uk.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf',
+  ('PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\images\\hand.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\hand.png',
+  ('PyQt6\\Qt6\\translations\\qt_help_nn.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nn.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf',
+  ('PyQt6\\Qt6\\translations\\qt_help_nl.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nl.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf',
+  ('PyQt6\\Qt6\\translations\\qt_help_ka.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ka.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-bright.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-bright.mplstyle',
+  ('PyQt6\\Qt6\\translations\\qtbase_en.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_en.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvro8an.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvro8an.afm',
+  ('PyQt6\\Qt6\\translations\\qt_he.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_he.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pncr8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncr8a.afm',
+  ('PyQt6\\Qt6\\translations\\qtbase_sk.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_sk.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf',
+  ('PyQt6\\Qt6\\translations\\qt_help_ar.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ar.qm',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_STIX',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_STIX',
+  ('PyQt6\\Qt6\\translations\\qt_nn.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nn.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_pl.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_lt.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lt.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_uk.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_fi.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_fr.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ja.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ka.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ka.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_gl.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fr.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ja.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_lg.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_sl.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_cs.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ca.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_da.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_da.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_hu.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_pl.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ru.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_nl.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_nl.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_it.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_hr.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sk.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ru.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_de.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_de.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_it.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_it.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_sv.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ka.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ka.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ko.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_cs.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_en.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_en.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_nn.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nn.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_sv.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_sv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_lv.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_tr.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_tr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ca.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_bg.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_hr.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ar.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_es.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ru.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_tr.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ja.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sv.qm',
+   'F:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sv.qm',
    'DATA'),
   ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-poster.mplstyle',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-poster.mplstyle',
    'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\s1045.ima.gz',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\s1045.ima.gz',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Oblique.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Oblique.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\move_large.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\move_large.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pncri8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncri8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\classic.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\classic.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pcrro8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrro8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pagk8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagk8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\matplotlibrc',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\matplotlibrc',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\README.txt',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\README.txt',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pcrb8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrb8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvbo8an.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvbo8an.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\forward.pdf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\forward.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\home_large.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\home_large.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pbkd8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkd8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\move.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\move.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\qt4_editor_options.svg',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\putbi8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putbi8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-darkgrid.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-darkgrid.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-pastel.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-pastel.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\ptmri8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmri8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pbkdi8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkdi8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-paper.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-paper.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\jacksboro_fault_dem.npz',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\jacksboro_fault_dem.npz',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\qt4_editor_options_large.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options_large.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\Minduka_Present_Blue_Pack.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\Minduka_Present_Blue_Pack.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pbkli8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkli8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\plot_directive\\plot_directive.css',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\plot_directive\\plot_directive.css',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Bold.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Bold.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\home.pdf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\home.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\forward.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\forward.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\putb8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putb8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\help_large.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\help_large.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvr8an.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvr8an.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\ptmr8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmr8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\matplotlib.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\ggplot.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\ggplot.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvr8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvr8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Roman.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Roman.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-muted.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-muted.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pncbi8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncbi8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvl8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvl8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Symbol.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Symbol.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\cmex10.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmex10.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-BoldItalic.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-BoldItalic.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_DEJAVU',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_DEJAVU',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvb8an.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvb8an.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\zoom_to_rect.pdf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\cmmi10.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmmi10.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\subplots.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\zoom_to_rect-symbolic.svg',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect-symbolic.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\zoom_to_rect.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\Solarize_Light2.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\Solarize_Light2.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\home-symbolic.svg',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\home-symbolic.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\back.svg',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\back.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pcrbo8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrbo8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\back.pdf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\back.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\hand.svg',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\hand.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\axes_grid\\bivariate_normal.npy',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\axes_grid\\bivariate_normal.npy',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\help.svg',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\help.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\qt4_editor_options.pdf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\_classic_test_patch.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\_classic_test_patch.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pcrr8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrr8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\forward-symbolic.svg',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\forward-symbolic.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\matplotlib.svg',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pagd8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagd8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\psyr.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\psyr.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\home.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\home.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\logo2.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\logo2.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-talk.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-talk.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\_mpl-gallery.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\_mpl-gallery.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvlo8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvlo8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-ticks.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-ticks.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\kpsewhich.lua',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\kpsewhich.lua',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\matplotlib.pdf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib.pdf',
-   'DATA'),
   ('matplotlib\\mpl-data\\fonts\\afm\\pagdo8a.afm',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagdo8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\zoom_to_rect.svg',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\forward_large.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\forward_large.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\qt4_editor_options.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\help.png',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\help.png',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\topobathy.npz',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\topobathy.npz',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\move.pdf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\move.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\dark_background.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\dark_background.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pplbi8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplbi8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvb8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvb8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\Stocks.csv',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\Stocks.csv',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\cmr10.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmr10.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\filesave.pdf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\forward.svg',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\forward.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pplri8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplri8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pagko8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagko8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\help.pdf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\help.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\move.svg',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\move.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\embedding_in_wx3.xrc',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\embedding_in_wx3.xrc',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\goog.npz',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\goog.npz',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\tableau-colorblind10.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\tableau-colorblind10.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\move-symbolic.svg',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\move-symbolic.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\putr8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putr8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\putri8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putri8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Bold.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Bold.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\grayscale.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\grayscale.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-deep.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-deep.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-BoldOblique.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-BoldOblique.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\hand.pdf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\hand.pdf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\petroff10.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\petroff10.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-colorblind.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-colorblind.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-white.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-white.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf',
-   'DATA'),
-  ('matplotlib\\mpl-data\\images\\filesave-symbolic.svg',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave-symbolic.svg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\sample_data\\grace_hopper.jpg',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\grace_hopper.jpg',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\readme.txt',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\readme.txt',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-whitegrid.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-whitegrid.mplstyle',
-   'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\pbkl8a.afm',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkl8a.afm',
-   'DATA'),
-  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark-palette.mplstyle',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark-palette.mplstyle',
    'DATA'),
   ('matplotlib\\mpl-data\\images\\filesave.svg',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave.svg',
    'DATA'),
-  ('matplotlib\\mpl-data\\images\\subplots-symbolic.svg',
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots-symbolic.svg',
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_DEJAVU',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_DEJAVU',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\fast.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\fast.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\ptmb8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\home_large.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\home_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\plot_directive\\plot_directive.css',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\plot_directive\\plot_directive.css',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\cmsy10.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmsy10.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\petroff10.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\petroff10.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\README.txt',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\README.txt',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\ZapfDingbats.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\ZapfDingbats.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Roman.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Roman.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\Minduka_Present_Blue_Pack.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\Minduka_Present_Blue_Pack.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\move.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\move.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\readme.txt',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\readme.txt',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pncb8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\back_large.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\back_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pplb8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\ptmri8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmri8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\bmh.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\bmh.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pbkli8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkli8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\jacksboro_fault_dem.npz',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\jacksboro_fault_dem.npz',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\zoom_to_rect.svg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\psyr.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\psyr.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\home-symbolic.svg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\home-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\matplotlib.svg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\qt4_editor_options.svg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pcrb8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\help_large.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\help_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\Stocks.csv',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\Stocks.csv',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\help.pdf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\help.pdf',
    'DATA'),
   ('matplotlib\\mpl-data\\sample_data\\data_x_x2_x3.csv',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\data_x_x2_x3.csv',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\cmtt10.afm',
+  ('matplotlib\\mpl-data\\images\\filesave.png',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmtt10.afm',
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave.png',
    'DATA'),
-  ('matplotlib\\mpl-data\\images\\subplots.svg',
+  ('matplotlib\\mpl-data\\stylelib\\dark_background.mplstyle',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots.svg',
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\dark_background.mplstyle',
    'DATA'),
-  ('matplotlib\\mpl-data\\images\\filesave_large.png',
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark-palette.mplstyle',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave_large.png',
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-dark-palette.mplstyle',
    'DATA'),
-  ('matplotlib\\mpl-data\\images\\subplots_large.png',
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots_large.png',
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf',
    'DATA'),
-  ('matplotlib\\mpl-data\\images\\back.png',
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\back.png',
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\afm\\phvro8a.afm',
+  ('matplotlib\\mpl-data\\images\\help-symbolic.svg',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvro8a.afm',
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\help-symbolic.svg',
    'DATA'),
-  ('matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf',
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-BoldOblique.afm',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf',
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-BoldOblique.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\filesave-symbolic.svg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\putb8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-deep.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-deep.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\classic.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\classic.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pbkd8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkd8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\move.pdf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\move.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\goog.npz',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\goog.npz',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\msft.csv',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\msft.csv',
    'DATA'),
   ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf',
    'DATA'),
+  ('matplotlib\\mpl-data\\images\\home.svg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\home.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\cmex10.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmex10.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\cmr10.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmr10.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvb8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvb8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\home.pdf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\home.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-bright.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-bright.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Symbol.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Symbol.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pncbi8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncbi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvlo8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvlo8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\forward.svg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\forward.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-white.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-white.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\help.svg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\help.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\membrane.dat',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\membrane.dat',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\qt4_editor_options_large.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-whitegrid.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-whitegrid.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\putri8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putri8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pncr8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_STIX',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LICENSE_STIX',
+   'DATA'),
+  ('matplotlib\\mpl-data\\kpsewhich.lua',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\kpsewhich.lua',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\cmmi10.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmmi10.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\ptmbi8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmbi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-colorblind.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-colorblind.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\forward.pdf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\forward.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\hand.pdf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\hand.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvr8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pcrro8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrro8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pzcmi8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pzcmi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Oblique.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Oblique.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\subplots.svg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\subplots-symbolic.svg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\fivethirtyeight.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\fivethirtyeight.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pcrbo8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrbo8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\forward-symbolic.svg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\forward-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\grace_hopper.jpg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\grace_hopper.jpg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\zoom_to_rect.pdf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-BoldItalic.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-BoldItalic.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\zoom_to_rect.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-BoldOblique.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-BoldOblique.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\_classic_test_patch.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\_classic_test_patch.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\back.svg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\back.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-paper.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-paper.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pagd8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagd8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-talk.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-talk.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvbo8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvbo8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\ptmr8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\ptmr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\axes_grid\\bivariate_normal.npy',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\axes_grid\\bivariate_normal.npy',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\move_large.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\move_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\subplots.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pplri8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplri8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\move-symbolic.svg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\move-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvr8an.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvr8an.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pcrr8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pcrr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\matplotlibrc',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\matplotlibrc',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Oblique.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Oblique.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\filesave.pdf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pagko8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagko8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvb8an.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvb8an.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\move.svg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\move.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-muted.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-muted.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\_mpl-gallery.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\_mpl-gallery.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\home.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\home.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pbkdi8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkdi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-notebook.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-notebook.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\zoom_to_rect_large.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-pastel.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-pastel.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\subplots.pdf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\embedding_in_wx3.xrc',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\embedding_in_wx3.xrc',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\forward_large.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\forward_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\matplotlib_large.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\zoom_to_rect-symbolic.svg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\zoom_to_rect-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\forward.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\forward.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pagk8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pagk8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Bold.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier-Bold.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\Solarize_Light2.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\Solarize_Light2.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\hand.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\hand.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvbo8an.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvbo8an.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\s1045.ima.gz',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\s1045.ima.gz',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\ggplot.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\ggplot.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvro8an.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvro8an.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\cmtt10.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\cmtt10.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pncri8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pncri8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\putbi8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putbi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pzdr.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pzdr.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\back.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\back.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\filesave_large.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\filesave_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvl8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvl8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\qt4_editor_options.pdf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\back.pdf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\back.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Italic.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Italic.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\topobathy.npz',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\topobathy.npz',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\qt4_editor_options.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\qt4_editor_options.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\hand.svg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\hand.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\phvro8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\phvro8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\help.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\help.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\_mpl-gallery-nogrid.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\_mpl-gallery-nogrid.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Courier.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-darkgrid.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-darkgrid.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\subplots_large.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\subplots_large.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Bold.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Helvetica-Bold.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\tableau-colorblind10.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\tableau-colorblind10.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-ticks.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\seaborn-v0_8-ticks.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\eeg.dat',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\eeg.dat',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\putr8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\putr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pbkl8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pbkl8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pplbi8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplbi8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\stylelib\\grayscale.mplstyle',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\stylelib\\grayscale.mplstyle',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\afm\\pplr8a.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\afm\\pplr8a.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\back-symbolic.svg',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\back-symbolic.svg',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\matplotlib.pdf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib.pdf',
+   'DATA'),
+  ('matplotlib\\mpl-data\\sample_data\\logo2.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\sample_data\\logo2.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Bold.afm',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\pdfcorefonts\\Times-Bold.afm',
+   'DATA'),
+  ('matplotlib\\mpl-data\\images\\matplotlib.png',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\images\\matplotlib.png',
+   'DATA'),
+  ('matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf',
+   'DATA'),
   ('dateutil\\zoneinfo\\dateutil-zoneinfo.tar.gz',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\dateutil\\zoneinfo\\dateutil-zoneinfo.tar.gz',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\METADATA',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\METADATA',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\mt19937\\LICENSE.md',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\mt19937\\LICENSE.md',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\DELVEWHEEL',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\DELVEWHEEL',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\licenses\\numpy\\ma\\LICENSE',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\ma\\LICENSE',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\licenses\\numpy\\linalg\\lapack_lite\\LICENSE.txt',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\linalg\\lapack_lite\\LICENSE.txt',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\include\\numpy\\libdivide\\LICENSE.txt',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\include\\numpy\\libdivide\\LICENSE.txt',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\umath\\svml\\LICENSE',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\umath\\svml\\LICENSE',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\sfc64\\LICENSE.md',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\sfc64\\LICENSE.md',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\licenses\\numpy\\random\\LICENSE.md',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\random\\LICENSE.md',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\WHEEL',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\WHEEL',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\REQUESTED',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\REQUESTED',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\RECORD',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\RECORD',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\entry_points.txt',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\entry_points.txt',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\distributions\\LICENSE.md',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\distributions\\LICENSE.md',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\npysort\\x86-simd-sort\\LICENSE.md',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\npysort\\x86-simd-sort\\LICENSE.md',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\philox\\LICENSE.md',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\philox\\LICENSE.md',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\pcg64\\LICENSE.md',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\pcg64\\LICENSE.md',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\common\\pythoncapi-compat\\COPYING',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\common\\pythoncapi-compat\\COPYING',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\splitmix64\\LICENSE.md',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\splitmix64\\LICENSE.md',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\INSTALLER',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\INSTALLER',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\multiarray\\dragon4_LICENSE.txt',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\multiarray\\dragon4_LICENSE.txt',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\licenses\\LICENSE.txt',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\LICENSE.txt',
-   'DATA'),
-  ('numpy-2.4.3.dist-info\\licenses\\numpy\\fft\\pocketfft\\LICENSE.md',
-   'f:\\Tareas UMG\\5to Semestre\\Métodos '
-   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\fft\\pocketfft\\LICENSE.md',
    'DATA'),
   ('numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\highway\\LICENSE',
    'f:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\highway\\LICENSE',
    'DATA'),
+  ('numpy-2.4.3.dist-info\\licenses\\numpy\\fft\\pocketfft\\LICENSE.md',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\fft\\pocketfft\\LICENSE.md',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\npysort\\x86-simd-sort\\LICENSE.md',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\npysort\\x86-simd-sort\\LICENSE.md',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\REQUESTED',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\REQUESTED',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\distributions\\LICENSE.md',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\distributions\\LICENSE.md',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\RECORD',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\RECORD',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\umath\\svml\\LICENSE',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\umath\\svml\\LICENSE',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\licenses\\numpy\\ma\\LICENSE',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\ma\\LICENSE',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\common\\pythoncapi-compat\\COPYING',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\common\\pythoncapi-compat\\COPYING',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\pcg64\\LICENSE.md',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\pcg64\\LICENSE.md',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\include\\numpy\\libdivide\\LICENSE.txt',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\include\\numpy\\libdivide\\LICENSE.txt',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\DELVEWHEEL',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\DELVEWHEEL',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\WHEEL',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\WHEEL',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\multiarray\\dragon4_LICENSE.txt',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\_core\\src\\multiarray\\dragon4_LICENSE.txt',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\splitmix64\\LICENSE.md',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\splitmix64\\LICENSE.md',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\licenses\\numpy\\random\\LICENSE.md',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\random\\LICENSE.md',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\mt19937\\LICENSE.md',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\mt19937\\LICENSE.md',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\entry_points.txt',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\entry_points.txt',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\licenses\\numpy\\linalg\\lapack_lite\\LICENSE.txt',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\linalg\\lapack_lite\\LICENSE.txt',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\METADATA',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\METADATA',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\philox\\LICENSE.md',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\philox\\LICENSE.md',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\licenses\\LICENSE.txt',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\INSTALLER',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\INSTALLER',
+   'DATA'),
+  ('numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\sfc64\\LICENSE.md',
+   'f:\\Tareas UMG\\5to Semestre\\Métodos '
+   'Númericos\\ProyectoFinalMN\\.venv\\Lib\\site-packages\\numpy-2.4.3.dist-info\\licenses\\numpy\\random\\src\\sfc64\\LICENSE.md',
+   'DATA'),
   ('base_library.zip',
    'F:\\Tareas UMG\\5to Semestre\\Métodos '
    'Númericos\\ProyectoFinalMN\\build\\MetodosNumericosUMG\\base_library.zip',
    'DATA')],
- [('encodings.zlib_codec',
+ [('locale',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\locale.py',
+   'PYMODULE'),
+  ('copyreg',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\copyreg.py',
+   'PYMODULE'),
+  ('io',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\io.py',
+   'PYMODULE'),
+  ('encodings.zlib_codec',
    'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\encodings\\zlib_codec.py',
    'PYMODULE'),
   ('encodings.uu_codec',
@@ -8214,29 +8223,20 @@
   ('encodings',
    'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\encodings\\__init__.py',
    'PYMODULE'),
-  ('collections',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\collections\\__init__.py',
-   'PYMODULE'),
-  ('ntpath',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\ntpath.py',
-   'PYMODULE'),
-  ('warnings',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\warnings.py',
-   'PYMODULE'),
-  ('types',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\types.py',
-   'PYMODULE'),
-  ('heapq',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\heapq.py',
-   'PYMODULE'),
-  ('sre_constants',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\sre_constants.py',
+  ('sre_parse',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\sre_parse.py',
    'PYMODULE'),
   ('stat',
    'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\stat.py',
    'PYMODULE'),
-  ('reprlib',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\reprlib.py',
+  ('sre_compile',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\sre_compile.py',
+   'PYMODULE'),
+  ('collections',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\collections\\__init__.py',
+   'PYMODULE'),
+  ('_collections_abc',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_collections_abc.py',
    'PYMODULE'),
   ('_weakrefset',
    'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_weakrefset.py',
@@ -8256,23 +8256,44 @@
   ('re',
    'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\re\\__init__.py',
    'PYMODULE'),
-  ('abc',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\abc.py',
+  ('enum',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\enum.py',
    'PYMODULE'),
-  ('io',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\io.py',
+  ('heapq',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\heapq.py',
+   'PYMODULE'),
+  ('functools',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\functools.py',
+   'PYMODULE'),
+  ('warnings',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\warnings.py',
+   'PYMODULE'),
+  ('reprlib',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\reprlib.py',
+   'PYMODULE'),
+  ('keyword',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\keyword.py',
    'PYMODULE'),
   ('codecs',
    'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\codecs.py',
    'PYMODULE'),
-  ('locale',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\locale.py',
+  ('operator',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\operator.py',
    'PYMODULE'),
-  ('sre_compile',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\sre_compile.py',
+  ('posixpath',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\posixpath.py',
    'PYMODULE'),
-  ('functools',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\functools.py',
+  ('sre_constants',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\sre_constants.py',
+   'PYMODULE'),
+  ('traceback',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\traceback.py',
+   'PYMODULE'),
+  ('genericpath',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\genericpath.py',
+   'PYMODULE'),
+  ('abc',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\abc.py',
    'PYMODULE'),
   ('os',
    'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\os.py',
@@ -8280,33 +8301,12 @@
   ('weakref',
    'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\weakref.py',
    'PYMODULE'),
-  ('copyreg',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\copyreg.py',
+  ('ntpath',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\ntpath.py',
    'PYMODULE'),
-  ('enum',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\enum.py',
-   'PYMODULE'),
-  ('posixpath',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\posixpath.py',
-   'PYMODULE'),
-  ('sre_parse',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\sre_parse.py',
-   'PYMODULE'),
-  ('_collections_abc',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_collections_abc.py',
-   'PYMODULE'),
-  ('operator',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\operator.py',
-   'PYMODULE'),
-  ('genericpath',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\genericpath.py',
-   'PYMODULE'),
-  ('keyword',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\keyword.py',
+  ('types',
+   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\types.py',
    'PYMODULE'),
   ('linecache',
    'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\linecache.py',
-   'PYMODULE'),
-  ('traceback',
-   'C:\\Users\\alfre\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\traceback.py',
    'PYMODULE')])
